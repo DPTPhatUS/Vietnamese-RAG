@@ -1,8 +1,8 @@
 [
   {
-    "node_id": "lvl1-acca36e3",
+    "node_id": "lvl1-395a0790",
     "level": 1,
-    "text": "Sách đào tạo bác sĩ Y học cổ truyền do PGS.TS. Phan Quan Chí Hiếu chủ biên, trình bày bệnh học và điều trị Đông Y, bao gồm các triệu chứng, bệnh lý Tây y như nhiễm trùng, rối loạn thần kinh, suy nhược. Các bài thuốc như Thanh ôn bại độc ẩm, Qua lâu ung bạch thang, Huyết phủ trực ứ thang được phân tích theo dược lý. Phương pháp châm cứu điều trị bằng việc bổ thận dương, thông dương, hoạt huyết. Các dấu hiệu lâm sàng như sắc lưỡi, mạch, biểu hiện trên cơ thể giúp chẩn đoán và điều trị.",
+    "text": "Sách đào tạo bác sĩ Đông y do PGS.TS. Phan Quan Chí Hiếu chủ biên, trình bày bệnh lý và điều trị theo tư tưởng Đông y. Các bệnh thường gặp như nhiễm trùng, rối loạn thần kinh, suy nhược được phân tích dựa trên triệu chứng lâm sàng (lưỡi, mạch). Phương pháp điều trị bao gồm dưỡng âm, bổ thận, thanh nhiệt, thông huyết, bổ khí, và dùng châm cứu để điều hòa khí huyết. Các bài thuốc như Thanh ôn bại độc ẩm, Qua lâu ung bạch thang, Huyết phủ trực ứ thang được phân tích theo dược lý. Đồng thời, các dấu hiệu ngoại hình như sắc mặt, nốt ruồi, tóc, môi cũng được dùng để chẩn đoán bệnh.",
     "children": [
       "book1:book1:0",
       "book1:book1:164",
@@ -56,9 +56,9 @@
     }
   },
   {
-    "node_id": "lvl1-3889ae23",
+    "node_id": "lvl1-35faad2a",
     "level": 1,
-    "text": "Sách \"Bệnh học và điều trị đông y\" được biên soạn dựa trên chương trình khung đào tạo bác sĩ y học cổ truyền, với nội dung khoa học, cập nhật, phản ánh thực tiễn Việt Nam. Cuốn sách trình bày bệnh chứng do ngoại nhân và nội nhân gây ra, gắn với lý luận âm dương, ngũ hành, kinh lạc. Các yếu tố như thể và chất lưỡi phản ánh tình trạng bệnh lý. Châm cứu phát triển từ thời đồ đá, hình thành qua kinh nghiệm lâm sàng và các tác phẩm kinh điển, với hệ thống huyệt vị và kỳ huyệt bổ sung cho kinh lạc.",
+    "text": "Sách \"Bệnh học và điều trị đông y\" được biên soạn dựa trên chương trình khung đào tạo bác sĩ y học cổ truyền, với nội dung khoa học, cập nhật, được Hội đồng chuyên môn thẩm định. Sách trình bày bệnh chứng do ngoại nhân và nội nhân gây ra, dựa trên quan điểm âm dương hỗ căn và âm dương tiêu trưởng. Các yếu tố như thể, chất lưỡi phản ánh tình trạng bệnh lý. Châm cứu hình thành từ thời đồ đá, phát triển qua các triều đại với nhiều tác phẩm kinh điển, dựa trên hệ thống kinh lạc và kỳ huyệt.",
     "children": [
       "book1:book1:1",
       "book1:book1:3",
@@ -114,9 +114,9 @@
     }
   },
   {
-    "node_id": "lvl1-bba20fac",
+    "node_id": "lvl1-a1037c8e",
     "level": 1,
-    "text": "Bộ Y tế ban hành giáo trình đạt chuẩn đào tạo nhân lực y tế, kêu gọi góp ý để hoàn thiện. Sách bao gồm bài giảng lý thuyết và trắc nghiệm, minh họa tại các cơ sở thực tập. Trương Trọng Cảnh biên soạn *Thương hàn luận* dựa trên Nội kinh, hiện chỉ còn bản biên tập của Vương Thúc Hòa. Phương pháp châm cứu được phát triển và ứng dụng, được Hội Sinh lý học Việt Nam hoan nghênh, đề xuất hoàn thiện máy đo và phổ biến rộng rãi trong y học cổ truyền.",
+    "text": "Bộ Y tế ban hành giáo trình dạy – học đạt chuẩn cho ngành y tế 2006–2010, kêu gọi góp ý để hoàn thiện. Quyển sách được soạn bởi các chuyên gia, bao gồm nội dung bệnh học ngoại cảm và tạp bệnh từ tác phẩm *Thương hàn luận* của Trương Trọng Cảnh. Phương pháp châm cứu được ứng dụng và phát triển, đặc biệt với máy đo nhiệt độ kinh lạc, được ngành sinh lý học Việt Nam hoan nghênh và ủng hộ để hiện đại hóa y học cổ truyền.",
     "children": [
       "book1:book1:2",
       "book1:book1:6",
@@ -150,9 +150,9 @@
     }
   },
   {
-    "node_id": "lvl1-4a693d86",
+    "node_id": "lvl1-290273ef",
     "level": 1,
-    "text": "Bệnh lý Đông y xuất hiện chủ yếu ở các tạng phủ, được phân tích dựa trên lý luận kinh điển, tôn trọng quan điểm xưa. Các giai đoạn bệnh như Quyết âm, Ngoại cảm, Hàn tà gây triệu chứng đa dạng, từ đau nhức, tiêu chảy đến suy yếu cơ thể. Pháp trị tùy theo triệu chứng, như thanh nhiệt, ôn hàn, bổ dương, hoặc lợi thấp. Nhiều bài thuốc và huyệt pháp được trình bày cụ thể, nhưng hiệu quả trong các tình huống lâm sàng nặng như hôn mê, trụy tim vẫn có hạn do thiếu thực nghiệm.",
+    "text": "Bệnh lý Đông y xuất hiện chủ yếu ở các tạng phủ, với các chứng như Phế - Đại trường, Tỳ - Vị, Thận - Bàng quang, Can - Đởm, Tâm - Tâm bào. Bệnh lý do ngoại tà gây ra, tiến triển qua các giai đoạn, đặc biệt là Quyết âm, có triệu chứng nặng như tay chân lạnh, sốt, tiêu chảy. Điều trị dựa trên lý luận Đông y, phân tích bài thuốc và huyệt đạo, chú trọng hồi dương, bảo tồn âm dịch, nhưng có hạn chế về hiệu quả trong các tình trạng cấp cứu hoặc ít dùng thuốc hiện đại.",
     "children": [
       "book1:book1:4",
       "book1:book1:66",
@@ -208,9 +208,9 @@
     }
   },
   {
-    "node_id": "lvl1-4b9be447",
+    "node_id": "lvl1-7334596b",
     "level": 1,
-    "text": "Tài liệu nêu các phương pháp kê đơn thuốc Đông y như cổ phương gia giảm, toa căn bản, và theo dược lý tân y, mỗi phương pháp có ưu nhược điểm khác nhau. Các bài thuốc được cấu tạo theo vai trò của vị thuốc: Quân (chủ dược), Thân, Tá, Sứ, nhằm điều trị triệu chứng chính và phụ, tăng hiệu quả, điều hòa dược tính. Đồng thời, quyển sách nhấn mạnh vai trò của huyệt trong điều trị, phân tích theo nguyên lý du, mộ, nguyên, lạc và ngũ du huyệt, giúp sinh viên hiểu rõ cơ chế trị liệu Đông y.",
+    "text": "Tài liệu trình bày các phương pháp kê đơn thuốc Đông y như cổ phương gia giảm, toa căn bản, và theo dược lý tân y, nhấn mạnh vai trò của từng vị thuốc theo thứ tự Quân, Thân, Tá, Sứ. Giải thích cấu tạo bài thuốc và công thức huyệt dựa trên lý luận Đông y, bao gồm ngũ hành, vận dụng du, mộ, nguyên, lạc. Các phương pháp có ưu nhược điểm khác nhau về tính lý pháp, dễ sử dụng và khả năng vận dụng. Nội dung cũng đề cập đến bệnh học tạng phủ và điều trị theo chứng, không đề cập đến bệnh do ngoại nhân.",
     "children": [
       "book1:book1:5",
       "book1:book1:189",
@@ -260,9 +260,9 @@
     }
   },
   {
-    "node_id": "lvl1-78a2885d",
+    "node_id": "lvl1-481f8f2e",
     "level": 1,
-    "text": "Bệnh ngoại cảm do tác động của môi trường bên ngoài gây ra, phân loại theo 6 khí hậu (lục khí). Có 4 cách phân loại: lục dâm, thương hàn, ôn bệnh và dịch lệ. Ngoại cảm thương hàn có diễn biến từ ngoài vào trong, bắt đầu bằng các bệnh cảnh như Thái dương, Dương minh, Thái âm...; ôn bệnh khởi phát bằng sốt cao, khát nước, tiến triển theo các giai đoạn nhiệt tại các tiêu (thượng, trung, hạ) hoặc vệ, khí, dinh, huyết. Bệnh lục dâm biểu hiện ở vệ, kinh lạc, ít ảnh hưởng đến tạng.",
+    "text": "Bệnh ngoại cảm do tác động của môi trường, phân loại theo 6 lục khí (phong, hàn, thử, thấp, táo, hỏa). Có 4 cách phân loại: lục dâm, thương hàn, ôn bệnh và dịch lệ. Thương hàn khởi phát từ ngoài vào trong, có 6 bệnh cảnh theo giai đoạn. Ôn bệnh khởi phát bằng sốt, khát nước, diễn biến cấp tính, nặng và có biến chứng. Lục dâm biểu hiện ở vệ, kinh lạc, ít ảnh hưởng đến tạng. Bệnh thương hàn và ôn bệnh khác nhau về khởi phát và diễn biến.",
     "children": [
       "book1:book1:7",
       "book1:book1:9",
@@ -306,9 +306,9 @@
     }
   },
   {
-    "node_id": "lvl1-f32132fe",
+    "node_id": "lvl1-28ce5109",
     "level": 1,
-    "text": "Tài liệu trình bày bệnh học các tạng phủ như Thận - Bàng quang, Can - Đởm, Tâm - Tiểu trường; nội dung về kê đơn thuốc theo lý luận Đông y, phối ngũ và cấm kỵ. Nêu khái niệm, phân loại bệnh ngoại cảm và đặc điểm của các loại tà ngoại. Trình bày hệ thống huyệt vị trên 14 kinh, quan hệ tạng phủ, vị trí, cách lấy và chức năng điều trị của các huyệt như Quan xung, Dịch môn, Đồng tử liêu, Thính hội, Dương cang, Âm cang, Tân hoàn khiêu. Ghi nhận các chứng bệnh lâm sàng được chẩn đoán kết hợp Đông y như sốt, đau đầu, đau mắt, co giật, xuất huyết, đau thần kinh toạ.",
+    "text": "Tài liệu trình bày bệnh học các tạng phủ như Thận - Bàng quang, Can - Đởm, Tâm - Tiểu trường; phân tích bệnh ngoại cảm theo loại như Lục dâm, Thương hàn, Ôn bệnh, Dịch lệ; nêu quan hệ tạng phủ và chức năng của các kinh mạch. Giới thiệu hệ thống huyệt vị trên 14 kinh, vị trí, cách lấy và tác dụng trị bệnh của các huyệt như Quan xung, Dịch môn, Đồng tử liêu, Thính hội, Dương cang, Âm cang. Đưa ra các chứng bệnh lâm sàng được chẩn đoán kết hợp Đông y như sốt cao, co giật, đau đầu, đau lưng, xuất huyết, hen suyễn.",
     "children": [
       "book1:book1:8",
       "book2:book2:452",
@@ -394,9 +394,9 @@
     }
   },
   {
-    "node_id": "lvl1-c8662eaa",
+    "node_id": "lvl1-dfab514b",
     "level": 1,
-    "text": "Khí hậu bình thường cần thiết cho sức khỏe, nhưng khi thái quá hoặc xuất hiện không đúng thời gian sẽ gây bệnh gọi là lục dâm hoặc lục tà. Bệnh ngoại cảm liên quan mật thiết đến thời tiết và biến đổi theo mùa, đồng thời phụ thuộc vào thể chất cá nhân. Bệnh có thể chuyển biến theo kinh, lây lan nhanh, đặc biệt là dịch lệ do lệ khí gây ra, thường sau thiên tai. Thiếu dương chứng biểu hiện bằng hàn nhiệt vãng lai, miệng đắng, mắt hoa, điều trị bằng Tiểu sài hồ thang.",
+    "text": "Khí hậu bình thường cần thiết cho sức khỏe, nhưng khi thái quá hoặc xuất hiện bất thường sẽ gây bệnh gọi là lục dâm hoặc lục tà. Bệnh ngoại cảm liên quan mật thiết đến thời tiết và mùa, biến đổi theo thời gian và thể chất người bệnh. Bệnh có thể chuyển biến qua các dạng khác nhau do tác động của tà khí. Dịch lệ là bệnh nặng, lây lan, xảy ra sau thiên tai, do sự kết hợp giữa lục dâm và tử khí từ xác chết. Thiếu dương chứng biểu hiện bằng cảm giác lạnh nóng đổi, miệng đắng, mắt hoa, điều trị bằng Tiểu sài hồ thang.",
     "children": [
       "book1:book1:10",
       "book1:book1:11",
@@ -456,9 +456,9 @@
     }
   },
   {
-    "node_id": "lvl1-1a8064d5",
+    "node_id": "lvl1-47e9a9e1",
     "level": 1,
-    "text": "Bệnh ngoại cảm do tà khí từ môi trường gây ra, biểu hiện phụ thuộc vào sự cân bằng giữa tà khí và chính khí. Cần phân biệt tà khí ngoại và nội, và đánh giá qua mạch, chứng. Số tương quan của kinh giúp xác định trạng thái sinh lý hay bệnh lý, hàn hay nhiệt. Dấu và giá trị tuyệt đối chỉ ra tính chất bệnh lý. Dù mạch và chứng có thể không nhất quán, cần phân tích toàn diện để nhận định chính xác. Hệ số quy đổi giúp điều chỉnh ảnh hưởng bên ngoài, đảm bảo đánh giá chính xác sự thay đổi công năng tạng phủ sau điều trị.",
+    "text": "Bệnh ngoại cảm do tà khí từ môi trường tác động, biểu hiện phụ thuộc vào mối quan hệ giữa tà khí và chính khí. Cần phân biệt tà khí ngoại và nội, dùng mạch và chứng để chẩn đoán, nhưng có thể không nhất quán nên phải phân tích toàn diện. Số tương quan giữa nhiệt độ kinh và sai số giới hạn giúp xác định trạng thái sinh lý hoặc bệnh lý, dấu âm là hàn, dương là nhiệt. Dựa vào số tương quan, có thể lập mô hình chỉ số nhiệt kinh lạc để phân tích bệnh lý, đặc biệt trong các chứng như thoái hóa đốt sống cổ. Hệ số quy đổi giúp điều chỉnh ảnh hưởng của yếu tố bên ngoài, nâng cao độ chính xác trong chẩn đoán.",
     "children": [
       "book1:book1:12",
       "book2:book2:590",
@@ -510,9 +510,9 @@
     }
   },
   {
-    "node_id": "lvl1-74958d6a",
+    "node_id": "lvl1-4d37687d",
     "level": 1,
-    "text": "Bệnh do ngoại tà phạm kinh Cân gây đau nhức, tê bì, co rút, vận động khó, vị trí đau tùy kinh bị tổn thương, không có triệu chứng tạng phủ. Điều trị bằng châm cứu \"phần châm\", \"thiêu châm\", phối hợp hành khí hoạt huyết. Phân biệt tà khí: phong, hàn, thấp, nhiệt theo triệu chứng đau, sưng, nhiệt, cảm giác. Hư thực hiệp tạp và Can-Tỳ bất hòa gây đau bụng, sườn, dạ dày. Châm cứu dựa vào quan hệ kinh-tạng để chẩn đoán và điều trị.",
+    "text": "Bệnh do ngoại tà phạm kinh Cân gây đau nhức, tê bì, co rút, vận động khó, vị trí đau tùy kinh bị tổn thương, không có triệu chứng tạng phủ. Điều trị bằng châm cứu \"phần châm\", \"thiêu châm\", dùng phương hành khí hoạt huyết. Phong hàn, thấp, nhiệt tà gây đau khớp với triệu chứng khác nhau. Can-Tỳ bất hòa gây đau sườn, dạ dày. Hư thực hiệp tạp có biểu hiện hỗn hợp, phân biệt bằng bệnh trình, thanh âm, lưỡi, mạch. Kinh lạc giúp chẩn đoán và điều trị bệnh theo quan hệ với tạng phủ.",
     "children": [
       "book1:book1:15",
       "book1:book1:121",
@@ -574,9 +574,9 @@
     }
   },
   {
-    "node_id": "lvl1-219a5904",
+    "node_id": "lvl1-c39d4376",
     "level": 1,
-    "text": "Bệnh ngoại tà phạm kinh thường do phong, hàn, nhiệt gây ra, tấn công cục bộ vào đoạn kinh chính hoặc kinh Cân. Bệnh ở kinh Cân có đau nhức rõ, không có triệu chứng tạng phủ; bệnh ở kinh chính có đau tại chỗ và triệu chứng tạng phủ. Phong hàn gây đau thần kinh, phong nhiệt gây đau nóng, đỏ, sốt. Ngoại tà phạm vào kỳ kinh bát mạch gây liệt chi, viêm tủy. Triệu chứng phụ thuộc vào vị trí và mức độ tổn thương, điều trị chủ yếu bằng khu tà, thông kinh, hoạt huyết.",
+    "text": "Phong, hàn, nhiệt ngoại tà tấn công cục bộ kinh chính hoặc kinh Cân, gây đau nhức, triệu chứng tạng phủ hoặc không, tùy vị trí. Bệnh ở kinh Cân có đau rõ, không có triệu chứng tạng phủ; bệnh ở kinh chính có kèm triệu chứng tạng phủ. Phong hàn gây đau thần kinh, phong nhiệt gây nóng đỏ, đau nhức. Ngoại tà phạm vào kỳ kinh bát mạch gây liệt chi, viêm tủy. Bệnh ở vệ phận có sốt, sợ gió, ho ít. Nhiệt thương dinh âm gây sốt đêm, khó ngủ, tâm phiền. Điều trị chủ yếu là khu tà, thông kinh, hoạt huyết.",
     "children": [
       "book1:book1:16",
       "book1:book1:17",
@@ -658,9 +658,9 @@
     }
   },
   {
-    "node_id": "lvl1-0741215b",
+    "node_id": "lvl1-c2485c0f",
     "level": 1,
-    "text": "Các triệu chứng chính liên quan đến tổn thương phủ bao gồm: sốt cao, khát nước, đau bụng, tiêu chảy, táo bón, buồn nôn, ho khan, đau tức thượng vị, rối loạn tiêu hóa. Các bệnh lý phổ biến như viêm đại tràng, táo bón, viêm phế, khí hư, nhiệt uất. Phương pháp điều trị chủ yếu là thanh nhiệt, tả nhiệt, bổ âm, khu phong, hành khí, hoặc điều hòa khí huyết tùy theo vị trí và bản chất bệnh.",
+    "text": "Các bệnh chứng liên quan đến phủ bị tổn thương bao gồm: nhiệt hoặc hàn ở Đại trường gây sốt, đau bụng, tiêu chảy, táo bón; nhiệt uất gây tức ngực, sốt, khó ngủ; nhiệt nhập Vị gây sốt cao, khát dữ; phong nhiệt phạm kinh gây đau nhức, nóng đỏ; Phế âm hư và Phế khí hư dẫn đến ho khan, họng khô, thở yếu. Điều trị dựa trên nguyên nhân: thanh nhiệt, bổ âm, khu phong, hành khí, hoặc bổ khí, dưỡng huyết theo từng vị trí và cơ chế bệnh sinh.",
     "children": [
       "book1:book1:19",
       "book1:book1:61",
@@ -734,9 +734,9 @@
     }
   },
   {
-    "node_id": "lvl1-1f52d895",
+    "node_id": "lvl1-df73e54f",
     "level": 1,
-    "text": "Các bệnh cảnh ngoại tà phạm tạng bao gồm phong hàn, phong nhiệt ảnh hưởng đến phế; bệnh chứng ở quyết âm phân biệt theo sốt, tiêu hóa và triệu chứng; nhiệt nhập tâm bào, nhiệt thương dinh âm, dinh vệ hợp tà; bệnh ở huyết phận với xuất huyết, co giật, mất nước. Các triệu chứng điển hình như sốt, đau, ho, tiêu chảy, táo bón, miệng khô, tiểu khó. Thuốc điều trị tùy theo chứng: Tứ nghịch thang, Thanh dinh thang, Thanh cung thang, Tê giác địa hoàng thang, Ô mai hoàn. Bệnh do nội nhân như Tỳ dương hư gây mệt mỏi, sợ lạnh, tiêu chảy khi lạnh.",
+    "text": "Các đoạn nêu các bệnh chứng ngoại tà phạm tạng như phong hàn, phong nhiệt tại Phế; bệnh ở Quyết âm phân biệt theo sốt, tiêu hóa; nhiệt nhập Tâm bào, dinh âm, huyết phận với triệu chứng sốt, xuất huyết, co giật, mất nước. Bệnh ở Dinh phận và Huyết phận thể hiện nhiệt sâu, xuất huyết, mất nước. Các bệnh về Đại trường (táo bón, tiêu chảy) và Tỳ dương hư do suy yếu, sợ lạnh, tiêu chảy khi lạnh, mệt mỏi. Mỗi bệnh cảnh có triệu chứng đặc trưng và thuốc điều trị phù hợp.",
     "children": [
       "book1:book1:20",
       "book1:book1:69",
@@ -798,9 +798,9 @@
     }
   },
   {
-    "node_id": "lvl1-328ee3a3",
+    "node_id": "lvl1-3de7c522",
     "level": 1,
-    "text": "Táo bón, tiểu són, buồn nôn, tiêu chảy, sốt cao, ho, đau ngực, khát nước, đau thượng vị, hôn mê xuất hiện trong các bệnh nhiễm trùng hô hấp, tiêu hóa, thần kinh. Các triệu chứng liên quan đến phế, tỳ, thận, đại trường, do hàn, nhiệt, hoặc hư. Biện chứng phân biệt theo thời gian, địa điểm, triệu chứng cụ thể và dấu hiệu lâm sàng. Điều trị dựa trên nguyên nhân, phân loại chứng hàn, nhiệt, hư, dùng thuốc phù hợp như Quế chi, Ma hoàng, Lục vị địa hoàng, Cát căn hoàng cầm.",
+    "text": "Táo bón, tiểu són, buồn nôn, tiêu chảy, sốt cao, ho, đau ngực, đau bụng, mệt mỏi, mất ngủ, khô miệng, lưng đau, đùi nhẽo, mồ hôi trộm là các triệu chứng phổ biến trong nhiễm trùng đường hô hấp, tiêu hóa, lao phổi, viêm não, và rối loạn thần kinh. Các bệnh cảnh như phế hàn, phế nhiệt, phế âm hư, phế tỳ lưỡng hư, phế thận lưỡng hư, thấp nhiệt đại trường thường gặp và được điều trị bằng bài thuốc bổ, thanh nhiệt, giải biểu hoặc điều hòa khí huyết.",
     "children": [
       "book1:book1:21",
       "book1:book1:129",
@@ -832,9 +832,9 @@
     }
   },
   {
-    "node_id": "lvl1-c39183a3",
+    "node_id": "lvl1-fa739612",
     "level": 1,
-    "text": "Bệnh ngoại cảm lục dâm do phong, hàn, thấp, nhiệt gây ra, ảnh hưởng từ kinh lạc đến tạng phủ, không tuân theo quy luật truyền biến. Bệnh danh gồm tên tác nhân và vị trí bị bệnh. Có 3 mức độ: cảm mạo, thương, trúng. Các bệnh danh không thuộc nhóm này thường liên quan đến thiếu dương, thiếu âm, hoặc nguyên nhân nội sinh.",
+    "text": "Bệnh Ngoại cảm lục dâm do phong, hàn, thử, thấp, táo, hỏa gây ra, ảnh hưởng từ kinh lạc đến tạng phủ, không theo quy luật truyền biến, có bệnh danh gồm tác nhân và vị trí. Có ba mức độ: cảm mạo, thương, trúng. Các bệnh danh không thuộc nhóm này thường liên quan đến thiếu dương, thiếu âm, hoặc nguyên nhân nội sinh.",
     "children": [
       "book1:book1:25",
       "book1:book1:26",
@@ -866,9 +866,9 @@
     }
   },
   {
-    "node_id": "lvl1-5ccc3b6e",
+    "node_id": "lvl1-b9ac2b15",
     "level": 1,
-    "text": "Táo khí thương Phế do ngoại nhiệt, ngoại táo hoặc nội táo, nội nhiệt gây ra, gây ho khan, cổ khô, khát nước, sốt nóng hoặc ôn táo. Nhiệt kết Đại trường do hàn tà hóa nhiệt, gây sốt cao, đau bụng, táo bón, mồ hôi. Tỳ Vị thấp nhiệt do thấp nhiệt gây đầy bụng, nôn, tiêu chảy, khát nước. HC Vị nhiệt do thấp nhiệt hoặc ăn cay nóng. Các triệu chứng đại tiện, tiểu tiện phản ánh tình trạng nhiệt, hàn, hư, thực. Điều trị chủ yếu thanh nhiệt, hóa ứ, hành khí, bổ âm hoặc giải biểu tùy chứng.",
+    "text": "Táo khí thương Phế do ngoại nhiệt, ngoại táo gây ra, làm tổn thương Phế âm và Phế khí, dẫn đến ho khan, cổ khô, khát nước, ho ra máu. Nhiệt tà từ Đại trường gây táo bón, sốt cao, mồ hôi, tiểu ít. Thấp nhiệt tà ảnh hưởng đến Tỳ Vị, gây bụng đầy, tiêu chảy, khát nước. Triệu chứng phân, tiểu, đại tiện phản ánh nhiệt, hàn, hư, thực. Điều trị chủ yếu thanh nhiệt, hành khí, giải biểu, bổ âm hoặc giải nhiệt theo từng chứng.",
     "children": [
       "book1:book1:30",
       "book1:book1:149",
@@ -910,9 +910,9 @@
     }
   },
   {
-    "node_id": "lvl1-807288f2",
+    "node_id": "lvl1-7ac96af7",
     "level": 1,
-    "text": "Các đoạn nêu vị trí huyệt, tác dụng phối hợp và các phương huyệt trị bệnh như: Nhân trung, Ngạn giao, Đoài đoan; phối hợp điều trị động kinh, đau răng, trĩ, say nắng; các huyệt trị bệnh tim mạch, gan mật, đường ruột, dị ứng, đau sán khí. Các phương huyệt được phân loại theo bệnh lý, sử dụng kim châm, chích máu hoặc phối hợp để điều trị hiệu quả.",
+    "text": "Tham khảo nêu vị trí và tác dụng của các huyệt như Nhân trung, Ngạn giao, Đoài đoan. Các huyệt phối hợp điều trị chứng động kinh, say nắng, đau răng, trĩ, đau lưng, mẩn ngứa, rối loạn tiêu hóa, viêm đường ruột, bệnh tim mạch và gan mật. Hệ thống ngũ hành và ngũ du được dùng để phối hợp huyệt theo nguyên lý y học cổ truyền, giúp điều trị bệnh theo từng loại chứng và vị trí tổn thương.",
     "children": [
       "book1:book1:31",
       "book2:book2:805",
@@ -958,9 +958,9 @@
     }
   },
   {
-    "node_id": "lvl1-26f73281",
+    "node_id": "lvl1-d62654d0",
     "level": 1,
-    "text": "Phong hàn phạm Phế ảnh hưởng đến tạng Phế và các kinh liên quan. Bài Nhất âm tiên và các bài thuốc khác có nguồn gốc từ kinh nghiệm điều trị các chứng như Thận hư, Tỳ Thận hư hàn, sán khí, tiểu không tự chủ. Các huyệt như Tam âm giao, Phế du, Quan nguyên điều trị chứng Phế âm hư, viêm niệu đạo, kinh nguyệt không đều. Nguyên tắc châm cứu: chẩn đoán rõ vị trí bệnh, xác định tạng phủ, chọn huyệt phù hợp, phối hợp bổ hoặc tả để đạt hiệu quả điều trị.",
+    "text": "Phong hàn phạm Phế ảnh hưởng đến tạng Phế và các kinh liên quan. Bài Nhất âm tiên điều trị Phế âm hư với các vị như sinh địa, mạch môn, địa cốt bì, tri mẫu, bạch thược, cam thảo. Các huyệt trị Phế âm hư gồm Thái uyên, thiên lịch, phế du, tam âm giao. Bài thuốc từ \"Nội khoa trích yếu\" ôn bổ Thận, trị cố trường chỉ tả. Huyệt âm giao, thần khuyết, thủy phân điều trị rối loạn kinh nguyệt, tiểu tiện, đau bụng. Châm cứu phối hợp với thuốc theo nguyên tắc chẩn đoán chính xác, xác định vị trí và tạng bệnh, dùng bổ hoặc tả phù hợp.",
     "children": [
       "book1:book1:32",
       "book1:book1:211",
@@ -1046,9 +1046,9 @@
     }
   },
   {
-    "node_id": "lvl1-35127d77",
+    "node_id": "lvl1-8f4b65b2",
     "level": 1,
-    "text": "Đoạn văn nêu khái niệm về khí, huyết, thủy, hỏa và đề cập đến cách châm cứu, gồm cách châm và cách cứu. Nội dung tập trung vào nền tảng đại cương của châm cứu, với các yếu tố sinh lý cơ bản trong cơ thể.",
+    "text": "Đoạn văn nêu khái niệm về khí, huyết, thủy, hỏa; giới thiệu phần đại cương về châm cứu, bao gồm cách châm và cách cứu. Nội dung tập trung vào cơ sở lý luận của châm cứu và các yếu tố sinh lý cơ bản trong y học cổ truyền.",
     "children": [
       "book1:book1:34",
       "book1:book1:190",
@@ -1084,9 +1084,9 @@
     }
   },
   {
-    "node_id": "lvl1-7b75d7a9",
+    "node_id": "lvl1-09a31b71",
     "level": 1,
-    "text": "Trương Trọng Cảnh nghiên cứu bệnh thương hàn sau khi nhiều thành viên gia đình chết vì bệnh này. Biển Thước học y từ Trường Tăng Quân, sáng lập phương pháp chẩn đoán \"vọng, văn, vấn, thiết\" và được ghi nhận trong y học Đông y. Vương Thúc Hòa biên soạn \"Mạch kinh\" – quyển sách đầu tiên hệ thống hóa lý luận và phương pháp chẩn mạch, tổng hợp kinh nghiệm của nhiều y gia, phân loại 24 dạng mạch, góp phần phát triển nền y học Trung Quốc và ảnh hưởng đến y học thế giới.",
+    "text": "Trương Trọng Cảnh sinh vào thời Hán, nghiên cứu và viết sách về bệnh thương hàn sau khi hơn 2/3 dòng họ ông thiệt mạng do bệnh này. Biển Thước học y từ Trường Tăng Quân, sáng lập phương pháp chẩn đoán \"vọng, văn, vấn, thiết\" vẫn dùng ngày nay. Vương Thúc Hòa biên soạn \"Mạch kinh\" – sách đầu tiên hệ thống hóa lý luận và phương pháp chẩn mạch, tổng hợp kinh nghiệm của nhiều y gia, phân loại 24 loại mạch, góp phần phát triển nền y học Trung Quốc và ảnh hưởng đến y học thế giới.",
     "children": [
       "book1:book1:35",
       "book3:book3:1737",
@@ -1102,9 +1102,9 @@
     }
   },
   {
-    "node_id": "lvl1-796dd9b5",
+    "node_id": "lvl1-62563eb7",
     "level": 1,
-    "text": "Bệnh phát triển theo quy luật truyền biến, chịu ảnh hưởng bởi chính khí, tà khí và điều trị không phù hợp. Truyền kinh diễn ra từ nhẹ đến nặng, với sự thay đổi tính chất bệnh. Các chứng như thương hàn, nhiệt, hàn, hư, thực được phân biệt theo vị trí, tính chất và cơ sở lý luận. Các công thức huyệt và thuốc điều trị được chọn dựa trên triệu chứng cụ thể như sốt, xuất huyết, đầy bụng, táo bón, đau lưng, suy nhược, nhằm phục hồi chức năng tạng phủ và cân bằng khí huyết.",
+    "text": "Bệnh phát triển theo quy luật truyền biến, chịu ảnh hưởng bởi chính khí, tà khí và điều trị không phù hợp. Truyền kinh diễn ra từ nhẹ đến nặng, với sự thay đổi tính chất bệnh. Bệnh tại biểu do tà thịnh, tại lý do chính khí suy. Các chứng như thương hàn, nhiệt hạ lỵ, huyết phận, vị thất hòa giáng, tỳ khí hư, thận âm hư có triệu chứng và điều trị riêng. Sử dụng huyệt và thuốc theo cơ sở lý luận để điều trị phù hợp từng loại bệnh.",
     "children": [
       "book1:book1:38",
       "book1:book1:96",
@@ -1154,9 +1154,9 @@
     }
   },
   {
-    "node_id": "lvl1-f3fb1504",
+    "node_id": "lvl1-65bb0a1e",
     "level": 1,
-    "text": "Truyền kinh diễn ra theo thứ tự dương sang âm hoặc trực tiếp từ dương sang âm. Bệnh tà có thể trực trúng tam âm hoặc chuyển từ trong ra ngoài khi chính khí hồi phục. Kinh Lạc liên quan đến tỳ, vị, tâm, phế và các tạng tiêu hóa, trị các triệu chứng như nôn, đau dạ dày, đầy bụng, tiêu chảy. Các kinh khác điều trị đau khớp, rối loạn sinh dục, bệnh phụ khoa, tiêu hóa kém, viêm họng và các chứng bệnh về xương khớp.",
+    "text": "Các kinh mạch truyền từ dương sang âm theo thứ tự hoặc trực tiếp. Bệnh tà có thể trực trúng tam âm hoặc chuyển từ trong ra ngoài khi chính khí hồi phục. Kinh Lạc liên quan đến tỳ, vị, tâm, phế, đại tiểu trường, trị các rối loạn tiêu hóa, đau bụng, nôn, chảy máu. Các kinh khác điều trị đau cơ, khớp, bệnh phụ nữ, rối loạn sinh dục, viêm phổi, đau ngực, đau lưng. Huyệt vị ở các kinh này dùng để điều trị cục bộ và phối hợp với huyệt khác tăng hiệu quả.",
     "children": [
       "book1:book1:39",
       "book2:book2:446",
@@ -1222,9 +1222,9 @@
     }
   },
   {
-    "node_id": "lvl1-c56c122f",
+    "node_id": "lvl1-6b858938",
     "level": 1,
-    "text": "Bệnh học ngoại cảm thương hàn và các bệnh chứng thường gặp ở phế, thận, tâm, tiểu đường được đề cập. Các hội chứng bệnh phế - đại trướng, thận - bàng quang, tâm - tiểu trướng được phân tích. Nội dung kê đơn thuốc dựa trên lý luận Đông y được trình bày, kèm theo các nguyên tắc cấm kỵ khi sử dụng thuốc.",
+    "text": "Bệnh học ngoại cảm thương hàn và các bệnh chứng thường gặp ở phế, thận, tâm, tiểu trường được đề cập. Các hội chứng bệnh phế - đại trường, thận - bàng quang, tâm - tiểu trường được phân tích. Nội dung kê đơn thuốc dựa trên lý luận Đông y và các quy định cấm kỵ khi dùng thuốc được nêu rõ.",
     "children": [
       "book1:book1:41",
       "book1:book1:84",
@@ -1296,9 +1296,9 @@
     }
   },
   {
-    "node_id": "lvl1-87512ed7",
+    "node_id": "lvl1-7bfc2213",
     "level": 1,
-    "text": "Thái dương chủ biểu toàn thân, kháng ngoại tà, liên quan với Thận và Tâm. Dương minh thu nạp, vận hóa, phối hợp với Thái âm để hóa sinh khí huyết, bệnh lý do tà nhiệt phát triển. Thái âm bệnh bắt đầu bằng hàn thấp, biểu hiện bụng đau, tiêu chảy, điều trị bằng Lý trung thang. Thiếu âm do Tâm-Thận bất túc, có thể hóa hàn hoặc nhiệt. Quyết âm liên quan đến Can và Tâm bào, điều hòa huyết và thần. Âm dương tương phản, thống nhất trong cơ thể, điều hòa chức năng sinh lý.",
+    "text": "Thái dương chủ biểu toàn thân, kháng ngoại tà, liên quan với Thận và Tâm. Dương minh điều hòa thu nạp, vận hóa, bài tiết, bị ảnh hưởng khi Thái dương tà không giải. Thái âm phản ánh hàn thấp, bụng đầy, tiêu chảy, điều trị bằng Lý trung thang. Thiếu âm do Tâm Thận bất túc, phân hóa thành hàn hoặc nhiệt. Quyết âm liên quan đến Can và Tâm bào, điều hòa huyết và chức năng tâm. Âm dương đối lập, thống nhất, chi phối sinh lý và bệnh lý.",
     "children": [
       "book1:book1:42",
       "book1:book1:50",
@@ -1322,9 +1322,9 @@
     }
   },
   {
-    "node_id": "lvl1-83a151ae",
+    "node_id": "lvl1-fe288b0d",
     "level": 1,
-    "text": "Thái dương kinh và phủ chủ biểu, liên quan đến khí hóa, vận chuyển nước và khí trong cơ thể. Bệnh Thái dương do phong hàn ngoại nhập, biểu hiện bằng sốt, đau đầu, sợ lạnh. Tam tiêu là con đường khí hóa, vận chuyển nước và khí, gồm thượng, trung, hạ tiêu, tương ứng với các tạng phủ. Công năng chính là hóa thủy cốc thành khí huyết, bài tiết nước, bảo vệ cơ thể. Tông khí xuất phát từ khí hải, hỗ trợ hô hấp và vận hành khí huyết, kết hợp với Nguyên khí tạo thành \"Chân khí\" nuôi thân.",
+    "text": "Thái dương kinh và phủ chủ biểu, liên quan đến khí hóa, bài tiết nước, nhờ sự phối hợp với Thận, Phế. Bệnh Thái dương do phong hàn ngoại nhập, biểu hiện bằng sốt, đau đầu, sợ lạnh. Tam tiêu là con đường khí hóa và vận chuyển nước, chia thành thượng, trung, hạ tiêu, đóng vai trò điều hòa thủy dịch, tạo khí huyết, bảo vệ cơ thể. Tông khí xuất phát từ khí hải, hỗ trợ hô hấp, hành huyết, kết hợp với Nguyên khí thành \"Chân khí\" nuôi sống cơ thể.",
     "children": [
       "book1:book1:43",
       "book1:book1:358",
@@ -1360,9 +1360,9 @@
     }
   },
   {
-    "node_id": "lvl1-4e0a8c13",
+    "node_id": "lvl1-56476618",
     "level": 1,
-    "text": "Quế chi thang giải cơ, điều hòa âm dương, trị sốt, đau đầu, ngạt mũi, nôn. Tỳ Vị quản lý lương thực, điều hòa tiêu hóa, sinh huyết, bảo vệ cơ thể. Tỳ điều hòa khí huyết, ảnh hưởng đến sắc, vị, cơ, khẩu. Vị chứa và làm chín thực phẩm, chuyển hóa tinh khí sang các tạng. Tâm bào bảo vệ Tâm, ảnh hưởng đến miệng, mắt, phế. Thượng tiêu phân bố khí, làm ấm da, nuôi cơ thể. Du huyệt hỗ trợ chẩn đoán, điều trị bệnh. Lục hại là các thói xấu ảnh hưởng đến vệ sinh, sức khỏe.",
+    "text": "Quế chi thang giải cơ, điều hòa dương âm, trị sốt, đau đầu, ngạt mũi, nôn. Tỳ Vị quản lý tiêu hóa, vận chuyển thực phẩm, sinh huyết, bảo vệ cơ thể. Tỳ điều hòa khí, tạo thành vệ khí, làm ấm da, mượt tóc. Vị chứa và làm chín thức ăn, vận chuyển tinh khí đến các tạng. Tâm bào bảo vệ tâm, khi bị tà xâm nhập sẽ dẫn đến mất thần. Du huyệt hỗ trợ chẩn đoán và điều trị bệnh. Khích huyệt dùng điều trị đau, viêm cấp tính. Lục hại gồm từ chối danh lợi, cấm sắc, giữ tài, giảm thực phẩm béo, bình vọng, bỏ ghen ghét.",
     "children": [
       "book1:book1:44",
       "book1:book1:219",
@@ -1424,9 +1424,9 @@
     }
   },
   {
-    "node_id": "lvl1-211fff3f",
+    "node_id": "lvl1-67d30404",
     "level": 1,
-    "text": "Bài thuốc Quế chi thang trị cảm hàn với các vị thuốc ôn trung, giải biểu, điều hòa vị. Bạch hồ thang thanh nhiệt sinh tân cho Thái dương thương hàn. Điều Vị thừa khí thang nhuận táo thông tiện cho Trường táo tiện bế. Các bài thuốc như Cố tinh hoàn, Kim tỏa cố tinh hoàn bổ thận, kiện tinh, trị di tinh, di niệu. Huyệt điều trị hỗ trợ hạ sốt, giải biểu, khu phong, bổ khí, điều hòa chức năng thận và tiết niệu.",
+    "text": "Bài thuốc Quế chi thang trị cảm hàn bằng cách giải biểu, ôn trung, điều hòa vị. Bạch hồ thang thanh nhiệt sinh tân cho Thái dương thương hàn. Điều Vị thừa khí thang nhuận táo thông tiện cho Trường táo tiện bế. Các bài thuốc như Cố tinh hoàn, Kim tỏa cố tinh hoàn bổ thận, cố tinh, điều trị di tinh, di niệu. Huyệt đạo hỗ trợ điều trị sốt, cảm, đau đầu, ngạt mũi, rối loạn tiết niệu. Các chứng như Thận khí hư, viêm phổi, phế quản được điều trị bằng phối hợp thuốc và huyệt pháp theo lý luận Đông y.",
     "children": [
       "book1:book1:45",
       "book1:book1:94",
@@ -1464,9 +1464,9 @@
     }
   },
   {
-    "node_id": "lvl1-795040a0",
+    "node_id": "lvl1-7a3a8953",
     "level": 1,
-    "text": "Các bài thuốc Đông y điều trị theo chứng: Ma hoàng thang (hãn) cho Thái dương súc huyết, Bạch hồ thang (thanh) cho Dương minh nhiệt, Ôn kinh thang (hãn) cho kinh nguyệt bất thường. Các bài thuốc như Tiêu ung tán độc ẩm, Nhân sâm bạ độc tán điều trị phong nhiệt phạm kinh. Bài thuốc thanh nhiệt tả hỏa, lợi tiểu điều trị viêm bàng quang, tiểu buốt, sốt cao. Các huyệt như Bách hội, Khúc trì, Trung cực, Úy dương hỗ trợ điều trị cảm sốt, tiết niệu và rối loạn Can Đởm thấp nhiệt.",
+    "text": "Các bài thuốc điều trị dựa trên nguyên lý Đông y: Ma hoàng thang (hãn) trị cảm, suyễn, nghẹt mũi; Bạch hồ thang (thanh) trị nhiệt Dương minh; Ôn kinh thang (hãn) điều trị rối loạn kinh nguyệt; các bài thuốc thanh nhiệt, lợi tiểu trị viêm bàng quang, tiểu buốt, sốt. Các bài thuốc như Tiêu ung tán độc ẩm, Nhân sâm bạ độc tán dùng cho phong nhiệt hoặc ngoại tà phạm kinh. Tác dụng điều trị phụ thuộc vào chứng bệnh, vị trí tà khí và cơ chế bệnh sinh như hàn, nhiệt, thấp.",
     "children": [
       "book1:book1:46",
       "book1:book1:51",
@@ -1538,9 +1538,9 @@
     }
   },
   {
-    "node_id": "lvl1-ebf9a435",
+    "node_id": "lvl1-c9a60342",
     "level": 1,
-    "text": "Các đoạn nêu về các chứng bệnh theo phận (biểu, phủ, vệ, dinh), triệu chứng như sốt, mồ hôi, đau đầu, khát nước, tiểu khó. Điều trị dựa trên nguyên lý khí - huyết - nhiệt - âm, dùng bài thuốc như Ngũ linh tán, Hoàng liên a giao thang, Đại thừa khí thang để hạ sốt, thanh nhiệt, bổ âm, hóa giải tà. Các huyệt như Khúc trì, Hợp cốc, Đại chùy, Ngoại quan được dùng để giải biểu, khu phong, hạ sốt. Bệnh từ biểu tiến vào phủ, gây súc thủy, súc huyết, hoặc ảnh hưởng đến tạng phủ như Phế, Thận.",
+    "text": "Các đoạn nêu rõ triệu chứng và điều trị của các chứng bệnh theo lý luận Đông y: cảm sốt do tà ở biểu (phong, hàn, nhiệt), Thái dương phủ chứng (súc thủy, súc huyết), dương minh phủ chứng (sốt cao, táo bón), thiếu âm hóa nhiệt (miệng táo, khó ngủ). Các huyệt như Khúc trì, Hợp cốc, Đại chùy, Ngoại quan, Phong trì được dùng để giải biểu, hạ sốt, khu phong. Bài thuốc như Ngũ linh tán, Hoàng liên a giao thang, Đại thừa khí thang điều trị theo từng chứng. Vệ, khí, dinh, huyết có vai trò bảo vệ, vận hành và dinh dưỡng cơ thể.",
     "children": [
       "book1:book1:47",
       "book1:book1:52",
@@ -1584,9 +1584,9 @@
     }
   },
   {
-    "node_id": "lvl1-ced3b58f",
+    "node_id": "lvl1-42b16739",
     "level": 1,
-    "text": "Các đoạn nêu về điều trị bệnh theo lý luận Đông y: sử dụng thảo dược như Quế chi, Trạch tả, Bạch truật để lợi niệu, táo thấp, an thần. Các bài thuốc như Đế dương thang trị bụng dưới rắn đầy, phát cuồng; Đại thừa khí thang cho Dương minh phủ chứng. Huyệt trị như Trung cực, Quan nguyên điều trị tiểu tiện, bụng dưới. Các triệu chứng như sốt cao, khát nước, táo bón, ho ít đàm, buồn nôn được phân biệt và điều trị theo chứng âm – dương, nhiệt – hàn.",
+    "text": "Các đoạn nêu về điều trị bệnh theo nguyên lý Đông y: sử dụng dược liệu và huyệt thuật để điều trị các chứng như tiểu tiện bất thường, bụng dưới rắn đầy, sốt cao, ho đàm, rối loạn tiêu hóa, thiếu âm. Các bài thuốc như Đế dương thang, Bạch hồ thang, Đại thừa khí thang điều trị theo chứng bệnh (Dương minh, Thiếu âm, Thái dương). Dược liệu được chọn dựa trên tính vị, tính nhiệt hàn, vị trí tác dụng. Huyệt trị chủ yếu tập trung vào các kinh kinh lạc, điều hòa khí huyết, giải biểu, thanh nhiệt, lợi niệu, hạ sốt.",
     "children": [
       "book1:book1:48",
       "book1:book1:54",
@@ -1644,9 +1644,9 @@
     }
   },
   {
-    "node_id": "lvl1-e4b54216",
+    "node_id": "lvl1-f9d7bc1a",
     "level": 1,
-    "text": "Các đoạn đề cập đến tác dụng dược lý của nhiều thảo dược như phá huyệt, hoạt ứ, thanh nhiệt, lợi tiểu, dưỡng âm, điều hòa khí. Các huyệt châm cứu như Đại chùy, Khúc trì, Thái uyên dùng để giải biểu, hạ sốt, trị cảm. Thái dương chứng chia thành trúng phong, thương hàn và súc thủy, súc huyết, phân biệt bằng mồ hôi, tiểu tiện. Thuốc tiêu biểu gồm Quế chi thang, Ma hoàng thang, Ngũ linh tán, Đế dương thang. Các vị thuốc chủ yếu vào kinh Phế, Tỳ, Can, Vị, có tác dụng thanh nhiệt, hóa đờm, bổ khí, điều hòa vị.",
+    "text": "Các đoạn nêu về tác dụng dược lý của các thảo dược như phá huyệt, hoạt ứ, thanh nhiệt, giải độc, dưỡng âm, ôn kinh. Phân biệt các chứng Thái dương (trúng phong, thương hàn, súc thủy, súc huyết) dựa trên triệu chứng mồ hôi, tiểu tiện. Sử dụng các công thức huyệt như Đại chùy, Khúc trì, Thái uyên để giải biểu, hạ sốt, trị cảm. Các thảo dược chủ yếu vào kinh Phế, Vị, Tỳ, Can, có tác dụng thanh nhiệt, hóa đờm, kiện tỳ, bổ âm, điều hòa khí.",
     "children": [
       "book1:book1:49",
       "book1:book1:62",
@@ -1706,9 +1706,9 @@
     }
   },
   {
-    "node_id": "lvl1-7fcfa329",
+    "node_id": "lvl1-df1ccfae",
     "level": 1,
-    "text": "Các đoạn nêu về điều trị chứng đầy, đau, táo, bí bằng Đại thừa khí thang và Tứ nghịch thang, nhấn mạnh việc lựa chọn thuốc dựa trên tính chất chứng bệnh. Phụ tử chế bổ dương, trừ hàn; Cam thảo hòa vị, bổ trung. Phong, hàn, thấp gây bệnh khác nhau, điều trị theo từng loại. Thận chủ hỏa, bế tàng, tàng tinh, ảnh hưởng đến chức năng tiêu hóa và cân bằng cơ thể. Thượng tiêu chủ thu nạp, trung tiêu hóa sinh, rối loạn gây đầy, tiêu chảy, rét run, nóng phát.",
+    "text": "Các đoạn nêu về điều trị chứng đầy, đau, táo, bí bằng Đại thừa khí thang và Tứ nghịch thang theo nguyên lý hạ nhiệt, bổ dương. Phân tích dược lý các vị thuốc như Đại hoàng, Phụ tử, Cam thảo, Can khương. Chỉ rõ chứng âm hư dương hư, tay chân lạnh, mặt đỏ do thiếu âm chân hàn. Phong, hàn, thấp gây bệnh tại Tỳ, Can, Vị. Thận chủ giữ tinh, bế tàng, điều hòa thủy hỏa, ảnh hưởng đến tiêu hóa và khí huyết. Tâm – khí – thần cần cân bằng, đặc biệt mùa hạ.",
     "children": [
       "book1:book1:53",
       "book1:book1:59",
@@ -1762,9 +1762,9 @@
     }
   },
   {
-    "node_id": "lvl1-b4b3b279",
+    "node_id": "lvl1-de080f90",
     "level": 1,
-    "text": "Thiếu âm hóa hàn chứng biểu hiện bằng tay chân lạnh, mạch vi, không sốt, buồn nôn, khát, tiểu trong, lưỡi nhạt. Chia thành dương hư hàn và âm thịnh cách dương; phân biệt bằng có sốt hay không. Điều trị bằng Tứ nghịch thang (dương hư) hoặc Thông mạch tứ nghịch tán (âm thịnh). Triệu chứng kèm theo: mệt mỏi, lạnh bụng, tiêu chảy, mồ hôi tự ra, mạch trầm yếu. Bệnh liên quan đến suy dương, suy tuần hoàn, rối loạn tiêu hóa và suy nhược cơ thể.",
+    "text": "Thiếu âm hóa hàn chứng biểu hiện bằng tay chân lạnh, mạch vi, không sốt, buồn nôn, khát, tiểu trong, lưỡi nhạt. Chia thành dương hư hàn và âm thịnh cách dương, phân biệt bằng có/sốt. Điều trị bằng Tứ nghịch thang (dương hư) hoặc Thông mạch tứ nghịch tán (âm thịnh). Thiếu âm hóa nhiệt gồm âm hư nhiệt và âm hư thủy đinh, phân biệt bằng tiểu lợi. Các chứng hư, âm, hàn thể hiện mệt mỏi, lạnh, mạch yếu, lưỡi nhạt, suy nhược cơ thể.",
     "children": [
       "book1:book1:58",
       "book1:book1:64",
@@ -1834,9 +1834,9 @@
     }
   },
   {
-    "node_id": "lvl1-b762a3be",
+    "node_id": "lvl1-26a1c3bb",
     "level": 1,
-    "text": "Điều trị các chứng thiếu âm, khí hư ở Phế, Tỳ, Thận bằng thuốc bổ khí, ôn dương như Bảo nguyên thang, Sâm linh bạch truật tán, Tứ quân tử. Sử dụng các vị thuốc như Nhân sâm, Bạch truật, Phụ tử để kiện khí, bổ dương, điều hòa trung ương. Phân biệt triệu chứng: chân tay lạnh, sốt khát, đờm trong, mệt mỏi, tiêu hóa kém. Điều trị theo nguyên lý bổ âm, ôn khí, kiện tỳ, thanh nhiệt tùy theo từng hội chứng.",
+    "text": "Điều trị các chứng thiếu âm, khí hư ở Phế, Tỳ, Thận bằng bài thuốc bổ khí, ôn dương như Đương quy tứ nghịch, Bảo nguyên thang, Sâm linh bạch truật tán. Các bài thuốc chủ yếu bổ khí, kiện tỳ, ôn dương, thanh nhiệt hoặc giải phong nhiệt tùy triệu chứng. Chú trọng triệu chứng như chân tay lạnh, khát, đờm trong, mệt mỏi, tiêu hóa kém. Sử dụng huyệt điều trị bổ khí, kiện tỳ, hồi dương, điều khí, đặc biệt trong các chứng suy nhược, cảm lạnh, hen, loét dạ dày.",
     "children": [
       "book1:book1:67",
       "book1:book1:88",
@@ -1884,9 +1884,9 @@
     }
   },
   {
-    "node_id": "lvl1-451ebc94",
+    "node_id": "lvl1-dff6a54f",
     "level": 1,
-    "text": "Quyết âm chứng: tay chân lạnh, tiêu chảy, nôn, khát, đói không ăn. Điều trị bằng Ô mai hoàn – bài thuốc điều lý hàn nhiệt, hòa vị trục trùng. Khí phận chứng: sốt cao, phiền táo, chia thành 4 bệnh cảnh với triệu chứng đặc thù như ho, tức ngực, khát dữ, rối loạn đại tiện. Nhiệt kết Bàng quang: tiểu vàng, máu, tiểu gắt. Phong nhiệt phạm Phế: sốt, sợ gió, ho đàm vàng, đau họng. Vị nhiệt ủng thịnh: khát, miệng nứt, đau răng, đại tiện bí, tiểu sển. Các bài thuốc điều trị phù hợp từng chứng.",
+    "text": "Quyết âm chứng: tay chân lạnh, tiêu khát, nôn ói, tiêu chảy, mạch vi. Điều trị bằng Ô mai hoàn – phối hợp thuốc ôn hàn, thanh nhiệt, bổ dương. Khí phận chứng: sốt cao, phiền táo, chia thành 4 bệnh cảnh với triệu chứng đặc trưng như ho, tức ngực, khát dữ, rối loạn đại tiện. Nhiệt kết Bàng quang: tiểu máu, tiểu gắt, tiểu đục. Phong nhiệt phạm Phế: sốt, sợ gió, ho đàm vàng, đau họng. Vị nhiệt ủng thịnh: khát miệng, đau răng, đại tiện bí, tiểu sển. Các bài thuốc điều trị như Cát căn cầm liên thang, Hoàng liên thang, Thanh vị thang.",
     "children": [
       "book1:book1:68",
       "book1:book1:74",
@@ -1940,9 +1940,9 @@
     }
   },
   {
-    "node_id": "lvl1-f163f095",
+    "node_id": "lvl1-9bc9f38d",
     "level": 1,
-    "text": "Các triệu chứng điển hình của các chứng bệnh trong y học cổ truyền bao gồm: sốt, đổ mồ hôi, sợ gió hoặc nóng, khát nước, bụng đầy, đau thượng vị, cầu táo, tiêu chảy, ói mửa, lơ mơ, nói nhảm, co giật, xuất huyết. Các yếu tố chẩn đoán đặc trưng ở các phận như Dương minh, Thái âm, Dinh phận, Huyết phận liên quan đến nhiệt, phong, âm hư, thấp nhiệt. Các bài thuốc điều trị dựa trên nguyên lý nhân quả giữa vị thuốc và tác dụng dược lý, phù hợp với từng chứng bệnh cụ thể.",
+    "text": "Các triệu chứng của các chứng bệnh trong y học cổ truyền bao gồm: sốt, đổ mồ hôi, sợ gió, khát nước, bụng đầy, đau thượng vị, cầu táo, tiêu chảy, ói mửa, lơ mơ, nói nhảm, xuất huyết. Các chứng như Dương minh phủ, Thái âm, Huyết phận, Tỳ Vị thấp nhiệt, Vị âm hư, Vị nhiệt ủng thịnh đều có biểu hiện riêng. Các bài thuốc điều trị dựa trên nguyên nhân và triệu chứng, với vị thuốc chủ trị có tác dụng giải cảm, thanh nhiệt, chỉ khái, trị uất, điều hòa khí huyết.",
     "children": [
       "book1:book1:71",
       "book1:book1:73",
@@ -1990,9 +1990,9 @@
     }
   },
   {
-    "node_id": "lvl1-3bb8a94f",
+    "node_id": "lvl1-36656b02",
     "level": 1,
-    "text": "Các đoạn nêu đến khái niệm pháp trị, ngũ hành, âm dương, vị, quan hệ giữa các tạng, và sự xen lấn giữa các thể của Bát cương. Nội dung liên quan đến hệ thống lý luận y học cổ truyền, phân tích mối quan hệ giữa các yếu tố trong cơ thể và tự nhiên.",
+    "text": "Các đoạn đề cập đến hệ thống lý luận về pháp trị, ngũ hành, âm dương, vị trí và quan hệ giữa các tạng trong y học cổ truyền. Nội dung bao gồm phân tích mối liên hệ giữa các tạng, sự xen lấn của các thể trong Bát Cương, cũng như các yếu tố như khí, âm dương và pháp trị. Tuy nhiên, không có thông tin cụ thể về nội dung chi tiết của từng yếu tố.",
     "children": [
       "book1:book1:72",
       "book3:book3:1640",
@@ -2030,9 +2030,9 @@
     }
   },
   {
-    "node_id": "lvl1-40fabdd6",
+    "node_id": "lvl1-4b900a2e",
     "level": 1,
-    "text": "Các đoạn nêu về mối liên hệ nhân quả giữa a và b trong các tình huống y học, bao gồm việc châm huyệt, lựa chọn vị thuốc và cơ chế sinh bệnh. Các đáp án xác định mối quan hệ nhân quả giữa nguyên nhân (a) và kết quả (b), như bổ sung huyệt vì tác dụng điều trị, hoặc triệu chứng do mất chức năng cơ quan. Nội dung tập trung vào cơ sở lý luận Đông y, phân tích nguyên nhân – triệu chứng – điều trị trong các bệnh ngoại cảm và hội chứng Tỳ – Vị.",
+    "text": "Các đoạn nêu về mối liên hệ nhân quả giữa a và b trong các trường hợp điều trị y học cổ truyền, với a là lý do, b là tác dụng. Các đáp án xác định mối quan hệ nhân quả: khi a đúng và b đúng thì có liên quan nhân quả (đáp án A), khi a đúng nhưng b sai thì không (C), khi a sai nhưng b đúng thì không (D), khi cả a và b sai thì không (E). Nội dung tập trung vào cơ sở lý luận, tác dụng của huyệt, thuốc và mối liên hệ giữa triệu chứng và nguyên nhân trong điều trị bệnh.",
     "children": [
       "book1:book1:75",
       "book1:book1:76",
@@ -2074,9 +2074,9 @@
     }
   },
   {
-    "node_id": "lvl1-592d7bc6",
+    "node_id": "lvl1-2cc7fe12",
     "level": 1,
-    "text": "Bệnh bắt đầu từ Vệ, khí, rồi đến Dinh, Huyết, theo trình độ nhẹ đến nặng. Bệnh khí biểu hiện tâm phiền, khát, miệng khô; bệnh huyết gây xuất huyết, sốt cao, da nổi ban tím, thần trí mất rõ, lưỡi đỏ tím, mạch tế sác. Huyết bị tổn thương do nhiệt tà hoặc khí uất, dẫn đến thiếu máu, rối loạn tiêu hóa, kinh nguyệt không đều. Điều trị dựa trên loại bệnh: giải biểu, thanh khí, thanh doanh, lương huyết, giải độc. Phân biệt hư – thực để điều trị phù hợp.",
+    "text": "Bệnh bắt đầu từ Vệ, khí, rồi chuyển đến Dinh và Huyết, từ nhẹ đến nặng. Bệnh khí biểu hiện tâm phiền, khát, miệng khô; bệnh huyết gây xuất huyết, sốt cao, lưỡi đỏ tím, mạch sác, thần trí mất định. Huyết bị tổn thương do nhiệt tà vào sâu, gây thiếu máu, xuất huyết, hoặc do khí ứ, huyết ứ. Điều trị dựa trên phân biệt thực – hư: thanh nhiệt, lương huyết, giải độc, bổ khí huyết hoặc hoạt huyết. Tỳ hư gây tiêu hóa kém, thiếu máu; can uất gây đau sườn, kinh nguyệt không đều. Bệnh có thể xuất hiện không theo trình tự bình thường do tà nội phát hoặc đồng bệnh.",
     "children": [
       "book1:book1:82",
       "book1:book1:104",
@@ -2108,9 +2108,9 @@
     }
   },
   {
-    "node_id": "lvl1-b2eb2451",
+    "node_id": "lvl1-b5afd328",
     "level": 1,
-    "text": "Ôn bệnh và thương hàn khác nhau về khởi phát, diễn biến và nguyên nhân: ôn bệnh khởi phát với nhiệt chứng, tiến triển theo Vệ, Khí, Dinh, Huyết hoặc trên xuống, phản ánh cân bằng giữa khí và tà. Thương hàn khởi phát với Phong, Hàn, Thử, Thấp, sau mới có nhiệt. Phép chẩn bệnh bằng nhiệt độ kinh lạc do Lê Văn Sứu phát minh năm 1983, đo nhiệt các kinh lạc để chẩn đoán bệnh lý, sinh lý, xác định lý nhiệt, biểu nhiệt, hàn, và phân tích dao động nhiệt để điều trị.",
+    "text": "Ôn bệnh và thương hàn khác nhau về khởi phát, diễn biến và cơ chế: ôn bệnh khởi phát với nhiệt chứng, tiến triển theo Vệ, Khí, Dinh, Huyết hoặc trên xuống, phản ánh sự đối đầu giữa khí và tà; thương hàn khởi phát với phong, hàn, thử, thấp, sau mới xuất hiện nhiệt. Phép chẩn bệnh bằng nhiệt độ kinh lạc do Lê Văn Sứu phát minh năm 1983, kết hợp y học cổ truyền với công nghệ hiện đại, dùng để chẩn đoán bệnh bằng đo nhiệt các kinh lạc, phân tích lý, biểu nhiệt, hàn và dao động nhiệt để xác định nguyên nhân bệnh.",
     "children": [
       "book1:book1:83",
       "book2:book2:459",
@@ -2144,9 +2144,9 @@
     }
   },
   {
-    "node_id": "lvl1-1ace9b31",
+    "node_id": "lvl1-1941e425",
     "level": 1,
-    "text": "Giai đoạn khí phận có nhiệt tà sâu, biểu hiện sốt, sợ nóng, khát nước, tiêu chảy, mót rặn, lưỡi đỏ, rêu vàng. Chia thành các thể như phế nhiệt, vị nhiệt, nhiệt kết. Nhiệt và thấp kết hợp gây rối loạn tiêu hóa, sốt cao, phát ban. Có hàn nhiệt lẫn lộn, chân giả hàn nhiệt khó phân biệt. Âm hư dẫn đến nội nhiệt, biểu hiện mồ hôi trộm, khô miệng, tiểu đỏ, mạch tế sác. Chẩn đoán cần kết hợp triệu chứng, mạch, lưỡi và bệnh sử.",
+    "text": "Giai đoạn khí phận có nhiệt tà sâu, biểu hiện sợ nóng, sốt, khát nước, phiền táo, ho đờm vàng, tiểu đỏ, lưỡi đỏ, mạch sác. Phân biệt thể nhiệt: Phế, Hung cách, Vị, Nhiệt kết trường phủ. Nhiệt gây rối loạn tiêu hóa, sốt cao, tiêu chảy, mót rặn, phát ban. Có thể gặp hàn nhiệt lẫn lộn, chân giả hàn hoặc chân giả nhiệt. Bệnh lý nhiệt không luôn có sốt cao, hàn cũng có sốt. Âm hư dẫn đến nội nhiệt, biểu hiện mệt, khô, tiểu đỏ, lưỡi hồng, mạch tế sác.",
     "children": [
       "book1:book1:91",
       "book1:book1:153",
@@ -2206,9 +2206,9 @@
     }
   },
   {
-    "node_id": "lvl1-9f02e177",
+    "node_id": "lvl1-0db3d064",
     "level": 1,
-    "text": "Phong hàn tà gây đau đầu, nghẹt mũi, khó thở, ho, đồm loãng. Phế khí hư dẫn đến thở ngắn, ho yếu, phù mặt. Thận hư gây tay chân lạnh, mỏi gối, đau lưng, di tinh, vô kinh. Can hư ảnh hưởng đến mắt, thị lực, tâm trí, gây khó tập trung, cáu gắt. Tâm-Thận mất giao dẫn đến hồi hộp, mất ngủ, ù tai, nóng mặt. Các triệu chứng phản ánh mất cân bằng âm-dương, khí huyết, mạch hư thực.",
+    "text": "Phong hàn tà gây đau đầu, nghẹt mũi, khó thở, ho, đồm loãng. Phế hư dẫn đến thở ngắn, ho yếu, phù mặt. Thận hư gây tay chân lạnh, mỏi gối, đau lưng, di tinh, vô kinh. Can hư ảnh hưởng đến mắt, tâm trí, đau vùng hông, đầu. Tâm-Thận không giao gây hồi hộp, mất ngủ, ù tai. Các triệu chứng phản ánh mất cân bằng âm-dương, khí huyết, mạch hư hoặc thực.",
     "children": [
       "book1:book1:143",
       "book1:book1:207",
@@ -2268,9 +2268,9 @@
     }
   },
   {
-    "node_id": "lvl1-d003f407",
+    "node_id": "lvl1-ef303ed2",
     "level": 1,
-    "text": "Tỳ vận hóa kém gây chán ăn, tiêu chảy, tay chân nặng, buồn ngủ, nước miếng nhớt. Can điều hòa tâm thần, rối loạn gây bực bội, khó ngủ, đau ngực, mất ngủ, đờm trọc, mất trí. Tâm huyết uất trệ gây đau đầu, hồi hộp, tê bì. Tâm âm/huyết hư dẫn đến mệt mỏi, ngủ ít, sợ hãi. Tâm dương hư gây lạnh, hồi hộp, mồ hôi. Các triệu chứng liên quan đến suy nhược, thiếu máu, rối loạn thần kinh.",
+    "text": "Tỳ vận hóa kém gây chán ăn, tiêu chảy, tay chân nặng, nước miếng nhớt. Can điều tiết huyết và khí, rối loạn dẫn đến buồn ngủ, đau ngực, mất ngủ, mất trí. Tâm huyết uất trệ gây đau đầu, hồi hộp, mất ngủ. Tâm âm/huyết hư gây mệt mỏi, sợ hãi, ngủ ít. Tâm dương hư gây lạnh, hồi hộp, tay chân lạnh. Đàm hỏa hoặc đàm mê ảnh hưởng thần trí, gây mất ngủ, khóc cười thất thường. Các bệnh liên quan đến suy nhược, thiếu máu, rối loạn thần kinh.",
     "children": [
       "book1:book1:159",
       "book1:book1:308",
@@ -2338,9 +2338,9 @@
     }
   },
   {
-    "node_id": "lvl1-7860549a",
+    "node_id": "lvl1-5c891509",
     "level": 1,
-    "text": "Các đoạn nêu về bài thuốc An cung ngưu hoàng hoàn và các huyệt trị sốt, nhiệt kết, rối loạn thần kinh thị giác, viêm mũi, viêm amidan. Phân tích chức năng tạng phủ, đặc biệt Phế điều hòa khí và huyết. Trình bày các phương pháp châm cứu: phối hợp biểu – lý, khoá – chốt, du – mộ, điều trị bệnh như cận thị, mù đêm, viêm xoang, uốn ván. Nhấn mạnh cơ sở lý luận nội kinh và kinh nghiệm điều trị cụ thể.",
+    "text": "Các đoạn nêu về công thức và huyệt đạo điều trị bệnh, phân loại bệnh ngoại tà vào tạng phủ, chức năng Phế trong điều hòa khí huyết, phương pháp châm cứu như phối hợp biểu-lý, khoá-chốt, du-mộ. Chỉ định huyệt trị chứng như sốt, tiểu không hết, cận thị, viêm mũi, đau đầu, tê bại. Nhấn mạnh nguyên lý cân bằng khí huyết, điều hòa tạng phủ, và ứng dụng huyệt theo cơ sở lý luận Đông y.",
     "children": [
       "book1:book1:167",
       "book1:book1:192",
@@ -2384,9 +2384,9 @@
     }
   },
   {
-    "node_id": "lvl1-0e4b3bbc",
+    "node_id": "lvl1-0adb04aa",
     "level": 1,
-    "text": "Tỳ, Thận dương hư gây tiêu chảy, đau lưng, mệt mỏi, chân tay lạnh. Tiểu trường hỗ trợ khí hóa dịch, bảo vệ cơ thể qua kinh Thái dương. Bệnh hư hàn ở tiểu trường biểu hiện đau bụng, tiêu chảy, tiểu nhiều, tay chân lạnh. Phế và đại trường tương tác qua quan hệ túc giáng, ảnh hưởng lẫn nhau trong điều hòa thủy dịch và đại tiện. Tâm khí hư, dương hư gây mất ngủ, mệt mỏi, ra mồ hôi. Các rối loạn đều cần điều trị cân bằng âm dương, khí huyết.",
+    "text": "Tỳ Thận dương hư gây tiêu chảy, phân lỏng, mệt mỏi, lạnh chân tay. Tiểu trường điều hòa hỏa tâm, hóa dịch, bảo vệ cơ thể qua kinh Thái dương. Phế và Đại trường tương tác qua quan hệ túc giáng và vận hóa, ảnh hưởng lẫn nhau trong điều tiết khí và dịch. Bệnh lý liên quan đến hàn, hư dương, hoặc thực nhiệt cần điều trị phối hợp theo nguyên nhân và triệu chứng cụ thể.",
     "children": [
       "book1:book1:176",
       "book1:book1:356",
@@ -2412,9 +2412,9 @@
     }
   },
   {
-    "node_id": "lvl1-b5f487a1",
+    "node_id": "lvl1-851723b7",
     "level": 1,
-    "text": "Các đoạn văn trình bày mối liên hệ nhân quả giữa hội chứng và triệu chứng trong y học cổ truyền. Các ý chính bao gồm: âm hư sinh nội nhiệt gây sốt, khí hư dẫn đến khí trệ, huyết ứ, chân tay lạnh, phù thũng; các huyệt và dược liệu được chọn lọc dựa trên cơ chế điều hòa khí, huyết, âm, dương của từng kinh và tạng. Mối liên hệ nhân quả được xác định giữa nguyên nhân bệnh và biểu hiện lâm sàng, dựa trên lý luận về ngũ hành, chức năng tạng phủ và tác dụng dược lý.",
+    "text": "Các đoạn văn nêu rõ mối liên hệ nhân quả giữa hội chứng và triệu chứng trong y học cổ truyền. Các nguyên nhân (a) đều dẫn trực tiếp đến các triệu chứng (b) thông qua cơ chế sinh lý như âm hư sinh nội nhiệt, khí hư gây huyết ứ, khí trệ dẫn đến phù thũng, hoặc thiếu tinh huyết làm suy giảm chức năng tạng. Các huyệt và dược liệu được chọn lọc dựa trên chức năng điều hòa khí, huyết, âm, dương của từng kinh và tạng. Mối liên hệ giữa a và b luôn là nhân quả rõ ràng.",
     "children": [
       "book1:book1:186",
       "book1:book1:213",
@@ -2446,9 +2446,9 @@
     }
   },
   {
-    "node_id": "lvl1-75b488cc",
+    "node_id": "lvl1-0bb89e7e",
     "level": 1,
-    "text": "Các đoạn nêu về mục tiêu học tập trong bệnh học Phế - Đại trướng và Bệnh học Can - Đởm, bao gồm giải thích cơ sở lý luận của các hội chứng, pháp trị, thành phần bài thuốc và công thức huyệt. Các bảng ghi rõ chức năng, vị trí, giao hội của huyệt, phân loại theo dương, âm kinh, với mục đích tra cứu trong châm cứu. Nội dung tập trung vào nguyên nhân, cơ chế bệnh sinh, triệu chứng và phương pháp điều trị theo y học cổ truyền.",
+    "text": "Các đoạn nêu mục tiêu học tập về hội chứng bệnh tạng Can, Đởm; giải thích nguyên nhân, cơ chế sinh bệnh và pháp trị; nêu thành phần, cấu tạo bài thuốc và công thức huyệt theo lý luận Đông y. Bảng huyệt giao hội ở dương và âm kinh được trình bày chi tiết với thông tin về vị trí, chức năng và mối liên hệ.",
     "children": [
       "book1:book1:188",
       "book1:book1:304",
@@ -2494,9 +2494,9 @@
     }
   },
   {
-    "node_id": "lvl1-5f3ef835",
+    "node_id": "lvl1-3e8be3f7",
     "level": 1,
-    "text": "Dựa trên hậu thiên bát quái, các tạng phủ và phủ được tương ứng với các quẻ: Phế (Đoài) điều hòa khí, dễ bị ngoại tà xâm nhập; Đại trường (Cấn) và Vị (Cấn) cùng có tính yên tĩnh, Vị bảo vệ Tỳ; Thận (Khảm) là nguồn sống, chủ thủy, giữ tinh khí; Can (Chấn) khởi động, chủ mùa xuân; Tâm (Ly) mang tính sáng, minh mẫn; Tiểu trường (Kiền) tương tác với Tâm, phân biệt âm dương. Các tạng liên kết qua chức năng và quan hệ sinh lý, phản ánh hệ thống cân bằng âm dương, ngũ hành trong cơ thể.",
+    "text": "Dựa trên hậu thiên bát quái, các tạng phủ được tương ứng với quẻ: Phế (Đoài) điều hòa khí, dễ bị ngoại tà xâm nhập; Đại trường (Cấn) và Vị (Cấn) hỗ trợ, che chở; Tỳ (Khôn) nuôi dưỡng, Vị hoàn thành; Thận (Khảm) là nguồn sống, giữ tinh khí; Can (Chấn) khởi động, chủ mùa xuân; Tâm (Ly) mang tính sáng, minh mẫn; Tiểu trường (Kiền) phân biệt âm dương. Các tạng liên kết qua tính chất tự nhiên, mùa vụ và mối quan hệ âm dương, tạo nền tảng lý luận trong Đông y.",
     "children": [
       "book1:book1:191",
       "book1:book1:218",
@@ -2552,9 +2552,9 @@
     }
   },
   {
-    "node_id": "lvl1-1fffde70",
+    "node_id": "lvl1-36f5a464",
     "level": 1,
-    "text": "Phế điều hòa tạng phủ, thông thủy đạo, liên quan đến mũi, da lông và hồn. Đại trường tổng hợp cặn bã, liên quan với Phế trong điều trị bệnh. Thận chủ ý chí, liên quan với Tâm (thần-chí), Phế (nạp khí), Can (chí-ý). Tâm là quân chủ, chủ thần minh, tàng thần, chủ huyết mạch, ảnh hưởng đến huyết và thần minh. Tâm và Phế tương tác qua khí-huyết, tạo sự cân bằng thủy hỏa với Thận.",
+    "text": "Phế điều hòa tạng phủ, thông thủy đạo, liên quan đến mũi, da lông, hồn. Đại trường tổng hợp cặn bã, tương quan với Phế trong bệnh lý. Thận chủ ý chí, liên quan với Tâm (thủy - hỏa ký tế), Can, Phế. Tâm là quân chủ, chủ thần minh, tàng thần, chủ huyết mạch, biểu hiện qua lưỡi và sắc mặt. Tâm và Phế tương khắc, Tâm sinh Tỳ, khắc Phế. Huyết và khí hỗ trợ hoạt động tạng phủ, giữ sức sống toàn thân.",
     "children": [
       "book1:book1:193",
       "book1:book1:194",
@@ -2618,9 +2618,9 @@
     }
   },
   {
-    "node_id": "lvl1-fcbd9ad1",
+    "node_id": "lvl1-7642cb79",
     "level": 1,
-    "text": "Tỳ, Thận liên quan qua ngũ hành và Kinh dịch, ảnh hưởng lẫn nhau trong tiêu hóa, khí hóa nước và chức năng bàng quang. Tỳ khí hư hạ hãm biểu hiện bằng rối loạn tiêu hóa, đi cầu phân sống; điều trị bằng bổ trung ích khí. Thận dương hư gây mệt mỏi, sợ lạnh, phù thũng; điều trị bằng Tứ thần hoàn, Chân vũ thang. Tỳ – Thận dương hư dẫn đến đầy bụng, tiêu hóa kém. Các bệnh liên quan đến Tỳ – Vị bao gồm rối loạn tiêu hóa, can vị bất hòa, bàng quang hư hàn. Châm cứu điều trị bằng các huyệt như Khí hải, Chương môn, Trung quản, Thủy phân.",
+    "text": "Tỳ, Thận liên quan qua ngũ hành và Kinh dịch, ảnh hưởng lẫn nhau trong tiêu hóa, khí hóa nước, và điều hòa nước tiểu. Tỳ khí hư hạ hãm biểu hiện bằng rối loạn tiêu hóa, đi cầu phân sống; điều trị bằng bổ trung ích khí. Tỳ, Thận dương hư gây sợ lạnh, tiêu hóa kém; dùng Hữu quy ẩm, Tứ thần hoàn. Thận dương hư thủy tràn dẫn đến phù thũng, đau lưng; điều trị bằng Tế sinh thận khí hoàn. Bàng quang hư hàn gây đái dầm, sờ lạnh; dùng Tang phiêu tiêu tán. Châm cứu hỗ trợ điều trị các chứng trung khí hạ hãm, suy nhược, phù thũng.",
     "children": [
       "book1:book1:195",
       "book1:book1:233",
@@ -2650,9 +2650,9 @@
     }
   },
   {
-    "node_id": "lvl1-d62860b0",
+    "node_id": "lvl1-015acc48",
     "level": 1,
-    "text": "Phế chủ khí, phối hợp với Tâm để điều hòa khí huyết, thiếu khí hoặc huyết sẽ ảnh hưởng đến hô hấp và tuần hoàn. Tỳ vận hóa thủy cốc, yếu dẫn đến đầy bụng, tiêu chảy, mệt mỏi. Can chủ tiết khí, tàng huyết, điều tiết gân khớp và thị lực; hư gây đau, mờ mắt, xuất huyết. Đàm liên quan đến sườn đau, đắng miệng, nôn. Tâm – Phế, Tâm – Can có quan hệ tương hỗ, khi một hư sẽ ảnh hưởng đến kia. Tỳ, Vị phối hợp trong tiêu hóa, rối loạn gây đầy, nôn, mất khí.",
+    "text": "Phế chủ khí, điều hòa hô hấp và khí huyết; rối loạn gây ho, thiếu sức, cảm cúm, triệu chứng tại mũi và phế. Tâm chủ huyết, phối hợp với Phế để duy trì tuần hoàn khí huyết; Tâm hỏa vượng gây ho, mất ngủ, huyết ứ. Tỳ vận hóa thủy cốc, yếu dẫn đến đầy bụng, nôn, suy dinh dưỡng. Can chủ tiết khí, tàng huyết, điều tiết gân khớp, mắt, móng; hư gây đau, mờ mắt, xuất huyết. Đàm liên quan đến sườn đau, đắng miệng, nôn đắng. Tỳ và Vị phối hợp vận hóa, rối loạn gây tiêu hóa, đầy bụng, suy khí.",
     "children": [
       "book1:book1:196",
       "book1:book1:226",
@@ -2712,9 +2712,9 @@
     }
   },
   {
-    "node_id": "lvl1-0c33b8ed",
+    "node_id": "lvl1-a3777554",
     "level": 1,
-    "text": "Hàn chứng thể hiện bằng sợ lạnh, chân tay lạnh, miệng nhạt, tiểu dài, đại lỏng, lưỡi trắng nhạt, mạch trầm trì. Nhiệt chứng nhận biết qua miệng khát, ưa mát, lưỡi đỏ, rêu vàng, mạch sác. Phân biệt bằng biểu hiện miệng, tiểu tiện, sắc mặt, lưỡi và mạch. Huyền hàn (dương hư) có triệu chứng mệt, lạnh, lưỡi nhạt, mạch nhược. Chứng chân hàn giả nhiệt có biểu hiện nhiệt bề ngoài nhưng bản chất hàn. Lưỡi trắng nhạt cho thấy hàn hoặc hư, đỏ sẫm cho thấy nhiệt sâu, nứt hoặc gai nhọn chỉ âm hư hoặc nhiệt nội kết.",
+    "text": "Hàn chứng biểu hiện bằng sợ lạnh, chân tay lạnh, miệng nhạt, tiểu dài, đại lỏng, lưỡi trắng nhạt, mạch trầm trì. Nhiệt chứng thấy miệng khát, hôi, lưỡi hồng, rêu vàng, mạch sác. Phân biệt bằng khẩu khát, cảm lạnh, đại tiểu tiện, sắc mặt, lưỡi và mạch. Dương hư gây hàn do dương khí suy, biểu hiện mệt, lạnh, lưỡi nhạt, mạch nhược. Rêu trắng – hàn, vàng – nhiệt; lưỡi đỏ sẫm – nhiệt sâu, tím – huyết ứ hoặc hàn. Các dấu hiệu lưỡi giúp xác định thực hư, mức độ và tiến triển bệnh.",
     "children": [
       "book1:book1:201",
       "book2:book2:522",
@@ -2792,9 +2792,9 @@
     }
   },
   {
-    "node_id": "lvl1-8f8214b1",
+    "node_id": "lvl1-7b9726ec",
     "level": 1,
-    "text": "Bệnh phế thận âm hư do nội thương, sốt kéo dài gây ho khan, đờm ít, họng khô, đau lưng, di tinh. Thận dương hư dẫn đến tay chân lạnh, tiêu chảy, tiểu nhiều, tiểu không tự chủ. Thận khí bất túc gây thở khó, tiểu nhiều, mệt mỏi, đau lưng. Thận dương hư kết hợp với thủy tràn gây phù, tiểu ít, tiêu chảy. Can thận âm hư gây đau đầu, nóng trong người, mất ngủ, rối loạn kinh nguyệt. Các bài thuốc như Bát tiên thang, Chân vũ thang, Lục vị quy thuộc thang được dùng để bổ âm, ôn dương, điều hòa chức năng tạng.",
+    "text": "Bệnh phế thận âm hư do nội thương, sốt kéo dài gây ho khan, đờm ít, họng khô, đau lưng, di tinh. Thận khí bất túc dẫn đến tiểu nhiều, thở khó, tiêu hóa rối loạn. Thận dương hư gây tay chân lạnh, tiêu chảy, di tinh, tiểu không tự chủ. Can thận âm hư làm xuất hiện đau đầu, nóng trong người, mất ngủ, rối loạn kinh nguyệt. Các bệnh liên quan đến rối loạn âm, nhiệt, tiêu hóa, thần kinh, tiểu đường, suy thận. Điều trị bằng bổ âm, ôn dương, tư bổ Can thận.",
     "children": [
       "book1:book1:204",
       "book1:book1:241",
@@ -2848,9 +2848,9 @@
     }
   },
   {
-    "node_id": "lvl1-28931741",
+    "node_id": "lvl1-fa3737c7",
     "level": 1,
-    "text": "Tỳ và Vị vận hóa, tiêu hóa thức ăn, phân bố tinh khí đến các tạng phủ; Tỳ tàng trữ và thống nhiếp huyết. Vị chủ giáng, Tỳ chủ thăng. Bàng quang chứa và thải nước tiểu, liên quan mật thiết với Thận, Phế, Can, Tâm. Tiểu trường phân biệt thanh trọc, tách thủy dịch và cặn bã. Tinh là cơ sở sống, sinh dục và đề kháng. Huyết và tân dịch sinh ra từ thức ăn, nuôi dưỡng cơ thể, duy trì hoạt động sống. Nguyên khí là nguồn gốc sinh hóa, điều khiển mọi hoạt động trong cơ thể.",
+    "text": "Tỳ và Vị vận hóa thức ăn, tiêu hóa và phân bố tinh khí đến các tạng phủ, với Tỳ chủ thăng, Vị chủ giáng. Tỳ tàng trữ, sinh huyết, thống nhiếp huyết; Vị thu nạp và tiêu hóa. Tiểu trường phân biệt thanh trọc, đưa tinh chất đến tạng, cặn bã đến bàng quang. Bàng quang chứa và bài tiết nước tiểu, liên quan mật thiết với Thận, Can, Phế, Tâm. Tinh là cơ sở sống, nguyên khí là nguồn gốc sinh hóa, huyệt và tân dịch nuôi dưỡng cơ thể, đều xuất phát từ thủy cốc và vận hành qua các tạng phủ.",
     "children": [
       "book1:book1:221",
       "book1:book1:261",
@@ -2906,9 +2906,9 @@
     }
   },
   {
-    "node_id": "lvl1-06f750f4",
+    "node_id": "lvl1-d79ca91a",
     "level": 1,
-    "text": "Tỳ thổ tương khắc với Can mộc, sinh với Tâm hỏa và Phế kim, khắc với Thận thủy. Tỳ chủ điều hòa khí huyết, hỗ trợ Phế trong tiết dịch, ảnh hưởng đến tiêu hóa và chức năng cơ thể. Can chủ sơ tiết, điều tiết khí huyết, liên quan mật thiết với Đởm. Phế điều hòa thủy dịch, bảo vệ cơ thể, liên hệ với da và mũi. Các phương pháp chữa bệnh khác nhau tùy theo vùng địa lý và khí hậu, phản ánh sự phối hợp giữa thiên nhiên và y học cổ truyền. Thận là nền tảng sống, cần được bảo vệ để giữ gìn khí huyết và sức khỏe lâu dài.",
+    "text": "Tỳ thổ tương khắc với Can mộc, sinh với Tâm hỏa và Phế kim, khắc với Thận thủy. Tỳ hư gây tiêu chảy, phù nề, mất ngủ. Can chủ sơ tiết, điều hòa khí huyết, liên quan với Đởm. Phế khí điều hòa thủy dịch, bảo vệ da, điều tiết khí mũi. Các phương pháp chữa bệnh khác nhau theo vùng địa lý, phản ánh sự tương tác giữa thiên nhiên và cơ thể. Thận là nguồn gốc sống, cần giữ gìn để tránh bệnh. Dưỡng tàng khí, tĩnh tâm, điều hòa khí huyết là nền tảng cho sức khỏe lâu dài.",
     "children": [
       "book1:book1:222",
       "book1:book1:307",
@@ -2954,9 +2954,9 @@
     }
   },
   {
-    "node_id": "lvl1-c3df5596",
+    "node_id": "lvl1-c60d459e",
     "level": 1,
-    "text": "Tỳ, Vị điều hòa tiêu hóa, sản sinh huyết, rối loạn gây tiêu hóa, thiếu máu, xuất huyết, biểu hiện ở miệng, cơ thể, sinh dục. Thận chủ điều hòa nước tiểu, phân, âm dương, ảnh hưởng đến tai, nhị âm, tóc. Phế điều khiển tiếng nói, thở, ho, rối loạn do hàn, nhiệt, đàm. Đàm ẩm gây mê tâm, suyễn, ho, đờm. Các chứng bệnh liên quan đến khí, âm, nhiệt, đàm, được chẩn đoán và điều trị theo nguyên lý Đông Y.",
+    "text": "Tỳ, Vị điều hòa tiêu hóa, sản sinh huyết, rối loạn gây tiêu hóa, thiếu máu, xuất huyết, biểu hiện ở miệng, cơ thể, sinh dục. Thận điều hòa nước tiểu, phân, âm dương, ảnh hưởng đến thính giác, nhị âm, tóc. Phế liên quan đến tiếng nói, thở, ho, rối loạn do hàn, nhiệt. Đàm ẩm gây mê tâm, suyễn, đờm nóng, cần điều trị bằng thanh hỏa, hóa đàm, ôn phế, khử hàn.",
     "children": [
       "book1:book1:224",
       "book1:book1:259",
@@ -3000,9 +3000,9 @@
     }
   },
   {
-    "node_id": "lvl1-991cba10",
+    "node_id": "lvl1-e7567934",
     "level": 1,
-    "text": "Bài thuốc Đông y điều trị theo pháp bổ, thanh, dựa vào triệu chứng và lý pháp ngũ hành. Các bài như Phụ tử lý trung thang, Quy tỳ thang, Tứ nghịch thang bổ dương, Lục vị địa hoàng hoàn điều trị chứng âm hư, dương hư. Vị thuốc được chọn theo vai trò quân, thần, tá, cân bằng giữa bổ và tả. Phương pháp đối chứng linh hoạt nhưng dễ mất cân đối. Các bài thuốc tuân thủ quy luật sinh khắc, điều trị bệnh nội thương theo nguyên lý cân bằng âm dương.",
+    "text": "Bài thuốc Đông y điều trị rối loạn kinh nguyệt, thiếu máu, rối loạn tâm tỳ dựa trên nguyên lý bổ âm, bổ dương, cân bằng ngũ hành. Các bài thuốc như Phụ tử lý trung thang, Quy tỳ thang, Tứ nghịch thang, Lục vị địa hoàng hoàn được dùng theo chứng bệnh và lý pháp. Phương pháp điều trị theo triệu chứng linh hoạt nhưng dễ mất cân bằng. Các vị thuốc được phối hợp theo quy luật sinh khắc, đảm bảo bổ âm, bổ dương, kiện tỳ, an thần, trừ hàn, thanh nhiệt.",
     "children": [
       "book1:book1:238",
       "book1:book1:315",
@@ -3026,9 +3026,9 @@
     }
   },
   {
-    "node_id": "lvl1-be545d90",
+    "node_id": "lvl1-ee16358c",
     "level": 1,
-    "text": "Đởm tàng trữ và tiết ra dịch, liên quan đến tiêu hóa, không trực tiếp giao tiếp với ngoại giới. Can và Đởm điều hòa vận động cơ thể, tinh thần, với Can chủ vận động, điều tiết huyết lượng. Các tạng phủ có chức năng tương ứng với hệ tiêu hóa, hô hấp, tuần hoàn, thần kinh, nội tiết. Biểu hiện rối loạn Can bao gồm căng thẳng, tăng trương lực cơ. Bệnh chứng Can liên quan đến sườn đau, viêm gan, hen suyễn, phế khí hư. A thị huyệt dùng điều trị các chứng đau nông. Biểu lý phân biệt bệnh nông sâu, nặng nhẹ.",
+    "text": "Đởm tàng trữ và tiết ra chất dịch, tham gia tiêu hóa nhưng không trực tiếp tương thông với ngoại giới. Can và Đởm liên quan đến vận động cơ thể, thần kinh và tinh thần, rối loạn gây căng thẳng, tăng trương lực cơ. Can âm bất túc dẫn đến đau sườn, mất ngủ, viêm gan, viêm phế. Phế chủ khí, Thận nạp khí, hỗ trợ hô hấp và sinh dục. Các bệnh tạng được phân tích theo biểu lý, triệu chứng và điều trị bằng phương thuốc phù hợp.",
     "children": [
       "book1:book1:311",
       "book2:book2:518",
@@ -3068,9 +3068,9 @@
     }
   },
   {
-    "node_id": "lvl1-14d90f67",
+    "node_id": "lvl1-62ec3fc0",
     "level": 1,
-    "text": "Tâm và Tiểu trường có quan hệ biểu lý, cùng thuộc tính nóng, sáng (hỏa), ảnh hưởng lẫn nhau qua nhiệt và huyết. Tâm nhiệt có thể di truyền sang Tiểu trường, gây tiểu tiện đỏ, ra máu. Tiểu trường phân biệt thức ăn thành \"trong\" và \"đục\", điều hòa tiêu hóa và bài tiết. Mối quan hệ này thể hiện qua các triệu chứng như lưỡi đỏ, mất ngủ, tiểu tiện bất thường. Cả hai tạng đều liên quan đến thần kinh, tuần hoàn và chức năng sinh lý cơ bản.",
+    "text": "Tâm và Tiểu trường có quan hệ biểu lý, cùng thuộc tính nóng, sáng (hỏa), ảnh hưởng lẫn nhau. Tâm nhiệt có thể di nhiệt sang Tiểu trường, gây tiểu tiện đỏ, ra máu, lưỡi đỏ, miệng lở. Tiểu trường phân biệt thức ăn thành \"trong\" và \"đục\", vận chuyển đến Tỳ hoặc Đại trường. Mối quan hệ này thể hiện qua kinh lạc, ảnh hưởng đến chức năng thần kinh, tiêu hóa và tuần hoàn. Bệnh lý liên quan đến rối loạn tinh thần, huyết động và tiểu tiện bất thường.",
     "children": [
       "book1:book1:354",
       "book1:book1:367",
@@ -3100,9 +3100,9 @@
     }
   },
   {
-    "node_id": "lvl1-3054fd2e",
+    "node_id": "lvl1-0c298c0d",
     "level": 1,
-    "text": "Tâm bào và Tam tiêu phối hợp chặt chẽ, bệnh chủ yếu do thủy khí vận chuyển kém. Thượng tiêu liên quan đến Tâm, Phế; trung tiêu đến Tỳ, Vị; hạ tiêu đến Can, Thận, Đại, Tiểu trường. Triệu chứng gồm suyễn, đầy bụng, phù nề, đái khó, tiêu chảy, sa dạ con. Nguyên nhân: ăn uống không điều độ, tà khí, hư thực. Điều trị dựa trên huyệt đạo, phân biệt hư thực, bổ hoặc tả khí, tăng chức năng tiêu hóa và điều hòa tạng phủ.",
+    "text": "Tâm, Phế, Tỳ, Vị, Can, Thận liên quan mật thiết đến chức năng Tam tiêu. Bệnh do thủy khí vận chuyển kém, gây suyễn, đầy bụng, phù nề. Triệu chứng phân biệt theo hư hoặc thực: hư hàn gây đau, đầy, tiêu lỏng; thực nhiệt gây trướng, tiểu khó. Ăn uống không điều độ làm rối loạn tạng phủ. Long bế, đái dầm, sa dạ con do thận, bàng quang, khí huyết yếu hoặc tà khí. Tiểu nhiều, khát, sút cân là tiểu đường; tiểu buốt là phong nhiệt; đại tiện bí kết phân biệt âm – dương.",
     "children": [
       "book1:book1:365",
       "book1:book1:366",
@@ -3138,9 +3138,9 @@
     }
   },
   {
-    "node_id": "lvl1-51e8d74b",
+    "node_id": "lvl1-8f04a845",
     "level": 1,
-    "text": "Khi có thai, cấm dùng các thuốc như ba đậu, khẩn ngưu, đại kích, thương lục, tam thất, sa hương, nga truật, thủy diệt, manh trùng do chúng phá huyết hoặc tả hạ. Cần thận trọng với đào nhân, hồng hoa, bán hạ, đại hoàng, chỉ thực, phụ tử, can khương, nhục quế do tác dụng hoạt huyết hoặc nhiệt. Nữ tử bào liên quan mật thiết với thận và xung, ảnh hưởng đến kinh nguyệt và sinh sản. Trong chẩn đoán, quan sát thần sắc, lưỡi và đường văn ngón tay giúp nhận biết tình trạng bệnh. Các huyệt như hạ quan, trung quan, thượng quan điều trị đau dạ dày, tiêu hóa kém, nôn mửa, táo bón, mất ngủ. Châm cứu điều trị khó đẻ, táo bón sau đẻ và thiếu sữa dựa trên nguyên nhân khí huyết, thận hư hoặc rối loạn kinh mạch.",
+    "text": "Khi có thai, cấm dùng các thuốc như ba đậu, khẩn ngưu, đại kích, thương lục, tam thất, sa hương, nga truật, thủy diệt, manh trùng do chúng phá huyết hoặc tả hạ. Cần thận trọng với đào nhân, hồng hoa, bán hạ, đại hoàng, chỉ thực, phụ tử, can khương, nhục quế vì có thể gây tác dụng mạnh. Nữ tử bào liên quan mật thiết với thận và xung, ảnh hưởng đến kinh nguyệt và sinh sản. Đánh giá triệu chứng kinh nguyệt và sản dịch giúp chẩn đoán bệnh. Châm cứu ở vùng hạ, trung, thượng quan điều trị đau dạ dày, nôn mửa, táo bón, khó đẻ và thiếu sữa.",
     "children": [
       "book1:book1:438",
       "book1:book1:439",
@@ -3188,9 +3188,9 @@
     }
   },
   {
-    "node_id": "lvl1-5ecdf0ad",
+    "node_id": "lvl1-7ee814a7",
     "level": 1,
-    "text": "Tóm tắt:  \nCác đoạn đề cập đến nguyên lý dưỡng sinh theo Đông y, nhấn mạnh việc giữ mức độ ít (thập thiều) để tránh suy giảm chức năng tạng phủ. Cụ thể, ít lo nghĩ, cười, nói, uống rượu, giận, buồn, ham muốn, đói giúp bảo vệ tâm thần và khí huyết. Phương pháp chẩn trị dựa trên tạng phủ, phân tích triệu chứng và dùng các bài thuốc, huyệt pháp điều trị các bệnh về mặt, mắt, tai, răng, lưỡi. Các phương thuốc và huyệt vị được ghi rõ nhằm hỗ trợ chẩn đoán và điều trị cụ thể.",
+    "text": "Các đoạn nêu về nguyên lý dưỡng sinh theo Đông y, nhấn mạnh việc giữ mức độ ít trong các hành vi như lo nghĩ, cười, nói, uống rượu để tránh tổn hại thần khí. Đề cập đến biện chứng luận trị dựa trên tạng phủ, phân tích các bệnh theo Tây y và tương ứng với chứng bệnh trong Đông y. Cung cấp nhiều phương thuốc và các điểm huyệt điều trị cho các bệnh về mặt, tai, mắt, răng, lưỡi, giúp chẩn đoán và điều trị dứt điểm.",
     "children": [
       "book1:book1:444",
       "book2:book2:939",
@@ -3268,9 +3268,9 @@
     }
   },
   {
-    "node_id": "lvl1-7723d8df",
+    "node_id": "lvl1-2087a10f",
     "level": 1,
-    "text": "Châm cứu là phương pháp chữa bệnh cổ xưa, sử dụng kim hoặc ngải cứu kích thích huyệt vị để thông kinh, khử tà, điều hòa chức năng cơ thể. Phương pháp này đơn giản, dễ học, an toàn, hiệu quả rộng rãi với nhiều bệnh nội, ngoại, phụ khoa, nhi khoa. Chia thành bổ và tả tùy theo thể chất và bệnh tình. Dựa trên ngũ hành, châm cứu điều trị theo quan hệ sinh khắc giữa các tạng. Ứng dụng trong điều trị cảm mạo, đau đầu, ho, tiêu chảy, rối loạn thần kinh, và các bệnh nhiệt nhập tâm bào.",
+    "text": "Châm cứu là phương pháp chữa bệnh truyền thống, sử dụng kim hoặc ngải cứu kích thích huyệt vị để thông kinh hoạt lạc, khử tà. Phương pháp này có ưu điểm: giản tiện, dễ học, phạm vi rộng, an toàn. Chia thành bổ và tả tùy theo thể chất và bệnh tình. Dựa trên quan hệ ngũ hành, châm cứu điều trị nhiều bệnh như cảm mạo, ho, đau đầu, rối loạn thần kinh, tiêu hóa, phụ khoa, và các bệnh ngoài da. Có thể kết hợp với thuốc để tăng hiệu quả, đặc biệt trong điều trị các chứng nhiệt nhập tâm bào và bệnh cấp tính.",
     "children": [
       "book2:book2:448",
       "book2:book2:458",
@@ -3314,9 +3314,9 @@
     }
   },
   {
-    "node_id": "lvl1-9dbac690",
+    "node_id": "lvl1-40c19ae5",
     "level": 1,
-    "text": "Kinh lạc trong Đông y gồm 12 mạch chính và 8 mạch kỳ, dùng để chẩn đoán bệnh qua mạch tương. Mạch tương chia thành các loại như súc, kết, đại, nhu, nhược, vi, khâu, với đặc điểm về nhịp, độ mạnh, hình dạng phản ánh tình trạng khí, huyết, nhiệt. Mạch có thể xuất hiện đơn độc hoặc kết hợp, phản ánh bệnh lý về tim, thần kinh, nội tạng. Hệ thống mạch theo tứ tông (phù, trầm, trì, sác) giúp phân loại rõ ràng, dễ hiểu và ứng dụng trong chẩn trị.",
+    "text": "Kinh lạc là nền tảng trong chẩn đoán Đông y, gồm 12 kinh mạch và 8 mạch kỳ kinh. Phương pháp bắt mạch thực hiện tại mạch thốn khẩu, chia thành ba bộ: Thốn, Quan, Xích. Các mạch tương như súc, kết, đại, nhu, nhược, vi, khâu phản ánh trạng thái bệnh lý về khí, huyết, nhiệt, hàn. Mạch có đặc điểm riêng hoặc biến đổi theo điều kiện sinh lý, bệnh lý. Việc hệ thống hóa mạch theo tứ tông (phù, trầm, trì, sác) giúp dễ hiểu và ứng dụng trong chẩn đoán. Một số mạch kỳ quái biểu hiện bệnh không điều trị được, và việc cắt giảm mạch cổ truyền bị cho là đơn giản hóa, gây mất tinh hoa y học.",
     "children": [
       "book2:book2:449",
       "book2:book2:573",
@@ -3354,9 +3354,9 @@
     }
   },
   {
-    "node_id": "lvl1-1dacc355",
+    "node_id": "lvl1-3b584427",
     "level": 1,
-    "text": "Bài viết trình bày về chu kỳ tuần hành kinh khí theo 12 giờ, mối quan hệ giữa các tạng phủ và huyệt đạo, nhóm huyệt điều trị các bệnh tim, gan, tiêu hóa. Nhấn mạnh nguyên tắc bổ hư, khử tà, phối hợp huyệt theo bệnh tình. Đề cập mô hình chỉ số nhiệt kinh lạc, phương huyệt bổ khí huyết, chức năng của tam tiêu và các biểu hiện mạch. Các phương pháp châm cứu kết hợp với điều trị dược liệu theo sơ đồ dược hội.",
+    "text": "Bài viết trình bày về chu kỳ tuần hành kinh khí theo giờ, mối quan hệ giữa các tạng phủ và huyệt đạo, phương pháp châm cứu phối hợp với bệnh lý cụ thể. Nhấn mạnh nguyên tắc bổ hư làm chủ, khử tà phụ, dùng huyệt bổ như Tâm du, Tỳ du, Đảm du, Thần môn. Quan hệ giữa tam tiêu với các tạng phủ được phân tích theo thượng, trung, hạ. Các phương pháp châm cứu và thuốc cổ phương được đề xuất dựa trên triệu chứng và cơ địa bệnh nhân.",
     "children": [
       "book2:book2:453",
       "book2:book2:609",
@@ -3392,9 +3392,9 @@
     }
   },
   {
-    "node_id": "lvl1-8f36bd25",
+    "node_id": "lvl1-5de6b6d4",
     "level": 1,
-    "text": "Bệnh sốt thời khí được biện chứng theo 4 giai đoạn: vệ, khí, doanh, huyết, mỗi giai đoạn có biểu hiện cụ thể về sốt, mồ hôi, lưỡi, mạch và cơ quan bị ảnh hưởng. Vệ là giai đoạn đầu, biểu hiện sốt, sợ lạnh, đau đầu; khí có sốt cao, khát nước, miệng khô; doanh xuất hiện sốt về đêm, bứt rứt, ban chẩn, thần trí suy yếu. Biện chứng dựa vào rêu lưỡi, mạch và triệu chứng để phân biệt. Trị liệu chủ yếu thanh nhiệt, tránh dùng thuốc ôn, nhiệt, chú trọng bảo âm dịch, kết hợp Tây y.",
+    "text": "Bệnh sốt thời khí được biện chứng theo 4 giai đoạn: vệ, khí, doanh, huyết, mỗi giai đoạn có biểu hiện cụ thể về sốt, mạch, lưỡi, triệu chứng và cơ quan bị ảnh hưởng. Biện chứng dựa vào rêu lưỡi, chất lưỡi, triệu chứng để phân biệt vùng bệnh và mức độ nặng nhẹ. Trị liệu tập trung vào thanh nhiệt, giải biểu, hóa đàm, điều chỉnh âm dịch, tránh dùng thuốc ôn, nhiệt. Cần so sánh các biểu hiện sốt và kết hợp với Tây y để chẩn đoán và điều trị hiệu quả.",
     "children": [
       "book2:book2:456",
       "book2:book2:1002",
@@ -3434,9 +3434,9 @@
     }
   },
   {
-    "node_id": "lvl1-0f2a6bfd",
+    "node_id": "lvl1-534c86fe",
     "level": 1,
-    "text": "Các huyệt có cùng tên hoặc nhiều tên, mười ba quy huyệt. Phương Đông có địa hình và khí hậu đa dạng: ẩm do gió đông, khô do gió tây, nóng do gió nam, lạnh do gió bắc. Các phương thuốc như Quế chi thang, Đào thị hoàng long thang, Đại ôn trung ẩm, Thập vị sung hòa, Phúc lâm thang, Vạn phúc thang, Ngũ quân quy đậu được liệt kê với các dược liệu cụ thể.",
+    "text": "Các huyệt khác nhau nhưng cùng tên, một số huyệt có nhiều tên, tổng cộng 13 quy huyệt. Phương Đông có địa hình và khí hậu đa dạng: phía đông là Thái Bình Dương, phía tây là cao nguyên, phía nam nhiệt đới, phía bắc hành tinh lạnh. Khí hậu chịu ảnh hưởng của gió từ các hướng, tạo độ ẩm, nhiệt độ và lạnh khác nhau. Một số bài thuốc như Quế chi thang, Đào thị hoàng long thang, Đại ôn trung ẩm, Thập vị sung hòa, Phúc lâm thang, Vạn phúc thang và Ngũ quân quy đậu được liệt kê với các dược liệu cụ thể.",
     "children": [
       "book2:book2:460",
       "book3:book3:2037",
@@ -3496,9 +3496,9 @@
     }
   },
   {
-    "node_id": "lvl1-33ee0ac0",
+    "node_id": "lvl1-cf472583",
     "level": 1,
-    "text": "Khí hậu Phương Đông có sự biến đổi theo mùa: đông rét, hạ nóng, xuân ẩm, thu mát. Do chênh lệch nhiệt độ giữa lục địa và biển, hình thành gió mùa và bão mạnh, đặc biệt ở bắc Việt Nam và Nam Trung Quốc. Khí hậu ảnh hưởng đến sức khỏe, từng tạng phủ có mối quan hệ với mùa và ngày tháng. Bệnh dễ khỏi khi gặp mùa hoặc ngày sinh hành tương sinh, nặng khi gặp hành khắc, có thể tử vong hoặc kéo dài theo chu kỳ.",
+    "text": "Khí hậu Phương Đông biến động theo mùa: đông rét, hạ nóng, xuân ẩm, thu mát. Sự chênh lệch nhiệt độ giữa lục địa và biển gây gió mùa, dẫn đến bão dồn dập tại Bắc Việt và Nam Trung Quốc. Khí hậu ảnh hưởng đến sức khỏe, các tạng phủ có hành tương ứng với mùa sinh, khắc, sinh. Bệnh dễ khỏi khi gặp mùa hoặc ngày phù hợp, nặng khi gặp mùa khắc, có thể tử vong hoặc kéo dài theo chu kỳ.",
     "children": [
       "book2:book2:461",
       "book2:book2:462",
@@ -3526,9 +3526,9 @@
     }
   },
   {
-    "node_id": "lvl1-7f514ef3",
+    "node_id": "lvl1-834a395b",
     "level": 1,
-    "text": "Âm dương là hai mặt đối lập nhưng thống nhất, hỗ trợ nhau để duy trì sự sống. Thận tàng tinh, điều tiết nước, sinh tủy, xương, não và chứa mệnh môn hỏa. Thận liên quan mật thiết với các tạng phủ qua kinh lạc, giúp vận hành khí huyết và phản chiếu bệnh tật. Nguyên huyệt phản ánh bệnh tạng, dùng để điều trị. Ngũ hành thể hiện mối quan hệ tương sinh giữa tạng phủ và kinh lạc, hỗ trợ điều trị theo nguyên lý tương ứng.",
+    "text": "Âm dương tương hỗ, thống nhất để duy trì sự sống, âm sinh dương, dương sinh âm. Thận tàng tinh, chủ thủy, xương, tủy, não và mệnh môn hỏa. Thận điều hòa nước, sinh tủy, liên quan đến sinh sản và nội tiết. Kinh lạc vận hành khí huyết, điều hòa tạng phủ, phản ánh bệnh tật. Nguyên huyệt phản ánh bệnh tạng, dùng để điều trị. Ngũ hành tương ứng giữa tạng phủ và kinh lạc, hỗ trợ điều trị theo nguyên lý tương sinh, tương khắc.",
     "children": [
       "book2:book2:465",
       "book2:book2:482",
@@ -3562,9 +3562,9 @@
     }
   },
   {
-    "node_id": "lvl1-335f4eca",
+    "node_id": "lvl1-29feb1db",
     "level": 1,
-    "text": "Đông y dùng âm dương để chẩn đoán và điều trị, phân biệt chứng thực và hư, điều chỉnh cân bằng âm dương qua thuốc. Vấn chẩn gồm 10 nội dung cơ bản như nóng rét, ăn uống, đại tiện, đầu thân, bệnh cũ, nguyên nhân. Biện chứng tạng phủ kết hợp với Tây y để chẩn đoán chính xác, đặc biệt trong sốt cao và hôn mê. Cần kiểm tra triệu chứng, nguyên nhân, diễn biến, xét nghiệm, và đánh giá mức độ hôn mê để xử trí kịp thời.",
+    "text": "Đông y sử dụng âm dương để chẩn đoán và điều trị, phân biệt chứng thực và hư, điều chỉnh cân bằng âm dương qua thuốc và phương pháp. Vấn chẩn bao gồm 10 nội dung chính như nóng rét, mồ hôi, ăn uống, đại tiện, đầu thân, bệnh cũ, nguyên nhân, phản ứng thuốc, và đặc biệt với phụ nữ, trẻ em. Biện chứng tạng phủ giúp phân loại bệnh theo từng cơ quan. Với sốt cao và hôn mê, cần kiểm tra thời gian, nguyên nhân, triệu chứng toàn thân, phản xạ, và phối hợp xét nghiệm để chẩn đoán chính xác, đặc biệt khi bệnh cấp tính.",
     "children": [
       "book2:book2:470",
       "book2:book2:543",
@@ -3618,9 +3618,9 @@
     }
   },
   {
-    "node_id": "lvl1-0377d32a",
+    "node_id": "lvl1-f4ecc2a3",
     "level": 1,
-    "text": "Ngũ hành điều hòa quan hệ giữa các tạng, ảnh hưởng đến trạng thái sinh lý và bệnh lý. Sắc mặt phản ánh tình trạng tạng phủ: đỏ do phong, xanh do đau, trắng do hàn, vàng do tiêu hóa bất thường, đen do hư lao. Thận và bàng quang liên quan qua kinh lạc, Thận hư gây đái dầm, đái khó. Hoàng đản phân loại theo màu sắc nước tiểu, phân, bóng bọt và triệu chứng kèm theo. Vọng chẩn kết hợp sắc thái, hình thái để chẩn đoán bệnh.",
+    "text": "Ngũ hành điều hòa quan hệ giữa các tạng, ảnh hưởng đến sinh lý và bệnh lý. Sắc mặt phản ánh tình trạng tạng phủ: đỏ do phong, xanh do đau, trắng do hàn, vàng do tiêu hóa bất thường, đen do hư lao. Thận liên quan đến lông tóc, bàng quang và tiết niệu. Chẩn đoán dựa vào sắc thái, hình thái, triệu chứng kèm theo, phân biệt hoàng đản theo nước tiểu, phân và bóng bọt. Các biểu hiện sắc thái giúp nhận biết chứng bệnh sớm, mức độ nặng nhẹ.",
     "children": [
       "book2:book2:473",
       "book2:book2:506",
@@ -3670,9 +3670,9 @@
     }
   },
   {
-    "node_id": "lvl1-525c3e73",
+    "node_id": "lvl1-ca8b549f",
     "level": 1,
-    "text": "Tâm điều khiển tuần hoàn máu qua khí động, ảnh hưởng đến mạch và sắc mặt, lưỡi. Tâm-Thận tương giao, mất cân bằng gây rối loạn thần kinh và cơ thể. Chỉ văn phản ánh tình trạng máu, khí, phân biệt mức độ nặng nhẹ và bệnh lý nhiệt, hàn. Mạch phù, trầm chỉ biểu hoặc lý chứng, mạch trì, đoạn, trường cho biết bệnh hàn, nhiệt, khí huyết hư. Bối du huyệt cảm ứng bệnh tạng, chữa được nhiều chứng. Cảm giác đắc khí khi châm kim là dấu hiệu hiệu quả, tùy thể chất và kỹ thuật.",
+    "text": "Tâm điều khiển tuần hoàn máu qua khí động, ảnh hưởng đến mạch và sắc mặt, lưỡi. Tâm-Thận tương giao, mất cân bằng gây rối loạn thần kinh và cơ thể. Chỉ văn phản ánh tình trạng máu, khí, phân biệt nặng nhẹ, hàn nhiệt, hư thực. Mạch phù, trầm chỉ biểu hoặc lý chứng, mạch trì, đoạn, trường cho biết hàn, nhiệt, khí huyết hư. Bối du huyệt phản ánh bệnh tạng, chữa được các bệnh liên quan. Cảm giác đắc khí khi châm kim cho biết khí đạt huyệt, giúp điều trị hiệu quả.",
     "children": [
       "book2:book2:491",
       "book2:book2:510",
@@ -3724,9 +3724,9 @@
     }
   },
   {
-    "node_id": "lvl1-59dd6d36",
+    "node_id": "lvl1-84e546a4",
     "level": 1,
-    "text": "Thận chủ tàng tinh, khí hóa nước, nuôi xương, tóc và nạp khí. Thận âm hư gây mất ngủ, mồ hôi trộm, di tinh; thận dương hư dẫn đến yếu sinh dục, đái dầm, lạnh cơ thể. Thận và tâm tương tác qua thủy hỏa ký tế, cân bằng âm dương. Bệnh thận thường hư, ít thực chứng, trị bằng bổ dương, tư âm. Bàng quang liên quan đến thận, bệnh thấp nhiệt thanh lợi, hư hàn bổ dương. Thận điều hòa nước tiểu, sinh tinh, ảnh hưởng đến tai, sinh dục và thần kinh.",
+    "text": "Thận chủ tàng tinh, hóa nước, nạp khí, nuôi xương tóc và thông với não. Thận âm hư gây nhiệt, thận dương hư dẫn đến hàn. Tỳ và thận tương tác trong vận hóa nước; Tỳ hư làm Thận thủy rối loạn, gây phù thũng. Tâm – thận tương giao ban đêm, cân bằng âm – dương. Bệnh thận chủ yếu hư, trị bằng bổ dương, tư âm. Bàng quang liên quan đến thận, trị thấp nhiệt bằng thanh lợi, hư hàn bằng bổ thận dương.",
     "children": [
       "book2:book2:517",
       "book2:book2:989",
@@ -3760,9 +3760,9 @@
     }
   },
   {
-    "node_id": "lvl1-7d2ff831",
+    "node_id": "lvl1-93981a3b",
     "level": 1,
-    "text": "Âm dương mất cân bằng gây bệnh, cần điều trị kịp thời theo nguyên tắc cứu âm hoặc cứu dương. Bát cương biện chứng là cơ sở để phân biệt bệnh, kết hợp với tạng phủ biện chứng. Lòi dom do cơ yếu hoặc tập thở sai gây ra, điều trị bằng châm huyệt. Câm điếc do nguyên nhân tiên hay hậu thiên, chữa bằng châm huyệt tai, kết hợp nghe trước nói sau. Vấn chẩn giúp hiểu bệnh, khai thác thông tin cho chẩn đoán. Đo nhiệt độ kinh lạc đánh giá hoạt động tạng phủ, hỗ trợ chẩn đoán nhanh, chính xác.",
+    "text": "Âm dương mất cân bằng gây bệnh, cần điều trị kịp thời theo nguyên lý cứu âm hoặc cứu dương. Bát cương biện chứng hỗ trợ chẩn đoán nhưng cần kết hợp với tạng phủ. Lòi dom do cơ yếu hoặc tập thở sai, chữa bằng châm huyệt. Câm điếc phân loại theo nguyên nhân, chữa từ nghe đến nói, phối hợp huyệt gần và xa. Vấn chẩn giúp hiểu bệnh, kết hợp với các phương pháp chẩn đoán khác. Đo nhiệt độ kinh lạc đánh giá hoạt động tạng phủ, hỗ trợ chẩn đoán nhanh, chính xác.",
     "children": [
       "book2:book2:538",
       "book2:book2:1242",
@@ -3794,9 +3794,9 @@
     }
   },
   {
-    "node_id": "lvl1-510ef873",
+    "node_id": "lvl1-a933215a",
     "level": 1,
-    "text": "Đau đầu, ngực, bụng phân biệt theo tính chất, thời gian và nguyên nhân: đau dội là thực, đau kéo dài là hư. Đau sau ăn tăng là thực, giảm là hư. Đau cố định, sờ đau tăng là thực; đau lâm râm, sờ giảm là hư. Các vị trí đau liên quan đến tạng phủ: đầu – can, đảm; ngực – phế, tâm; bụng – vị, thận. Một số huyệt trị đau dạ dày, lưng, bụng, tê liệt, rối loạn tiết niệu và bệnh tinh thần. Mộ huyệt phản ánh kết tụ khí tạng, dùng điều trị bệnh cụ thể theo tạng.",
+    "text": "Đau đầu, ngực, bụng được phân tích theo tính chất, thời gian và nguyên nhân: đau dội là thực, đau kéo dài là hư; đau sau ăn tăng là thực, giảm là hư. Đau ở đầu, ngực, bụng liên quan đến phong, hàn, nhiệt, huyết, khí. Các kinh lạc điều trị bệnh về phế, thận, tâm, vị, bàng quang, đau cơ xương, tiêu hóa và tinh thần. Mộ huyệt là nơi khí tạng kết tụ, dùng để điều trị các bệnh cụ thể của tạng phủ.",
     "children": [
       "book2:book2:546",
       "book2:book2:612",
@@ -3892,9 +3892,9 @@
     }
   },
   {
-    "node_id": "lvl1-29e6b395",
+    "node_id": "lvl1-32938e99",
     "level": 1,
-    "text": "Phép vọng chẩn nhận diện bệnh giun đũa qua các biểu hiện trên lưỡi, môi, mạc miệng. Các dấu hiệu như ban đỏ trên lưỡi, nốt xám trên môi dưới, ban xanh chàm hoặc trắng trên mặt lưới là dấu hiệu dương tính. Phương pháp này đơn giản, hiệu quả cao so với xét nghiệm phân. Ngoài ra, các triệu chứng như tay chân lạnh, sốt cao, co giật, đau đầu, khó thở cũng được quan sát để chẩn đoán bệnh. Chẩn đoán dựa vào biểu hiện lâm sàng, kiểm tra mạch, nhịp thở, huyết áp và các dấu hiệu thần kinh.",
+    "text": "Phép vọng chẩn giúp chẩn đoán bệnh giun đũa qua các thể chứng như ban đỏ trên lưỡi, nốt xám trên môi, ban xanh chàm và ban trắng trên mặt lưới. Phương pháp này đơn giản, hiệu quả, tỷ lệ đúng cao so với xét nghiệm phân. Ngoài ra, các dấu hiệu như tay chân lạnh, sốt cao, co giật, đau đầu, thở dồn, hoặc các triệu chứng viêm nhiễm cũng được quan sát để chẩn đoán bệnh. Chẩn đoán dựa trên quan sát lâm sàng, kiểm tra mạch, nhịp thở, sắc mặt và các triệu chứng kèm theo, kết hợp với phương pháp lấy huyệt theo kinh lạc.",
     "children": [
       "book2:book2:554",
       "book2:book2:595",
@@ -3928,9 +3928,9 @@
     }
   },
   {
-    "node_id": "lvl1-89f0d88f",
+    "node_id": "lvl1-e5adf771",
     "level": 1,
-    "text": "Xem văn ngón tay giúp chẩn đoán bệnh ở trẻ em dưới 3 tuổi thông qua màu sắc và độ chứa máu của tĩnh mạch. Phân chia ngón tay thành phong, khí, mệnh quan, với các biểu hiện như văn nổi, chìm, xanh, đen cho biết chứng hàn, đau, ứ huyết. Chẩn mạch dùng ba lực: phù, trung, trầm, phân biệt tạng phủ qua mạch bên trái và phải. Đo thốn bằng ngón tay hoặc cốt độ pháp để lấy huyệt, với các huyệt như Liệt khuyết, Thương dương, Giải khê, Xung dương có vị trí cụ thể, cách châm và chủ trị bệnh lý liên quan.",
+    "text": "Xem văn ngón tay ở trẻ em giúp chẩn đoán bệnh qua màu sắc và độ chứa máu, với ba đốt phân biệt phong, khí, mệnh quan. Mạch được đo bằng ba phương pháp: phù thủ, trung thủ, trầm thủ, phân biệt tạng phủ qua mạch trái và phải. Các cách lấy huyệt bao gồm tự nhiên, đo thốn tay hoặc cốt độ. Mỗi huyệt có vị trí, cách lấy, tác dụng và phối hợp điều trị cụ thể.",
     "children": [
       "book2:book2:569",
       "book2:book2:574",
@@ -3980,9 +3980,9 @@
     }
   },
   {
-    "node_id": "lvl1-9276d34d",
+    "node_id": "lvl1-a8670ea5",
     "level": 1,
-    "text": "Mạch sáp: huyết thiếu, huyết ứ, khí trệ, điện tâm đồ có đường truyền ngưng trệ. Mạch hoạt: đờm thấp, ho, ngực buồn, mạch trơn. Mạch hồng: nhiệt thịnh, sốt, khát, mồ hôi. Mạch huyền: đau, phong, ẩm, âm hư. Mạch khẩn: hàn, đau, phong hàn. Mạch tán: hư nguyên khí, tiền sản, bệnh mãn tính, cần điều trị sớm. Mạch phù: mạch nổi cao, mạch đại – tế thể hiện sự lớn nhỏ. Mạch trầm, trì, sác: chậm, nhanh, rối loạn nhịp tim.",
+    "text": "Mạch sáp: huyết ứ, khí trệ, đờm thấp. Mạch hồng: nhiệt thịnh, sốt cao, khát nước. Mạch huyền: đau, phong, ẩm, âm hư. Mạch khẩn: hàn, đau, phong hàn. Mạch phù: mạch nổi cao, dễ cảm. Mạch hoạt: trơn, đờm thấp. Mạch tế: nhỏ, yếu, sức kém. Mạch tán: hư nguyên khí, nguy cơ sảy thai, bệnh nặng. Mạch trầm, trì, sác: chậm, nhanh, rối loạn nhịp tim.",
     "children": [
       "book2:book2:577",
       "book2:book2:579",
@@ -4024,9 +4024,9 @@
     }
   },
   {
-    "node_id": "lvl1-875e1cf8",
+    "node_id": "lvl1-f2044195",
     "level": 1,
-    "text": "Mạch động, tật, hồng, phù, trầm là dấu hiệu của sự mất cân bằng âm dương. Mạch tượng giúp chẩn đoán bệnh, nhưng cần kết hợp với triệu chứng để tránh nhầm lẫn. Mạch xích, thất quái là dấu hiệu tử vong. Xem mạch nên vào sáng sớm, khi bệnh nhân chưa ăn uống, căng thẳng. Điều kiện riêng, kín đáo giúp tăng độ chính xác. Cần phân biệt mạch do bệnh lý hay sinh hoạt, dùng kinh nghiệm và sàng lọc để chẩn đoán đúng.",
+    "text": "Mạch động, tật, hồng, phù, trầm, huyền, súc, kết, đại là các loại mạch tượng phản ánh trạng thái âm dương và chức năng tim mạch. Mạch tượng giúp chẩn đoán sớm bệnh, đặc biệt ở giai đoạn đầu. Cần xem mạch khi bệnh nhân ngủ dậy, không ăn uống, không căng thẳng để chính xác. Tránh nhầm lẫn do sinh hoạt hoặc môi trường. Mạch thất quái là 7 loại mạch tử, gặp thì không chữa được. Cần kết hợp kiến thức và kinh nghiệm để phân biệt biểu hiện bệnh lý và ảnh hưởng ngoại cảnh.",
     "children": [
       "book2:book2:587",
       "book2:book2:591",
@@ -4070,9 +4070,9 @@
     }
   },
   {
-    "node_id": "lvl1-ab721ab5",
+    "node_id": "lvl1-e0bc585c",
     "level": 1,
-    "text": "Động mạch phản quan có thể gây sai khi bắt mạch, phân biệt mạch khỏe bằng vị, thần, căn. Mạch được đánh giá qua vị trí, tốc độ, cường độ và hình thái. Các huyệt châm điều trị bong gân, bướu cổ, sái cổ dựa trên nguyên tắc lưu khí huyết, thông kinh. Mạch Phục sâu hơn trầm, Tế nhỏ nhưng có sức, Đợi yếu, Hư mềm yếu. Loại bỏ các mạch trì, trầm, yếu, chỉ giữ mạch phù sác. Giải phẫu mạch lươn có thể hiệu quả nhưng nguy hiểm nếu can thiệp sai vị trí.",
+    "text": "Động mạch \"phản quan\" có thể gây sai lệch khi bắt mạch, cần nhận diện qua 3 yếu tố: vị, thần, căn. Mạch khỏe có vị, thần, căn; bệnh nặng mà vẫn có là dấu hiệu hồi phục. Mạch được phân loại theo vị trí, tốc độ, cường độ và hình thái. Châm cứu điều trị bong gân, bướu cổ, sái cổ bằng các huyệt gần hoặc xa, kết hợp nặn máu, lưu kim. Loại trừ các mạch trầm, trì, yếu, chỉ giữ mạch phù sác. Giải phẫu mạch lươn có thể hiệu quả nhưng nguy hiểm nếu can thiệp sai vị trí.",
     "children": [
       "book2:book2:589",
       "book2:book2:1259",
@@ -4102,9 +4102,9 @@
     }
   },
   {
-    "node_id": "lvl1-7c54579c",
+    "node_id": "lvl1-00266118",
     "level": 1,
-    "text": "Sờ nắn bụng, da, tứ chi để chẩn đoán hư hay thực qua cảm giác đau, cứng, nóng lạnh. Xung mạch, đới mạch, âm kiều mạch điều trị các chứng đau bụng, đầy tức, liệt thần kinh. Các huyệt như Xích trạch, Khổng tối, Dương khê, Thiên lịch, Cự cốt, Thiên vạc, Phù dột, Công tôn, Thương khâu, Thiếu hải, Linh đạo điều trị các bệnh về tiêu hóa, tim mạch, đau cơ xương, thần kinh và viêm nhiễm. Huyệt đặc định có tác dụng trị liệu riêng, phối hợp hiệu quả với nhau.",
+    "text": "Sờ nắn xác định tình trạng bệnh bằng cảm giác mềm, cứng, đau, nhiệt độ da và phản ứng kinh mạch. Xung mạch, đới mạch và âm kiều mạch điều trị các triệu chứng như đau bụng, đầy tức, liệt thần kinh. Các huyệt vị như Xích trạch, Dương khê, Cự cốt, Công tôn, Thương khâu điều trị đau cơ, tiêu hóa, tim mạch và các bệnh lý liên quan, có tác dụng phối hợp để tăng hiệu quả điều trị.",
     "children": [
       "book2:book2:594",
       "book2:book2:632",
@@ -4180,9 +4180,9 @@
     }
   },
   {
-    "node_id": "lvl1-2d8bdd0a",
+    "node_id": "lvl1-fc20e100",
     "level": 1,
-    "text": "Mười hai kinh mạch chính tương ứng với 6 tạng và 6 phủ, chia thành tam âm, tam dương theo vị trí mặt trong, ngoài của tứ chi. Mỗi âm kinh phối với một dương kinh tạo quan hệ biểu lý tương phối, giúp điều trị bệnh ở cả hai kinh. Các kinh tuần hành theo đường cụ thể, có đầu, cuối rõ ràng, phản ánh bệnh lý bản tạng. Ngoài ra, có 8 mạch kỳ điều tiết khí huyết, 14 kinh huyệt và 15 lạc huyệt liên kết các kinh, tạo thành hệ thống kín để trị bệnh.",
+    "text": "Mười hai kinh mạch tương ứng với 6 tạng và 6 phủ, chia thành 4 nhóm theo âm dương và vị trí trên, dưới cơ thể. Mỗi kinh có đường tuần hành xác định, phối hợp với kinh đối lập tạo mối quan hệ biểu lý. Các kinh này có điểm đầu, cuối rõ ràng và chủ trị bệnh của tạng phủ tương ứng. Ngoài ra, có 8 mạch kỳ kinh điều tiết khí huyết, 14 kinh huyệt và 15 lạc huyệt giúp liên hệ, điều hòa hoạt động giữa các kinh, hỗ trợ điều trị bệnh.",
     "children": [
       "book2:book2:606",
       "book2:book2:607",
@@ -4222,9 +4222,9 @@
     }
   },
   {
-    "node_id": "lvl1-ece58588",
+    "node_id": "lvl1-1c6e19f7",
     "level": 1,
-    "text": "Kinh Thủ dương minh đại trường đi từ hàm xuống cổ, qua lỗm ức, đến rốn, rồi xuống đùi, nối với dạ dày. Kinh Lạc đi từ tay lên đầu, liên quan đến tim, phế, thận, trị đau tim, mắt vàng, sườn đau. Kinh Thủ thái dương tiểu trường từ tay lên đầu, đi qua vai, tai, trị tai điếc, mắt vàng. Kinh Túc thái dương bàng quang từ mắt lên đầu, xuống lưng, kết nối thận và bàng quang, trị đau lưng, tiểu khó. Kinh Thủ thiếu dương tam tiêu từ tay lên đầu, nối tâm bào, trị bụng trướng, đau đầu. Kinh Túc thiếu dương đảm đi vòng đầu, vai, xuống chân, trị đau vai, mắt, tai.",
+    "text": "Kinh Thủ dương minh đại trường đi từ hàm xuống cổ, qua lỗm ức, đến đùi, liên hệ với tỳ tạng. Kinh Lạc từ tâm đi lên mắt, liên quan đến phế và thận, trị đau tim, mắt vàng. Kinh Thủ thái dương tiểu trường từ tay lên đầu, liên hệ với tâm và vị, trị tai điếc, đau vai. Kinh Túc thái dương bàng quang từ mắt đến chân, liên quan đến bàng quang và thận, trị đau lưng, tiểu khó. Kinh Thủ quyêt âm tâm bào từ ngực ra tay, trị nóng lòng bàn tay, sưng hố nách. Kinh Thủ thiếu dương tam tiêu từ tai đến bụng, trị đầy bụng, tiểu khó. Kinh Túc thiếu dương đảm đi vòng đầu, kết nối với tâm bào và can, trị đau đầu, đau vai.",
     "children": [
       "book2:book2:614",
       "book2:book2:618",
@@ -4262,9 +4262,9 @@
     }
   },
   {
-    "node_id": "lvl1-4f68ea09",
+    "node_id": "lvl1-818a78e1",
     "level": 1,
-    "text": "Dương kiều mạch trị chân bai; Âm duy mạch trị đau tim; Dương duy mạch trị hàn nhiệt. Kim ba cạnh chích nhanh, nhẹ, lấy máu, dùng cho bệnh nhiệt, viêm, ứ huyết. Các huyệt như Vân môn, Thiên phủ, Địa thương, Nhân nghinh, Khí xá, Khuyết bồn, Khí hộ, Khố phòng điều trị hen, viêm phế quản, đau ngực, đau răng, đau dạ dày, mất sữa, rối loạn tiêu hóa, đau thần kinh. Một số huyệt phối hợp điều trị huyết áp, viêm amidan, đau bụng, mất ngủ, đau răng, sưng miệng.",
+    "text": "Dương kiều mạch trị chân bai nội phiên; Âm duy mạch trị đau tim; Dương duy mạch trị hàn nhiệt. Kim ba cạnh chích máu nhanh nhẹ, dùng cho bệnh nhiệt, viêm, ứ huyết. Các huyệt như Vân môn, Thiên phủ, Địa thương, Nhân nghinh, Khí xá, Khuyết bồn, Khí hộ, Khố phòng điều trị hen, viêm phế quản, đau ngực, đau răng, rối loạn tiêu hóa, đau thần kinh. Một số huyệt có tác dụng phối hợp điều trị các bệnh liên quan như huyết áp, mất sữa, đau bụng kinh.",
     "children": [
       "book2:book2:633",
       "book2:book2:671",
@@ -4366,9 +4366,9 @@
     }
   },
   {
-    "node_id": "lvl1-30ad1194",
+    "node_id": "lvl1-6c330e1c",
     "level": 1,
-    "text": "Ngũ du huyệt là 5 loại huyệt trên tứ chi, thể hiện trình tự khí từ nông đến sâu: Tỉnh (nguồn), Huỳnh (thành dòng), Du (vận chuyển), Kinh (trú), Hợp (nhập). Các huyệt như Phong long, Hạ cự hư, Phủ xá, Phúc kết, Đại hoành, Phúc ai điều trị viêm, đau bụng, tiêu hóa kém, sườn đau, rối loạn thần kinh, bệnh tai, tim phổi. Huyệt trên đường kinh được châm theo vị trí cụ thể, sâu độ và phương pháp phù hợp để điều trị các chứng bệnh khác nhau.",
+    "text": "Ngũ du huyệt là 5 loại huyệt trên tứ chi, biểu thị trình tự khí từ nông đến sâu: Tỉnh (nguồn), Huỳnh (thành dòng), Du (vận chuyển), Kinh (trú), Hợp (nhập). Các huyệt như Phong long, Phủ xá, Đại hoành, Thực đậu, Cực tuyền, Tình minh, Cao hoang, Thần đường, Y hy điều trị viêm, đau, rối loạn tiêu hóa, tim phổi, thần kinh, đau lưng, tiểu tiện và các bệnh về tai, mắt, xương khớp. Mỗi huyệt có vị trí xác định, cách châm và tác dụng riêng, thường phối hợp để tăng hiệu quả điều trị.",
     "children": [
       "book2:book2:649",
       "book2:book2:704",
@@ -4464,9 +4464,9 @@
     }
   },
   {
-    "node_id": "lvl1-fb3c6d2f",
+    "node_id": "lvl1-bbb47974",
     "level": 1,
-    "text": "Có 3 loại kim châm phổ biến: hào kim, kim ba cạnh, kim châm da. Trước khi châm, cần kiểm tra kim, sát trùng và chọn tư thế phù hợp. Luyện sức tay, thao tác vê kim để đạt độ tự nhiên. Góc châm gồm đứng, nghiêng, ngang tùy vị trí huyệt. Cách tiến kim gồm vê vào, dùng ống phóng, chích kim. Thao tác rút kim gồm khai bế (bổ hoặc tả), niệm chuyển điều chỉnh hướng khí, đề sáp nâng ấn để điều tiết khí. Cần chú ý không châm huyệt nhạy cảm, châm nông ở trẻ em, phòng tránh say kim.",
+    "text": "Có 3 loại kim châm chính: hào kim, kim ba cạnh, kim châm da. Trước khi châm, cần kiểm tra và vệ sinh kim, người bệnh, chọn huyệt phù hợp, tư thế tự nhiên. Luyện sức tay và động tác vê kim để thao tác chính xác. Góc châm gồm đứng, nghiêng, ngang tùy vị trí huyệt. Cách tiến kim gồm vê vào, dùng ống phóng, chích nhanh. Thao tác rút kim gồm khai bế (bổ hoặc tả), niệm chuyển điều chỉnh khí, đề sáp nâng ấn để điều hòa khí trong kinh mạch.",
     "children": [
       "book2:book2:654",
       "book2:book2:655",
@@ -4498,9 +4498,9 @@
     }
   },
   {
-    "node_id": "lvl1-dd527f32",
+    "node_id": "lvl1-6f9b22d5",
     "level": 1,
-    "text": "Phép nâng ấn và hô hấp dùng để điều chỉnh cân bằng biểu – lý, với số lẻ dương (bỗ), số chẵn âm (tả). Số lần thao tác ảnh hưởng đến tính chất dương – âm. Theo dõi nhiệt độ kinh lạc trước – sau điều trị cho thấy sự thay đổi hoạt động tạng phủ, được đánh giá bằng phép trừ đại số giữa số tương quan đã quy đổi. Dấu dương cho thấy tăng, âm cho thấy giảm hoạt động tạng phủ, giúp định lượng hiệu quả điều trị.",
+    "text": "Phép nâng ấn và hô hấp dùng để điều chỉnh cân bằng biểu – lý, với số lẻ dương (bỗ), chẵn âm (tả). Số lần thao tác được quy định theo nguyên tắc dương – âm. Theo dõi nhiệt độ kinh lạc trước – sau điều trị cho thấy sự thay đổi hoạt động của các tạng phủ, đánh giá bằng phép trừ đại số số tương quan mang dấu. Kết quả dấu + cho thấy tăng, dấu – cho thấy giảm hoạt động tạng phủ, dùng để đánh giá hiệu quả điều trị.",
     "children": [
       "book2:book2:664",
       "book2:book2:1511",
@@ -4532,9 +4532,9 @@
     }
   },
   {
-    "node_id": "lvl1-595ba13c",
+    "node_id": "lvl1-de165b0e",
     "level": 1,
-    "text": "Thuốc cứu từ lá ngải đẻ, chế thành mồi hoặc điếu ngải để châm cứu. Có thể cứu trực tiếp hoặc gián tiếp qua gừng, tỏi, muối, vải. Cứu bằng điếu ngải hoặc ôn châm, chú ý tránh vùng nhạy cảm, bệnh nhiệt, và phòng ngừa cháy da. Xử lý cấp cứu gồm nghỉ ngơi, hạ nhiệt, châm cứu theo huyệt, dùng thuốc như rượu hành. Biện chứng điều trị dựa trên tạng phủ, dùng bài thuốc như Sâm phụ thang, kết hợp Đông – Tây y khi cần.",
+    "text": "Thuốc cứu từ ngải đẻ, chế thành mồi hoặc điếu ngải để châm cứu. Mồi ngải đặt lên huyệt vị, đốt nhẹ cho nóng, thay khi bệnh nhân cảm thấy nóng. Cứu gián tiếp bằng gừng, tỏi, muối, vải để tăng hiệu quả hoặc tránh cháy tóc. Cứu bằng điếu ngải hơ trực tiếp, tạo cảm giác ấm không rát. Ôn châm dùng ngải nhung bó vào kim. Tránh cứu ở vùng nhạy, bệnh nhiệt, hoặc khi có nguy cơ nhiễm trùng. Xử trí cấp cứu gồm nghỉ ngơi, hạ nhiệt, châm cứu, dùng thuốc, và theo dõi sát các dấu hiệu sống. Choáng ngất do hư dương, điều trị bằng hồi dương, kết hợp Đông – Tây y nếu cần.",
     "children": [
       "book2:book2:673",
       "book2:book2:674",
@@ -4578,9 +4578,9 @@
     }
   },
   {
-    "node_id": "lvl1-b354fdea",
+    "node_id": "lvl1-9759c5ab",
     "level": 1,
-    "text": "Các huyệt vị trên cổ tay, bàn tay, chân và đùi được dùng để điều trị các bệnh như hen, đau ngực, ho, sốt, đau răng, mất ngủ, rối loạn tim mạch, đau bụng, kinh nguyệt không đều, viêm da, đau khớp. Nhiều huyệt phối hợp với nhau để tăng hiệu quả điều trị, ví dụ: Nội quan trị tim đập nhanh, Thiếu thương trị chảy máu mũi, Điều khẩu và Đại đô điều trị trướng bụng, mất ngủ. Các phương pháp châm cứu bao gồm châm đứng, châm sâu, chích máu, hơ nhiệt, tùy theo vị trí và triệu chứng.",
+    "text": "Các huyệt trị đau ngực, hen, sưng họng, mất ngủ, đau lưng, đau bụng, viêm dạ dày, viêm amidan, chảy máu mũi, đau răng, chóng mặt, rối loạn thần kinh tim. Huyệt phối hợp điều trị bệnh đường tiêu hóa, kinh nguyệt, cảm mạo, cao huyết áp, liệt chi, đau khớp gối. Ức chế cảm mạo, tăng đề kháng, hỗ trợ điều trị bệnh lý thần kinh và các rối loạn chức năng cơ thể.",
     "children": [
       "book2:book2:680",
       "book2:book2:684",
@@ -4642,9 +4642,9 @@
     }
   },
   {
-    "node_id": "lvl1-f2e46831",
+    "node_id": "lvl1-b054dd2b",
     "level": 1,
-    "text": "Huyệt Hợp cốc ở mu bàn tay, trị cảm mạo, đau đầu, răng, mắt, say nắng, liệt mặt, rối loạn thần kinh. Huyệt Hoà liêu và Nghinh hương điều trị bệnh mũi, chảy máu, ngạt mũi, liệt mặt. Các huyệt trên sườn và ngực trị hen, đau sườn, viêm phế quản, đau dạ dày, nôn mửa. Huyệt tại vùng đầu, tai, mặt điều trị tai ù, điếc, đau đầu, đau răng, liệt mặt. Nhiều huyệt phối hợp trị các bệnh về đường hô hấp, tiêu hóa, thần kinh và tai mũi họng.",
+    "text": "Huyệt Hợp cốc ở mu bàn tay, trị cảm mạo, đau đầu, răng, mắt, say nắng, liệt mặt. Huyệt Hoà liêu và Nghinh hương điều trị bệnh mũi, chảy máu, ngạt mũi. Các huyệt trên sườn và ngực điều trị ho, hen, đau sườn, viêm phế quản. Huyệt ở vùng đầu, tai, vai trị đau đầu, tai ù, liệt mặt, đau răng. Nhiều huyệt phối hợp trị các bệnh về đường thở, tiêu hóa, thần kinh, phụ nữ có thai cấm châm.",
     "children": [
       "book2:book2:682",
       "book2:book2:689",
@@ -4720,9 +4720,9 @@
     }
   },
   {
-    "node_id": "lvl1-0944143d",
+    "node_id": "lvl1-321be868",
     "level": 1,
-    "text": "Các huyệt trên 14 đường kinh được mô tả với vị trí, cách lấy và châm kim cụ thể. Huyệt như Trửu liêu, Bình phong, Khúc viên điều trị đau vai, tê cơ chi trên; Thiên trụ, Đại trử trị đau đầu, cổ, viêm họng; các huyệt ở vùng lưng điều trị đau cột sống, tiêu hóa, gan, bệnh ngoài da. Một số huyệt chuyên trị bệnh lý sinh dục, tiết niệu, viêm khớp và các vấn đề thần kinh.",
+    "text": "Các huyệt trên 14 đường kinh được mô tả với vị trí, cách lấy và châm kim cụ thể. Huyệt trị các bệnh như đau vai, tê chân, phát sốt, đau lưng, tiêu hóa kém, bệnh ngoài da, viêm phổi, rối loạn tiết niệu và các vấn đề về sinh lý. Nhiều huyệt có tác dụng phối hợp với nhau để tăng hiệu quả điều trị. Các phương pháp châm kim thường sâu từ 0,5 đến 2 thốn, cứu 3–7 mồi, tùy theo vị trí và bệnh lý.",
     "children": [
       "book2:book2:686",
       "book2:book2:723",
@@ -4780,9 +4780,9 @@
     }
   },
   {
-    "node_id": "lvl1-44107cc2",
+    "node_id": "lvl1-e62a6bdf",
     "level": 1,
-    "text": "Các huyệt trên đường kinh điều trị các bệnh về mắt, tai, răng, mặt và thần kinh. Huyệt như Tứ bạch, Cự liệu, Đầu duy, Thiên xung, Dương bạch chủ trị đau đầu, mắt đỏ, liệt mặt, viêm mũi, tai, đau răng. Huyệt Hạ quan, Hòa liêu, Ty trúc không hỗ trợ điều trị tai ù, đau đầu, tắc mũi. Một số huyệt như Dương phụ, Huyền chung, Khâu khư trị đau lưng, đau chi dưới, rối loạn tiêu hóa. Các huyệt phối hợp với Hợp cốc, Thái dương, Nhân trung tăng hiệu quả điều trị.",
+    "text": "Các huyệt trên đường kinh điều trị bệnh mắt, tai, răng, đầu, mặt và cơ thể. Huyệt như Tứ bạch, Cự liệu, Đầu duy, Thiên xung, Dương bạch chủ trị đau đầu, mắt đỏ, liệt mặt, viêm mũi, tai, đau răng. Huyệt Hạ quan, Dương phụ, Huyền chung điều trị đau lưng, khớp, sưng, đau cơ. Nhiều huyệt phối hợp với Hợp cốc, Thái dương, Ê phong để tăng hiệu quả. Châm kim sâu từ 0,2–2 thốn, cứu 3–5 mồi, hơ 5–10 phút. Cấm cứu ở một số huyệt.",
     "children": [
       "book2:book2:690",
       "book2:book2:692",
@@ -4826,9 +4826,9 @@
     }
   },
   {
-    "node_id": "lvl1-8d05b24c",
+    "node_id": "lvl1-b28fc31b",
     "level": 1,
-    "text": "Thần môn trị đau tim, chảy máu mũi, mất ngủ, mồ hôi trộm; phối hợp với Tâm du, Tỳ du, Hậu khê. Thận du, Khí hải du, Đại trường du, Quan nguyên du, Tiêu trường du, Bàng quang du trị đau lưng, ỉa chảy, đái dầm, viêm ruột. Cự khuyết, Cưu vỹ trị bệnh tim, đau vùng tim, động kinh. Mệnh môn, Huyền khu điều trị đau lưng, tiêu hóa kém. Các huyệt điều trị co giật, liệt, đau thần kinh, rối loạn tiêu hóa, bệnh lý thận và hệ tiết niệu.",
+    "text": "Thần môn trị đau tim, chảy máu mũi, mất ngủ, mồ hôi trộm; phối hợp với Tâm du, Tỳ du, Hậu khê. Thận du, Khí hải du, Đại trường du, Quan nguyên du, Tiêu trường du, Bàng quang du điều trị các bệnh về tiêu hóa, lưng, đái dầm, đau bụng. Cự khuyết, Cưu vỹ trị bệnh tim, đau ngực, động kinh. Mệnh môn, Huyền khu trị đau lưng, tiêu hóa kém. Các huyệt tại vùng thắt lưng và xương cùng điều trị đau thần kinh, bại liệt, co giật. Phương pháp châm kết hợp huyệt an thần, kiện tỳ, điều khí.",
     "children": [
       "book2:book2:717",
       "book2:book2:733",
@@ -4884,9 +4884,9 @@
     }
   },
   {
-    "node_id": "lvl1-8c5c3f66",
+    "node_id": "lvl1-14c0eb66",
     "level": 1,
-    "text": "Nhâm, Đốc biểu hiện âm dương trong cơ thể, phân hợp để hiểu rõ bản chất. Can (mộc) phát động, tỳ (thổ) vận hóa, tương hỗ như xe hơi cần dầu. Sai lệch gây mất cân bằng. Mạch trầm sâu, yếu, cần ấn mạnh mới cảm nhận. Mạch đại to, khỏe, lan rộng. Mạch ốc lậu nhẹ nhàng, chậm. Mạch đạn thạch đến chậm nhưng mạnh. Mạch giải sách gỡ rối. Mạch ngư tường uyển chuyển như cá dưới nước.",
+    "text": "Nhâm, Đốc thể hiện âm dương hài hòa trong cơ thể. Can (mộc) điều khiển vận động, tỳ (thổ) hỗ trợ vận hóa; nếu mất cân bằng sẽ gây hại. Mạch trầm sâu, yếu, cần ấn mạnh mới cảm nhận. Mạch đại to, khỏe, lan rộng. Mạch ốc lậu nhẹ nhàng, chậm. Mạch đạn thạch đến chậm nhưng mạnh. Mạch giải sách gỡ rối. Mạch ngư tường uyển chuyển như cá trong nước.",
     "children": [
       "book2:book2:935",
       "book3:book3:1703",
@@ -4924,9 +4924,9 @@
     }
   },
   {
-    "node_id": "lvl1-71fa8648",
+    "node_id": "lvl1-1fc9b205",
     "level": 1,
-    "text": "Các bài thuốc Đông Y điều trị các rối loạn về tâm, can, tỳ, vị, phế, đại trường và bệnh ôn nhiệt. Các công thức như Tứ quân tử, Tứ vật, Bổ tâm hoàn bổ tâm khí; Sài hồ sơ can, Tiêu dao tán điều trị can đảm; Quế phụ lý trung, Bổ trung ích khí hỗ trợ tỳ vị; Tiêu thanh long thang, Tam tử bình suyễn điều trị phế. Bài thuốc dùng theo triệu chứng: gia giảm tùy theo nhiệt, hư, đờm, xuất huyết, hoặc phong hàn. Các vị thuốc thường dùng gồm nhân sâm, bạch truật, hoàng kỳ, cam thảo, quế chi, chỉ thực, đương quy, sinh địa.",
+    "text": "Các bài thuốc Đông Y điều trị tâm, can, tỳ, vị, phế, đại trường và ôn nhiệt bệnh. Các công thức như Tứ quân tử, Tứ vật, Bổ tâm hoàn, Sài hồ sơ can, Quế phụ lý trung, Tiêu thanh long thang, Ngân kiều tán, Quy tỳ thang được dùng theo triệu chứng như đau bụng, ỉa chảy, suyễn, mất mồ hôi, đờm, huyết. Có hướng điều chỉnh theo thời tiết, triệu chứng như nôn, xuất huyết, phong hàn, phế nhiệt. Gia giảm vị thuốc tùy theo tình trạng bệnh và dấu hiệu lâm sàng.",
     "children": [
       "book2:book2:950",
       "book2:book2:962",
@@ -4966,9 +4966,9 @@
     }
   },
   {
-    "node_id": "lvl1-eb0724ca",
+    "node_id": "lvl1-e9550b2d",
     "level": 1,
-    "text": "Các phương thuốc Đông Y được liệt kê bao gồm các thang, hoàn, tán với thành phần từ thảo dược như nhân sâm, sinh địa, hoàng cầm, đại hoàng, ngưu hoàng, trầm hương, xạ hương, cam thảo, đương quy, sơn chi, v.v. Các phương pháp điều trị hướng đến giải nhiệt, thanh phế, bổ khí, hóa ứ, trị sốt do ngoại cảm hoặc nội thương. Một số bài thuốc chế sẵn như mông thạch cồn đàm hoàn, an cung ngưu hoàng hoàn, hoặc phối hợp nhiều vị để điều trị các chứng bệnh như sốt thời khí, phế nhiệt, khí hư, hoặc rối loạn tiêu hóa. Dùng theo liều lượng cụ thể, uống với nước ấm hoặc rượu, tùy theo triệu chứng.",
+    "text": "Các phương thuốc Đông Y được liệt kê bao gồm các thang, hoàn, tán dùng điều trị các chứng bệnh như sốt thời khí, rối loạn tiêu hóa, khí huyết, phế nhiệt. Các vị thuốc thường gồm sinh địa, dương quy, hoàng cầm, cam thảo, đại hoàng, ngưu hoàng, tê giác, trầm hương, hương thảo. Phương pháp chế biến đa dạng: sắc, tán, làm viên, uống với nước ấm hoặc rượu. Mỗi bài thuốc có chỉ định cụ thể về liều lượng, cách dùng và mục tiêu điều trị.",
     "children": [
       "book2:book2:951",
       "book2:book2:952",
@@ -5006,9 +5006,9 @@
     }
   },
   {
-    "node_id": "lvl1-08d27266",
+    "node_id": "lvl1-764c5b36",
     "level": 1,
-    "text": "Các bài thuốc Đông y điều trị các chứng như huyết ứ, đàm nhiệt, chảy máu, co giật, hôn mê. Sử dụng các vị như địa hoàng, sừng trâu, đại hoàng, nhân sâm, cam thảo, xuyên khung, xạ can. Phối hợp theo từng triệu chứng: uống với nước ấm, nước gừng, hoặc sắc trước sau. Một số bài dùng một vị, một số chế thành hoàn hoặc tán. Khi bệnh nặng hoặc hôn mê, cần kết hợp Đông – Tây y để điều trị hiệu quả.",
+    "text": "Các phương thuốc Đông y được trình bày gồm các bài đơn vị, hoàn, thang điều trị các chứng như huyết hư, đàm nhiệt, co giật, chảy máu, đau bụng, và bệnh lý phàn huyết. Các vị thuốc thường dùng: địa hoàng, sơn dược, hoàng cầm, cam thảo, tê giác, đại táo, xạ can, hoàng liên. Cách dùng đa dạng: sắc, nghiền, làm viên, uống với nước ấm hoặc nước gừng. Một số bài cần kết hợp Đông – Tây y khi bệnh nặng hoặc có dấu hiệu hôn mê, nội bế ngoại thoát.",
     "children": [
       "book2:book2:965",
       "book2:book2:999",
@@ -5056,9 +5056,9 @@
     }
   },
   {
-    "node_id": "lvl1-d13f6725",
+    "node_id": "lvl1-8aa54622",
     "level": 1,
-    "text": "Các đoạn nêu phương pháp chẩn bệnh bằng nhiệt độ kinh lạc, đo nhiệt tinh huyệt để chẩn đoán trạng thái sức khỏe và bệnh lý, đặc biệt là các bệnh thần kinh trung ương. Phương pháp này dựa trên tứ chẩn Đông y, dùng nhiệt kế điện tử đo 24 điểm trong 10–20 phút, phân tích nhiệt độ chi trên, chi dưới để xác định hàn nhiệt, phản ánh công năng kinh khí. Ưu điểm là chính xác, nhanh, không gây kích thích, phù hợp với lý luận Đông y về tạng phủ và biện chứng. Đã được ứng dụng tại các hội thảo và tạp chí khoa học, có kết quả phù hợp với biến đổi bệnh lý và hoạt động thể chất.",
+    "text": "Các đoạn nêu phương pháp chẩn bệnh bằng nhiệt độ kinh lạc, đo nhiệt tinh huyệt để chẩn đoán trạng thái sức khỏe và bệnh lý, đặc biệt là các bệnh thần kinh trung ương. Phương pháp này phát triển từ xúc chẩn Đông y, sử dụng nhiệt kế điện tử với độ chính xác cao, thời gian đo ngắn (10–20 phút), phân tích nhiệt độ theo chi trên, dưới và từng kinh lạc. Không gây kích thích, phù hợp với học thuyết tạng phủ và biện chứng Đông y, đã được ứng dụng trong chẩn đoán chóng mặt, loạn cảm họng và theo dõi điều trị lâm sàng.",
     "children": [
       "book2:book2:1016",
       "book2:book2:1174",
@@ -5120,9 +5120,9 @@
     }
   },
   {
-    "node_id": "lvl1-905fff4e",
+    "node_id": "lvl1-0d9c043c",
     "level": 1,
-    "text": "Ôn pháp dùng để nâng thân nhiệt khi tụt nhiệt, cứu các huyệt như Thái khê, Côn luân. Đo nhiệt độ kinh lạc cần người bệnh nghỉ 10 phút, dùng máy đo đúng cách. Các ô ghi nhiệt độ cao nhất, thấp nhất, chênh lệch, trung bình, sai số và giới hạn nhiệt độ trên, dưới. Tính toán nhiệt độ trung bình từng kinh bằng trung bình hai bên tay và chân.",
+    "text": "Ôn pháp dùng để nâng thân nhiệt khi giảm thấp, cứu các huyệt như Thái khê, Côn luân. Đo nhiệt độ kinh lạc cần nghỉ 10 phút, sử dụng máy đo đúng cách. Các ô ghi nhiệt độ cao nhất, thấp nhất, chênh lệch, trung bình, sai số và giới hạn nhiệt độ trên, dưới. Tính toán nhiệt độ trung bình mỗi kinh bằng trung bình hai bên tay và chân.",
     "children": [
       "book2:book2:1185",
       "book2:book2:1410",
@@ -5146,9 +5146,9 @@
     }
   },
   {
-    "node_id": "lvl1-535e01e4",
+    "node_id": "lvl1-eb836b2a",
     "level": 1,
-    "text": "Rối loạn kinh nguyệt bao gồm kinh sớm hoặc muộn, do khí hư, hàn, nhiệt hoặc ứ huyết gây ra. Kinh sớm có lượng máu nhiều, màu sẫm, kèm nóng nảy, đau bụng; kinh muộn lượng ít, sắc trắng, mệt mỏi, sợ lạnh. Điều trị bằng châm cứu huyệt tại các điểm điều khí, bổ âm, ôn dương, hoạt huyết. Kinh bình thường kéo dài 3–6 ngày, màu hồng. Khi kinh quá ngắn hoặc dài, hoặc có dấu hiệu bất thường như tím, loãng, cần phân biệt nguyên nhân. Trẻ sơ sinh phát triển theo các giai đoạn với sự xuất hiện của các chức năng cơ thể, từ 320 ngày trở đi có đủ 12 kinh mạch, đến 448 ngày có sự thay đổi tâm lý, 512 ngày thì đẻ. Với bệnh lâu ngày, cần kết hợp điều trị ngoài như xông hơi lá lốt và ngâm rửa.",
+    "text": "Rối loạn kinh nguyệt bao gồm kinh sớm hoặc muộn, do khí hư, hàn, nhiệt hoặc ứ huyết gây ra. Kinh sớm có lượng nhiều, màu sẫm, kèm nóng nảy; kinh muộn lượng ít, sắc trắng, mệt mỏi, sợ lạnh. Điều trị bằng châm cứu các huyệt như Khí hải, Trung cực, Quan nguyên, Mệnh môn, Thận du để điều khí, ấm thận, bổ huyết. Kinh bình thường kéo dài 3–6 ngày, màu hồng, không loãng hay đóng cục. Rối loạn do huyết nhiệt, hàn, ứ hoặc hư cần điều trị theo nguyên nhân. Trường hợp lâu ngày cần kết hợp xông hơi lá lốt và ngâm rửa.",
     "children": [
       "book2:book2:1244",
       "book2:book2:1245",
@@ -5172,9 +5172,9 @@
     }
   },
   {
-    "node_id": "lvl1-31050fcc",
+    "node_id": "lvl1-f67a87d5",
     "level": 1,
-    "text": "Phương pháp chẩn bệnh bằng nhiệt độ kinh lạc dựa vào nhiệt độ tại các huyệt để đánh giá công năng tạng phủ và tình trạng khí huyết. Nhiệt độ đo được có thể khác nhau giữa hai bên chi hoặc giữa các kinh do sự hoạt động công năng khác nhau. Các chỉ số được tính toán từ chênh lệch nhiệt độ giữa các bên và so sánh với nhiệt độ trung bình chi. Tuy nhiên, phương pháp có sai lệch do khoảng cách nhiệt không đồng đều, thời gian đo không chính xác, và chỉ nhận định được mức độ chung, chưa phân biệt rõ hàn, nhiệt, biểu, lý. Cần kiểm tra lại các dữ liệu và phương pháp đo để nâng cao độ chính xác.",
+    "text": "Phương pháp chẩn bệnh bằng nhiệt độ kinh lạc dựa vào sự khác biệt nhiệt độ tại các huyệt để đánh giá công năng tạng phủ và trạng thái khí huyết. Tuy có độ chính xác nhất định, phương pháp vẫn gặp sai lệch do khoảng cách nhiệt không đồng đều, thời gian đo không thống nhất và chỉ dựa vào so sánh tương đối. Các chỉ số nhiệt được tính toán từ nhiệt độ hai bên chi, chênh lệch giữa các huyệt và so sánh với nhiệt độ trung bình chi. Tuy nhiên, kết quả chưa thể hiện rõ hàn, nhiệt, biểu, lý do cần phân tích thêm.",
     "children": [
       "book2:book2:1402",
       "book2:book2:1405",
@@ -5226,9 +5226,9 @@
     }
   },
   {
-    "node_id": "lvl1-54b5c4ce",
+    "node_id": "lvl1-defea96d",
     "level": 1,
-    "text": "Các đoạn chưa được cung cấp nội dung cụ thể. Vui lòng gửi nội dung đầy đủ của các đoạn tham khảo để tôi có thể tóm tắt ý chính bằng tiếng Việt trong giới hạn 120 từ và không lặp lại thông tin.",
+    "text": "Các đoạn không có nội dung cụ thể để tóm tắt. Vui lòng cung cấp nội dung thực tế của từng đoạn để tôi có thể giúp tóm tắt chính xác và đúng yêu cầu.",
     "children": [
       "book2:book2:1417",
       "book2:book2:1418",
@@ -5360,7 +5360,7 @@
     }
   },
   {
-    "node_id": "lvl1-f97e1554",
+    "node_id": "lvl1-aa18b64a",
     "level": 1,
     "text": "- Lý hàn: Thận, Bàng quang, Vị. - Biểu hàn: Tiều. Cận hàn: Thận, Đảm. ### 2. Sốt cao: Cháu Nguyễn Văn V., 10 tuổi - học sinh. Sốt: 40°C, mạch 110, đo lúc 19 giờ 4 phút, ngày 9/8/1984. Nhiệt độ môi trường 26,5°C, khô. # PHÉP CHẨN BỆNH BẰNG NHIỆT ĐỘ KINH LẠC\n\n## CẨM NANG CHẨN TRỊ ĐÔNG Y\n\n| 36,8 | 1,8 | 35,9 | 0,3 | 36,2 |\n|---|---|---|---|---|\n| 35,0 | | | | 35,6 |\n\n| Tiêu | 35,6 | 35,9 | 0 | 36,2 | 0,6 |\n|---|---|---|---|---|---|\n| Tâm | +36,8 | 36,6 | +0,7 | +36,4 | 0,4 |\n| Tam | 35,6 | 35,35 | -0,55 | -35,1 | 0,5 |\n| Bào | -35,0 | 35,25 | -0,65 | -35,5 | 0,5 |\n| Đại | -35,0 | 35,5 | -0,40 | -35,5 | 0 |\n| Phế | +36,4 | 36,4 | +0,50 | +36,4 | 0 |\n\n| 35,4 | 2,0 | 34,4 | 0,33 | 34,70 |\n|---|---|---|---|---|\n| 33,4 | | | | 34,10 |\n\n| Bàng | -33,6 | 33,5 | -0,9 | -33,4 | 0,2 |\n|---|---|---|---|---|---|\n| Thận | -33,8 | 33,9 | -0,5 | -34,0 | 0,2 |\n| Đảm | -33,7 | 33,7 | -0,7 | -33,7 | 0 |\n| Vị | -33,4 | 33,6 | -0,8 | -33,8 | 0,4 |\n| Can | 34,2 | 34,8 | +0,4 | +35,4 | 1,2 |\n| Tỳ | +35,0 | 35,15 | +0,75 | +35,3 | 0,3 |\n\n+1,5\n\n- Lý nhiệt: Tâm, Phế, Tỳ. Lý hàn: Tâm bào, Đại trường, Bàng quang, Thận, Đảm, Vị. Cận hàn: Tam tiêu.\n- Biểu nhiệt: Can (bên phải). 3. Cảm nắng: Tần Văn T., 21 tuổi, công nhân - Thừa Thiên. Sốt: 40,6°C, đau đầu, ý thức lơ mơ, chập chờn mê, tình, do buổi trưa đi ngoài nắng 2 giờ không đội mũ. Đo lúc 18 giờ, ngày 22/8/1984. Nhiệt độ môi trường 32°C, khô. | 35,6 | 0,8 | 35,2 | 0,13 | 35,3 |\n|---|---|---|---|---|\n| 34,8 | | | | 35,1 |\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương\n\n21\n\n# PHÉP CHẨN BỆNH BẰNG NHIỆT ĐỘ KINH LẠC\n\n## CẨM NANG CHẨN TRỊ ĐÔNG Y\n\n| Tiều | -34,9 | 34,9 | -0,3 | -34,9 | 0 |\n| --- | --- | --- | --- | --- | --- |\n| Tâm | 35,1 | 35,3 | +0,1 | +35,5 | 0,4 |\n| Tam | -34,9 | 35,1 | -0,1 | 35,3 | 0,4 |\n| Bào | +35,4 | 35,5 | +0,3 | +35,6 | 0,2 |\n| Đại | 35,2 | 35,2 | 0 | 35,2 | 0 |\n| Phế | -34,8 | 35,05 | -0,15 | 35,3 | 0,5 |\n\n| 36,0 | 2,7 | 34,65 | 0,45 | 35,10 |\n| --- | --- | --- | --- | --- |\n| 33,3 |  |  |  | 34,20 |\n\n| Bàng | 34,2 | 34,65 | 0 | 35,1 | 0,9 |\n| --- | --- | --- | --- | --- | --- |\n| Thận | -33,7 | 34,2 | -0,45 | 34,7 | 1,0 |\n| Đảm | -33,4 | 34,70 | +0,05 | 36,0 | 2,6 |\n| Vị | -33,3 | 33,5 | -1,15 | -33,7 | 0,4 |\n| Can | -34,4 | 34,10 | -0,55 | 34,8 | 1,4 |\n| Tỳ | -33,8 | 33,70 | -0,95 | -33,6 | 0,2 |\n\n+0,55\n\n- Lý nhiệt: Tâm bào. Lý hàn: Tiểu trường, Vị, Tỳ. - Biểu nhiệt: Tâm, Đảm (bên phải).\nBiểu hàn: Tam, Phế, Thận, Can. 4. Hen: Lê Thị N., sinh năm 1966 - Nông dân - Sóc sơn - Hà Nội. Hen từ nhỏ. Đò lúc đang cơn hen: 10 giờ ngày, 10/6/1984. Nhiệt độ môi trường 30,9°C, khô. | 34,4 | 0,9 | 33,95 | 0,15 | 34,10 |\n| --- | --- | --- | --- | --- |\n| 33,5 |  |  |  | 33,80 |\n\n| Tiều | -33,7 | 33,75 | -0,20 | 33,8 | 0,1 |\n| --- | --- | --- | --- | --- | --- |\n| Tâm | 33,9 | 34,15 | +0,20 | +34,4 | 0,5 |\n| Tam | -33,7 | 33,85 | -0,10 | 34,0 | 0,3 |\n| Bào | +34,2 | 34,30 | +0,35 | +34,4 | 0,2 |\n| Đại | +34,2 | 34,20 | +0,25 | 34,0 | 0,4 |\n| Phế | 33,9 | 33,70 | -0,25 | -33,5 | 0,4 |\n\nBản quyền: Viện Thông tin Thư viện Y học Trung ương 22\n\n# PHÉP CHẨN BỆNH BẰNG NHIỆT ĐỘ KINH LẠC\n\n## CẨM NANG CHẨN TRỊ ĐÔNG Y\n\n| 34,5 | 1,3 | 33,85 | 0,21 | 34,06 |\n|---|---|---|---|---|\n| 33,2 | | | | 33,64 |\n\n| Bàng | -33,2 | 33,3 | -0,55 | -33,4 | 0,2 |\n|---|---|---|---|---|---|\n| Thận | -33,4 | 33,5 | -0,35 | -33,6 | 0,2 |\n| Đảm | -33,5 | 33,45 | -0,40 | -33,4 | 0,1 |\n| Vị | -33,6 | 33,85 | 0 | +34,1 | 0,5 |\n| Can | +34,2 | 34,35 | +0,50 | +34,5 | 0,3 |\n| Tỳ | +34,2 | 34,00 | +0,10 | 33,8 | 0,4 |\n\n+0,10\n\n- Lý nhiệt: Tâm bào, Can. Cận nhiệt: Đại trường. Lý hàn: Bàng quang, Đảm, Thận. - Biểu nhiệt: Tâm, Vị (bên phải).",
     "children": [
@@ -5390,9 +5390,9 @@
     }
   },
   {
-    "node_id": "lvl1-64668e62",
+    "node_id": "lvl1-4a530564",
     "level": 1,
-    "text": "Các đoạn đề cập đến kỹ thuật chẩn đoán cổ truyền dựa trên phân tích mạch và phân, như nếm phân để đoán bệnh theo thời khí. Những bậc thánh y có công phu “dĩ vô chẩn hữu” – chẩn bệnh từ sự kiện vô hình. Các mạch được phân tích theo tạng phủ (Tâm, Can, Tỳ, Phế) để suy ra tính cách, bệnh tật, vận mệnh. Thầy Phạm Kim Giám dùng mạch để kê đơn, dù có nguy cơ kỵ thuốc, nhưng kết quả hiệu nghiệm. Mạch bất thường cho thấy bệnh lý, tai ương, hoặc tình trạng hôn nhân, tài sản, sinh con.",
+    "text": "Các đoạn nói về kỹ thuật chẩn đoán cổ truyền dựa trên phân tích mạch và phân tích phân để đoán bệnh. Câu Tiễn nếm phân đoán chính xác bệnh tình, thể hiện tinh hoa y học cổ. Thầy Phạm Kim Giám dùng mạch để kê đơn, dù có nguy cơ kỵ thuốc nhưng vẫn đạt hiệu quả. Mỗi bộ mạch tương ứng với tạng phủ, phản ánh tính cách, bệnh tật và vận mệnh. Mạch được phân tích theo màu sắc, nhịp độ, sự biến động để chẩn đoán bệnh và dự đoán tương lai.",
     "children": [
       "book3:book3:1793",
       "book3:book3:1794",
@@ -5436,9 +5436,9 @@
     }
   },
   {
-    "node_id": "lvl1-6e064d10",
+    "node_id": "lvl1-7fff7780",
     "level": 1,
-    "text": "Mạch trì chậm, một hơi thở chỉ có 2–3 lần đập; mạch sác nhanh, lên đến 6–7 lần; mạch hoãn và khẩn thể hiện sự nở ra hay xoắn chặt; mạch thực rắn chắc, mạch hư mềm yếu; mạch trường dài, đoản ngắn; mạch xúc, kết, đợi có sự dừng bất thường hoặc có chu kỳ. Mạch trẻ nhanh hơn người lớn, nhất tức từ 6–11 chí.",
+    "text": "Mạch trì chậm, một hơi thở chỉ có 2–3 lần đập; mạch sác nhanh, lên tới 6–7 lần; mạch hoãn và khẩn thể hiện nở ra hoặc xoắn chặt; mạch thực rắn chắc, mạch hư mềm yếu; mạch trường dài, đoản ngắn; mạch xúc, kết, đợi có sự dừng bất thường hoặc có chu kỳ. Mạch trẻ nhanh hơn người lớn, nhất tức từ 6–11 chí.",
     "children": [
       "book3:book3:1839",
       "book3:book3:1840",
@@ -5462,9 +5462,9 @@
     }
   },
   {
-    "node_id": "lvl1-9732dcbf",
+    "node_id": "lvl1-c8c34dc8",
     "level": 1,
-    "text": "Tài liệu nêu các công thức thuốc theo các nhóm chức năng: bổ, ôn, tả, lương, phân theo tướng mảnh và thứ. Mỗi nhóm chứa danh sách dược liệu với liều lượng cụ thể. Các dược liệu phổ biến như đương qui, bạch thược, xuyên khung, hoàng bá, sinh địa, rau má, ngải diệp, cam thảo được sử dụng xuyên suốt. Liều lượng dao động từ 2–30gr tùy theo nhóm và mục đích điều trị. Nội dung tập trung vào hướng dẫn dùng thuốc trong các trường hợp bổ sung, ấm, tả hoặc lương cơ thể.",
+    "text": "Tài liệu trình bày các công thức thuốc theo các nhóm chức năng: bổ, ôn, tả, lương, phân theo tướng mảnh và thứ. Mỗi nhóm chứa danh sách dược liệu với liều lượng cụ thể. Các nhóm thuốc được phân bổ ở nhiều bộ phận như Tỳ, Tâm, Tiểu Trường, Vị, Đại Trường, Ta Phu D. Nội dung tập trung vào liều lượng và phối hợp giữa các dược liệu để điều trị theo từng loại bệnh.",
     "children": [
       "book3:book3:1990",
       "book3:book3:1991",
@@ -5512,9 +5512,9 @@
     }
   },
   {
-    "node_id": "lvl1-e179cc11",
+    "node_id": "lvl1-4382b7fa",
     "level": 1,
-    "text": "Các đoạn nêu tên nhiều loại thảo dược, vị thuốc và hiện tượng y học như: hoa, lá, rễ, quả, khí, huyết, kinh, nhu, truất, sinh, bổ, thanh, tiêu, trị bệnh. Nội dung liên quan đến nguồn gốc, tác dụng và cách dùng của các vị thuốc trong y học cổ truyền, cũng như các hiện tượng sinh lý và bệnh lý.",
+    "text": "Các đoạn đề cập đến nhiều tên gọi không rõ nghĩa, có thể là từ viết sai hoặc mã hóa. Không có thông tin rõ ràng về nội dung cụ thể, mục đích hay mối liên hệ giữa các yếu tố được nêu. Không thể tóm tắt ý chính xác đáng tin cậy từ dữ liệu này.",
     "children": [
       "book3:book3:1995",
       "book3:book3:1996",
@@ -5556,9 +5556,9 @@
     }
   },
   {
-    "node_id": "lvl1-e1bd217d",
+    "node_id": "lvl1-49247ff7",
     "level": 1,
-    "text": "Các phương thuốc gồm: Lý liên thang (hoàng liên, nhân sâm, can khương, bạch truật, cam thảo); Chỉ tục tiểu bĩ (chỉ thực, hậu phát, bán hạ, bạch truật, đại táo); Ma hoàng phụ tử (ma hoàng, phụ tử, tế tân, cam thảo); Uy di thang (hành tươì, cát cánh, đậu xị, bạch vi, bạc hà); Phụ tử lý trung (đẳng sâm, sinh khương, nhục quế, phụ tử, bạch truật); Ma hoàng quế chi thang (ma hoàng, quế chi, hạnh nhân); Tế tiêu thang (trần bì, tế tân, chích thảo, bán hạ, khương hoạt, kinh giới); Lý âm tiền (dương quy, chích thảo, thục địa, can khương).",
+    "text": "Các công thức gồm: Lý liên thang (Hoàng liên, nhân sâm, can khương, bạch truật, cam thảo); Chỉ tục tiểu bĩ (chỉ thực, hậu phát, bán hạ, bạch truật, đại táo); Ma hoàng phụ tử (ma hoàng, phụ tử, tế tân, cam thảo); Uy di thang (hành tươì, cát cánh, đậu xị, bạch vi, bạc hà); Phụ tử lý trung (đẳng sâm, sinh khương, nhục quế, phụ tử, bạch truật); Ma hoàng quế chi thang (ma hoàng, quế chi, hạnh nhân); Tế tiêu thang (trần bì, tế tân, chích thảo, bán hạ, khương hoạt, kinh giới); Lý âm tiền (dương quy, chích thảo, thục địa, can khương).",
     "children": [
       "book3:book3:2038",
       "book3:book3:2041",
@@ -5610,9 +5610,9 @@
     }
   },
   {
-    "node_id": "lvl1-aa38e88a",
+    "node_id": "lvl1-7fffa730",
     "level": 1,
-    "text": "Các phương thuốc gồm: Thanh dinh thang, Quế chi thang, Bạch hồ sài tô, Lê thanh ẩm, Ngân kiều giải độc, Đồng tâm thang, Đại hưng thang, Phòng phong thang. Mỗi phương dùng phối hợp thảo dược khác nhau như hoàng liên, sinh địa, ngân hoa, quế chi, sài hồ, hoàng cầm, xuyên khung, đại táo, cam thảo, cát căn, lá tre, tử tô, ngưu bàng tử, kinh giới, thông bạch, phòng phong, khương hoạt, ma hoàng, dương qui. Các dược liệu phục vụ điều trị các triệu chứng như đau nhức, tiêu hóa kém, dị ứng, giải độc và tăng cường sức khỏe.",
+    "text": "Các công thức gồm: Thanh dinh thang, Quế chi thang, Bạch hồ sài tô, Lê thanh ẩm, Ngân kiều giải độc, Đồng tâm thang, Đại hưng thang, Phòng phong thang. Các dược liệu chính bao gồm ngân hoa, hoàng liên, sinh địa, sài hồ, cam thảo, quế chi, hoàng cầm, xuyên khung, đương quy, đại táo, tử tô, bạch truật, kinh giới, phòng phong, đẳng sâm, khương hoạt, ma hoàng, bạch chỉ. Mỗi công thức điều trị các triệu chứng như đau nhức, tiêu hóa kém, giải độc, tăng cường khí huyết.",
     "children": [
       "book3:book3:2039",
       "book3:book3:2048",
@@ -5694,9 +5694,9 @@
     }
   },
   {
-    "node_id": "lvl1-f7835f31",
+    "node_id": "lvl1-c8fad004",
     "level": 1,
-    "text": "Cảm khoái tình dục là hiện tượng tự nhiên, hài hòa với tuổi tác và sức khỏe toàn diện. Không nên lạm dụng hoặc chỉ dùng thuốc kích thích riêng lẻ. Sinh lý tình dục liên quan đến nhiều tạng, đặc biệt là thận, tim, phế, can. Việc phục hồi cần bồi bổ toàn diện, điều hòa các tạng và phù hợp với từng tình trạng. Khi chức năng bị rối loạn do bệnh, lạm dụng hoặc thiếu hụt, cần can thiệp đúng cách, không chỉ đơn thuần kích thích.",
+    "text": "Cảm khoái tình dục là hiện tượng tự nhiên, phát triển theo tuổi tác và cần điều hòa hài hòa với sức khỏe toàn diện. Không nên lạm dụng hay chỉ dùng thuốc kích thích đơn phương. Sinh lý tình dục liên quan đến nhiều tạng, đặc biệt là thận, tim, phế, can. Bồi bổ toàn diện, cân bằng các tạng và tuân theo quy luật tự nhiên mới đảm bảo sức khỏe và hạnh phúc trong quan hệ tình dục. Việc quá say mê hoặc lạm dụng có thể dẫn đến rối loạn, cần can thiệp khi có dấu hiệu bệnh lý.",
     "children": [
       "book3:book3:2165",
       "book3:book3:2166",
