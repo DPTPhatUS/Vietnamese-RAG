@@ -87,7 +87,10 @@ class RaptorIndex:
             clusters.setdefault(label, []).append(idx)
         parent_nodes: List[RaptorNode] = []
         parent_embeddings = np.zeros((len(clusters), embeddings.shape[1]), dtype=np.float32)
-        for parent_idx, (label, member_indices) in enumerate(clusters.items()):
+        total_clusters = len(clusters)
+        if self._summarizer and total_clusters:
+            logger.info("Summarizing level %s (%s clusters)", level, total_clusters)
+        for completed, (label, member_indices) in enumerate(clusters.items(), start=1):
             member_nodes = [nodes[i] for i in member_indices]
             parent_embedding = embeddings[member_indices].mean(axis=0)
             member_texts = [node.text for node in member_nodes]
@@ -102,7 +105,9 @@ class RaptorIndex:
                 metadata={"cluster_label": str(label)},
             )
             parent_nodes.append(parent_node)
-            parent_embeddings[parent_idx] = parent_embedding
+            parent_embeddings[completed - 1] = parent_embedding
+            if self._summarizer:
+                logger.info("Level %s summarization %s/%s", level, completed, total_clusters)
         return parent_nodes, parent_embeddings
 
     def save(self) -> None:
