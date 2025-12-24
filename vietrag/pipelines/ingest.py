@@ -37,10 +37,7 @@ def run_ingestion(config: AppConfig) -> None:
 
 def _build_llm_summarizer(cfg: AppConfig) -> SummaryFn:
     qwen = QwenClient(cfg.qwen)
-    system_prompt = (
-        "Bạn là chuyên gia Y học cổ truyền Việt Nam. "
-        "Tóm tắt cô đọng các đoạn văn thành 2-3 câu nêu chủ đề chung và điểm khác biệt quan trọng."
-    )
+    system_prompt = "Bạn là trợ lý đọc hiểu tiếng Việt. Hãy tóm tắt ngắn gọn các ý chính từ nhiều đoạn văn."
 
     def summarize(passages: List[str], level: int) -> str:
         limited = passages[: cfg.raptor.summary_max_segments]
@@ -48,9 +45,9 @@ def _build_llm_summarizer(cfg: AppConfig) -> SummaryFn:
             return ""
         context = "\n\n".join(f"[{idx + 1}] {text}" for idx, text in enumerate(limited))
         user_prompt = (
-            f"Các đoạn dưới đây thuộc cấp độ cụm {level} trong một cây RAPTOR.\n"
-            f"{context}\n\n"
-            f"Tổng hợp thành tối đa {cfg.raptor.summary_target_words} từ bằng tiếng Việt, tránh lặp lại nhiều lần."
+            "Tóm tắt các ý chính được nêu trong những đoạn sau bằng tiếng Việt. "
+            f"Giới hạn trong {cfg.raptor.summary_target_words} từ và không lặp lại thông tin.\n"
+            f"Đoạn tham khảo:\n{context}"
         )
         try:
             return qwen.generate(system_prompt, user_prompt)
