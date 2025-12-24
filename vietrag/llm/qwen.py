@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-from typing import List
+from typing import List, Optional
 
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 from vietrag.config import QwenConfig
 
@@ -11,10 +11,27 @@ from vietrag.config import QwenConfig
 class QwenClient:
     def __init__(self, config: QwenConfig):
         self.config = config
-        model_kwargs = {"trust_remote_code": True, "device_map": "auto"}
-        model_kwargs["torch_dtype"] = torch.float16 if torch.cuda.is_available() else torch.float32
+        dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+        device_map = config.device_map or config.device or "auto"
+        model_kwargs = {"trust_remote_code": True, "device_map": device_map, "torch_dtype": dtype}
+        if config.quantization:
+            if config.quantization == "4bit":
+                quant_config = BitsAndBytesConfig(
+                    load_in_4bit=True,
+                    bnb_4bit_use_double_quant=True,
+                    bnb_4bit_quant_type="nf4",
+                    bnb_4bit_compute_dtype=dtype,
+                )
+            else:
+                quant_config = BitsAndBytesConfig(
+                    load_in_8bit=True,
+                    llm_int8_enable_fp32_cpu_offload=config.int8_cpu_offload,
+                )
+            model_kwargs["quantization_config"] = quant_config
+            model_kwargs.pop("torch_dtype", None)
         self.tokenizer = AutoTokenizer.from_pretrained(config.model_name, trust_remote_code=True)
         self.model = AutoModelForCausalLM.from_pretrained(config.model_name, **model_kwargs)
+        self._input_device = config.device or _infer_primary_device(self.model)
 
     def generate(self, system_prompt: str, user_prompt: str) -> str:
         messages = [
@@ -23,8 +40,8 @@ class QwenClient:
         ]
         prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         inputs = self.tokenizer(prompt, return_tensors="pt")
-        if self.config.device:
-            inputs = {k: v.to(self.config.device) for k, v in inputs.items()}
+        if self._input_device:
+            inputs = {k: v.to(self._input_device) for k, v in inputs.items()}
         outputs = self.model.generate(
             **inputs,
             max_new_tokens=self.config.max_new_tokens,
@@ -39,3 +56,18 @@ class QwenClient:
 
 
 __all__ = ["QwenClient"]
+
+
+def _infer_primary_device(model) -> Optional[str]:
+    if hasattr(model, "device") and model.device:
+        return str(model.device)
+    device_map = getattr(model, "hf_device_map", None)
+    if device_map:
+        first_target = next(iter(device_map.values()))
+        if isinstance(first_target, str):
+            return first_target
+        if isinstance(first_target, int):
+            return f"cuda:{first_target}"
+        if hasattr(first_target, "type"):
+            return str(first_target)
+    return None

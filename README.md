@@ -83,3 +83,4 @@ Artifacts live under `artifacts/` by default (`chunks.parquet`, `raptor_index/`)
 - Ensure Neo4j is running with VietMedKG data and a full-text index name matching `RAG_NEO4J_FULLTEXT_INDEX` (default `vietmedkgTextIdx`).
 - The reranker and LLM require a GPU for best performance.
 - The router mode uses Qwen to decide whether to query RAPTOR or the knowledge graph based on user intent.
+- You can reduce Qwen memory pressure by setting `RAG_QWEN__QUANTIZATION=4bit` (or `8bit`) and, for 8-bit CPU offload, enable `RAG_QWEN__INT8_CPU_OFFLOAD=true`; also override `RAG_QWEN__DEVICE_MAP` when you need a custom placement strategy.

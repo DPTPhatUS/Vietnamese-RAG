@@ -30,6 +30,18 @@ class QwenConfig(BaseModel):
     temperature: float = 0.3
     top_p: float = 0.9
     device: Optional[str] = None
+    device_map: Optional[str] = Field(
+        default=None,
+        description="Override Hugging Face device_map (defaults to auto)",
+    )
+    quantization: Optional[Literal["4bit", "8bit"]] = Field(
+        default=None,
+        description="bitsandbytes quantization mode",
+    )
+    int8_cpu_offload: bool = Field(
+        default=False,
+        description="Enable fp32 CPU offload when using 8-bit quantization",
+    )
 
 
 class RerankerConfig(BaseModel):
