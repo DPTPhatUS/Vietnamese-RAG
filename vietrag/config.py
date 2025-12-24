@@ -26,9 +26,15 @@ class Neo4jConfig(BaseModel):
 
 class QwenConfig(BaseModel):
     model_name: str = Field(default="Qwen/Qwen3-4B-Instruct-2507")
-    max_new_tokens: int = 512
-    temperature: float = 0.3
-    top_p: float = 0.9
+    max_new_tokens: int = Field(
+        default=2048,
+        description="Maximum number of new tokens to generate (set to 16384 for long-form benchmarks)",
+    )
+    temperature: float = 0.7
+    top_p: float = 0.8
+    top_k: int = 20
+    min_p: float = 0.0
+    presence_penalty: float = 0.0
     device: Optional[str] = None
     device_map: Optional[str] = Field(
         default=None,

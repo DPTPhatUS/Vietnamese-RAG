@@ -84,3 +84,5 @@ Artifacts live under `artifacts/` by default (`chunks.parquet`, `raptor_index/`)
 - The reranker and LLM require a GPU for best performance.
 - The router mode uses Qwen to decide whether to query RAPTOR or the knowledge graph based on user intent.
 - You can reduce Qwen memory pressure by setting `RAG_QWEN__QUANTIZATION=4bit` (or `8bit`) and, for 8-bit CPU offload, enable `RAG_QWEN__INT8_CPU_OFFLOAD=true`; also override `RAG_QWEN__DEVICE_MAP` when you need a custom placement strategy.
+- Qwen defaults follow vendor guidance (temperature 0.7, top_p 0.8, top_k 20, min_p 0, presence_penalty 0); bump `RAG_QWEN__MAX_NEW_TOKENS` up to 16384 for long-form answers or benchmarks.
+- When you need consistent grading, standardize prompts: for math add `Hãy suy luận từng bước và đặt đáp án cuối cùng vào \boxed{}`; for multiple choice append `{"answer": "<letter>"}` instructions so the model returns a single letter.

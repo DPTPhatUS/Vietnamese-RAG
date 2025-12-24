@@ -47,6 +47,9 @@ class QwenClient:
             max_new_tokens=self.config.max_new_tokens,
             temperature=self.config.temperature,
             top_p=self.config.top_p,
+            top_k=self.config.top_k,
+            min_p=self.config.min_p,
+            presence_penalty=self.config.presence_penalty,
             do_sample=self.config.temperature > 0,
         )
         prompt_length = inputs["input_ids"].shape[1]
