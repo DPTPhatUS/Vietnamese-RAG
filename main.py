@@ -48,7 +48,7 @@ def main() -> None:
         print("\n=== Retrieved Documents ===")
         for idx, doc in enumerate(batch.documents, start=1):
             print(f"[{idx}] score={doc.score:.4f}")
-            print(doc.text[:400])
+            print(doc.text if len(doc.text) <= 400 else doc.text[:397] + "...")
             print("---")
         pipeline.shutdown()
         return
