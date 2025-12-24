@@ -170,40 +170,39 @@ class RaptorIndex:
     ) -> List[RetrievalDocument]:
         if not self.level_embeddings:
             raise RuntimeError("RAPTOR index is not loaded")
-        candidate_chunks = self._collect_candidate_chunks(query_embedding)
-        scores = []
-        for chunk_id in candidate_chunks:
-            idx = self.leaf_lookup.get(chunk_id)
-            if idx is None:
-                continue
-            leaf_emb = self.level_embeddings[0][idx]
-            score = float(np.dot(leaf_emb, query_embedding))
-            scores.append((chunk_id, score))
-        scores.sort(key=lambda pair: pair[1], reverse=True)
-        selected = scores[:top_k]
-        documents: List[RetrievalDocument] = []
-        for chunk_id, score in selected:
-            payload = chunk_text_lookup.get(chunk_id)
-            if not payload:
-                continue
-            documents.append(
-                RetrievalDocument(
-                    text=payload["text"],
-                    score=score,
-                    metadata={k: str(v) for k, v in payload.items() if k != "text"},
-                )
-            )
-        return documents
-
-    def _collect_candidate_chunks(self, query_embedding: np.ndarray) -> List[str]:
-        candidates: set[str] = set()
-        for level, embeddings in sorted(self.level_embeddings.items(), reverse=True):
+        scored_documents: List[RetrievalDocument] = []
+        for level, embeddings in self.level_embeddings.items():
             sims = embeddings @ query_embedding
-            top_idx = np.argsort(-sims)[: self.config.level_search_k]
-            for idx in top_idx:
-                node = self.level_nodes[level][idx]
-                candidates.update(node.chunk_refs)
-        return list(candidates)
+            nodes = self.level_nodes[level]
+            for idx, score in enumerate(sims):
+                document = self._node_to_document(nodes[idx], float(score), chunk_text_lookup)
+                if document:
+                    scored_documents.append(document)
+        scored_documents.sort(key=lambda doc: doc.score, reverse=True)
+        return scored_documents[:top_k]
+
+    def _node_to_document(
+        self,
+        node: RaptorNode,
+        score: float,
+        chunk_text_lookup: Dict[str, dict],
+    ) -> Optional[RetrievalDocument]:
+        if node.level == 0:
+            payload = chunk_text_lookup.get(node.node_id)
+            if not payload:
+                return None
+            metadata = {k: str(v) for k, v in payload.items() if k != "text"}
+            metadata.update({"node_id": node.node_id, "level": str(node.level)})
+            if node.chunk_refs:
+                metadata["chunk_refs"] = ",".join(node.chunk_refs)
+            metadata["source"] = "chunk"
+            return RetrievalDocument(text=payload["text"], score=score, metadata=metadata)
+        metadata = {"node_id": node.node_id, "level": str(node.level), "source": "summary"}
+        if node.chunk_refs:
+            metadata["chunk_refs"] = ",".join(node.chunk_refs)
+        if node.metadata:
+            metadata.update({k: str(v) for k, v in node.metadata.items()})
+        return RetrievalDocument(text=node.text, score=score, metadata=metadata)
 
     def _summarize_cluster(self, texts: List[str], level: int) -> str:
         clean_texts = [text.strip() for text in texts if text and text.strip()]
