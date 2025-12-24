@@ -26,12 +26,16 @@ def run_ingestion(config: AppConfig) -> None:
     df = chunks_to_dataframe(chunks)
     df.to_parquet(cfg.paths.chunks_path, index=False)
     embedding_service = EmbeddingService(cfg.embeddings)
-    embeddings = embedding_service.embed_texts(df["text"].tolist())
     summary_fn: Optional[SummaryFn] = None
     if cfg.raptor.use_llm_summary:
         summary_fn = _build_llm_summarizer(cfg)
-    raptor_index = RaptorIndex(cfg.raptor, cfg.paths.raptor_dir, summarizer=summary_fn)
-    raptor_index.build(chunks, embeddings)
+    raptor_index = RaptorIndex(
+        cfg.raptor,
+        cfg.paths.raptor_dir,
+        summarizer=summary_fn,
+        embedding_service=embedding_service,
+    )
+    raptor_index.build(chunks)
     logger.info("Stored RAPTOR index at %s", cfg.paths.raptor_dir)
 
 

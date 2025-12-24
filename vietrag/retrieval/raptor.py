@@ -6,13 +6,16 @@ import math
 import uuid
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Sequence
+from typing import TYPE_CHECKING, Callable, Dict, List, Optional, Sequence
 
 import numpy as np
 from sklearn.cluster import KMeans
 
 from vietrag.config import RaptorConfig
 from vietrag.types import Chunk, RetrievalDocument
+
+if TYPE_CHECKING:
+    from vietrag.embeddings.service import EmbeddingService
 
 
 logger = logging.getLogger(__name__)
@@ -32,7 +35,13 @@ SummarizerFn = Callable[[List[str], int], str]
 
 
 class RaptorIndex:
-    def __init__(self, config: RaptorConfig, directory: Path, summarizer: Optional[SummarizerFn] = None):
+    def __init__(
+        self,
+        config: RaptorConfig,
+        directory: Path,
+        summarizer: Optional[SummarizerFn] = None,
+        embedding_service: Optional["EmbeddingService"] = None,
+    ):
         self.config = config
         self.directory = directory
         self.level_nodes: Dict[int, List[RaptorNode]] = {}
@@ -40,15 +49,20 @@ class RaptorIndex:
         self.leaf_lookup: Dict[str, int] = {}
         self.dimension: int | None = None
         self._summarizer = summarizer
+        self._embedding_service = embedding_service
 
-    def build(self, chunks: Sequence[Chunk], embeddings: np.ndarray) -> None:
+    def build(self, chunks: Sequence[Chunk]) -> None:
         if not len(chunks):
             raise ValueError("Cannot build RAPTOR index without chunks")
+        if not self._embedding_service:
+            raise RuntimeError("Embedding service is required to build the RAPTOR index")
+        texts = [chunk.text for chunk in chunks]
+        embeddings = self._embedding_service.embed_texts(texts)
         if len(chunks) != len(embeddings):
-            raise ValueError("Chunks and embeddings length mismatch")
+            raise ValueError("Chunk embedding generation failed")
         self.dimension = embeddings.shape[1]
         leaves: List[RaptorNode] = []
-        for idx, (chunk, emb) in enumerate(zip(chunks, embeddings, strict=True)):
+        for idx, chunk in enumerate(chunks):
             node = RaptorNode(
                 node_id=chunk.chunk_id,
                 level=0,
@@ -92,7 +106,6 @@ class RaptorIndex:
             logger.info("Summarizing level %s (%s clusters)", level, total_clusters)
         for completed, (label, member_indices) in enumerate(clusters.items(), start=1):
             member_nodes = [nodes[i] for i in member_indices]
-            parent_embedding = embeddings[member_indices].mean(axis=0)
             member_texts = [node.text for node in member_nodes]
             parent_text = self._summarize_cluster(member_texts, level)
             chunk_refs = sorted({ref for node in member_nodes for ref in node.chunk_refs})
@@ -105,10 +118,16 @@ class RaptorIndex:
                 metadata={"cluster_label": str(label)},
             )
             parent_nodes.append(parent_node)
-            parent_embeddings[completed - 1] = parent_embedding
+            parent_embeddings[completed - 1] = self._embed_summary(parent_text)
             if self._summarizer:
                 logger.info("Level %s summarization %s/%s", level, completed, total_clusters)
         return parent_nodes, parent_embeddings
+
+    def _embed_summary(self, text: str) -> np.ndarray:
+        if not self._embedding_service:
+            raise RuntimeError("Embedding service is required to embed summary nodes")
+        vector = self._embedding_service.embed_texts([text])[0]
+        return vector.astype(np.float32, copy=False)
 
     def save(self) -> None:
         self.directory.mkdir(parents=True, exist_ok=True)
