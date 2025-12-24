@@ -48,7 +48,7 @@ class QAPipeline:
         )
         self.system_prompt = (
             "You are a helpful assistant specializing in Vietnamese Traditional Medicine. "
-            "Always cite evidence numbers where possible."
+            "Provide concise, accurate answers based on the retrieved context."
         )
 
     def answer(self, query: str, mode: RetrievalMode, top_k: int = 5) -> RetrievalBatch:
@@ -59,12 +59,12 @@ class QAPipeline:
     def _compose_answer(self, query: str, documents: list[RetrievalDocument]) -> str:
         if not documents:
             return "Xin lỗi, tôi không tìm được thông tin phù hợp trong cơ sở tri thức hiện có."
-        context_sections = [f"[{idx}] {doc.text}" for idx, doc in enumerate(documents, start=1)]
+        context_sections = [doc.text for doc in documents]
         context = "\n\n".join(context_sections)
         user_prompt = (
             f"Nguồn tham chiếu:\n{context}\n\n"
             f"Câu hỏi: {query}\n"
-            "Trả lời bằng tiếng Việt và trích dẫn [số] tương ứng."
+            "Trả lời bằng tiếng Việt."
         )
         answer = self.qwen.generate(self.system_prompt, user_prompt)
         return answer
