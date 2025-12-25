@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Bệnh ngoại cảm theo Đông y được định nghĩa như thế nào?",
+    "answer": "Bệnh ngoại cảm là những bệnh phát sinh do cơ thể không thích ứng được với các yếu tố môi trường bên ngoài, khi khí hậu và thời tiết trở nên thái quá hoặc trái thường, vượt quá khả năng thích nghi của con người."
+  },
+  {
+    "question": "Lục khí bao gồm những loại khí hậu nào trong tự nhiên?",
+    "answer": "Lục khí bao gồm 6 loại khí hậu: Phong, Hàn, Thử, Thấp, Táo và Hỏa."
+  },
+  {
+    "question": "Khi nào lục khí được gọi là lục dâm hay lục tà?",
+    "answer": "Lục khí được gọi là lục dâm (hay lục tà) khi chúng trở nên thái quá, bất cập hoặc xuất hiện không đúng thời gian quy định, từ đó trở thành nguyên nhân gây bệnh cho con người."
+  },
+  {
+    "question": "Mức độ nặng nhẹ của bệnh ngoại cảm phụ thuộc vào mối tương quan nào?",
+    "answer": "Mức độ nặng nhẹ của bệnh phụ thuộc vào sự tương quan giữa sức mạnh của nguyên nhân gây bệnh (tà khí) và sức chống đỡ, khả năng thích ứng của cơ thể (chính khí)."
+  },
+  {
+    "question": "Có bao nhiêu cách phân loại bệnh ngoại cảm chính được đề cập trong tài liệu?",
+    "answer": "Có 4 cách phân loại chính: Ngoại cảm lục dâm, Ngoại cảm thương hàn, Ôn bệnh và Dịch lệ."
+  },
+  {
+    "question": "Đặc điểm chung của các bệnh danh thuộc nhóm ngoại cảm lục dâm là gì?",
+    "answer": "Tên gọi các bệnh chứng này luôn đi kèm với tên của lục dâm, ví dụ: phong hàn phạm kinh lạc, Bàng quang thấp nhiệt, Can Đởm thấp nhiệt."
+  },
+  {
+    "question": "Ngoại cảm lục dâm có bao nhiêu mức độ bệnh lý?",
+    "answer": "Ngoại cảm lục dâm có 3 mức độ: Cảm mạo, Thương và Trúng."
+  },
+  {
+    "question": "Triệu chứng chính khi ngoại tà phạm vào tôn lạc là gì?",
+    "answer": "Triệu chứng chính là đau nhức tại chỗ, tính chất đau lan tỏa và khó xác định chính xác vị trí."
+  },
+  {
+    "question": "Đặc điểm lâm sàng của tình trạng hàn tà phạm vào kinh Cân là gì?",
+    "answer": "Triệu chứng bao gồm đau, đau co rút, kèm cảm giác tê bì và có thể giảm vận động tại chỗ do đau."
+  },
+  {
+    "question": "Phép trị bắt buộc cho nhóm bệnh lý ngoại tà phạm kinh Cân là gì?",
+    "answer": "Phải sử dụng phép 'Phần châm' hoặc 'Thiêu châm'."
+  },
+  {
+    "question": "Làm thế nào để phân biệt bệnh ở kinh Cân và bệnh ở chính kinh?",
+    "answer": "Bệnh ở kinh Cân không có triệu chứng của tạng phủ tương ứng, trong khi bệnh ở chính kinh thường kèm theo các triệu chứng của tạng phủ hoặc biểu hiện ở đoạn đường kinh tương ứng."
+  },
+  {
+    "question": "Triệu chứng của hội chứng Hàn trệ Can mạch là gì?",
+    "answer": "Đau nhiều vùng bụng dưới, đau co thắt, vặn xoắn, lạnh bụng, đau bụng kinh hoặc đau lan xuống bộ phận sinh dục."
+  },
+  {
+    "question": "Phong nhiệt phạm kinh Dương minh Vị và Đại trường thường biểu hiện qua bệnh cảnh nào?",
+    "answer": "Thường gặp trong các bệnh lý như liệt mặt hoặc đau dây thần kinh mặt."
+  },
+  {
+    "question": "Phong nhiệt phạm mạch Đốc thường liên quan đến các bệnh lý nào trong Tây y?",
+    "answer": "Thường gặp trong liệt tứ chi do viêm tủy cấp, viêm màng não, uốn ván, bại não hoặc viêm não."
+  },
+  {
+    "question": "Thấp nhiệt phạm mạch Xung thường gây ra các bệnh lý gì ở phụ nữ?",
+    "answer": "Gây viêm âm đạo, viêm phần phụ hoặc viêm đường tiểu thấp."
+  },
+  {
+    "question": "Triệu chứng chính của hội chứng Thấp nhiệt Đại trường là gì?",
+    "answer": "Sốt cao, đau quanh rốn, mót rặn (lý cấp hậu trọng), bụng trướng, phân nhầy nhớt hoặc lẫn máu."
+  },
+  {
+    "question": "Hội chứng Nhiệt bức Đại trường thường gặp trong trường hợp nào?",
+    "answer": "Thường gặp trong tiêu chảy nhiễm trùng, viêm dạ dày - ruột cấp hoặc ngộ độc thức ăn."
+  },
+  {
+    "question": "Triệu chứng lâm sàng của Đại trường hàn kết là gì?",
+    "answer": "Bụng đau nhiều, chối nấn, đầy trướng, táo bón, mặt trắng, môi nhợt, tay chân mát và mạch trầm huyền."
+  },
+  {
+    "question": "Đặc điểm của hội chứng Vị thấp nhiệt là gì?",
+    "answer": "Miệng đắng, khát mà không dám uống, đau thượng vị, buồn nôn, trướng bụng, tiêu chảy và cảm giác nặng nề toàn thân."
+  },
+  {
+    "question": "Triệu chứng của Vị nhiệt ủng thịnh bao gồm những gì?",
+    "answer": "Miệng khô khát, môi nứt nẻ, dễ đói, chảy máu nướu răng, đại tiện bí kết và tiểu sển đỏ."
+  },
+  {
+    "question": "Can Đởm thấp nhiệt có những triệu chứng đặc trưng nào?",
+    "answer": "Sốt cao rét run, vàng da, miệng đắng, chán ăn, đau bụng thượng vị lan sang hông sườn và nôn mửa."
+  },
+  {
+    "question": "Triệu chứng quan trọng của Nhiệt kết Bàng quang là gì?",
+    "answer": "Tiểu vàng, tiểu máu, tiểu gắt, bụng dưới trướng đầy và mót đái mà đái không hết."
+  },
+  {
+    "question": "Phong hàn thúc Phế thường biểu hiện như thế nào?",
+    "answer": "Sợ lạnh, sợ gió, ho có đờm trong, mũi nghẹt, chảy nước mũi, đau đầu, đau nhức lưng và toàn thân."
+  },
+  {
+    "question": "Pháp trị cho hội chứng Phong nhiệt phạm Phế là gì?",
+    "answer": "Sơ phong thanh nhiệt, tuyên Phế, hóa đờm."
+  },
+  {
+    "question": "Táo khí thương Phế có triệu chứng chính là gì?",
+    "answer": "Miệng khô, khát nước, ho khan hoặc ho có đờm máu, đau ngực, họng khô và khàn tiếng."
+  },
+  {
+    "question": "Hàn thấp khốn Tỳ thường biểu hiện qua những triệu chứng nào?",
+    "answer": "Buồn nôn, tiêu chảy phân lỏng, đau thượng vị, trướng bụng và ăn kém."
+  },
+  {
+    "question": "Hội chứng Nhiệt nhập Tâm bào có đặc điểm lâm sàng như thế nào?",
+    "answer": "Mê sảng, nói lảm nhảm, hôn mê, vật vã và sốt cao."
+  },
+  {
+    "question": "Tác giả của phương pháp biện giải bệnh ngoại cảm Thương hàn là ai?",
+    "answer": "Trương Trọng Cảnh (còn gọi là Trương Cơ)."
+  },
+  {
+    "question": "Thương hàn luận khảo sát diễn tiến bệnh qua bao nhiêu giai đoạn chính?",
+    "answer": "6 giai đoạn chính: Thái dương, Dương minh, Thiếu dương, Thái âm, Thiếu âm và Quyết âm."
+  },
+  {
+    "question": "Đặc điểm chung của 3 kinh dương trong Thương hàn luận là gì?",
+    "answer": "Tà khí thịnh, chính khí chưa suy; biểu hiện ở biểu, ở ngoài hoặc ở phủ; chủ yếu là nhiệt chứng và thực chứng."
+  },
+  {
+    "question": "Đặc điểm chung của 3 kinh âm trong Thương hàn luận là gì?",
+    "answer": "Chính khí suy yếu; biểu hiện ở lý, ở tạng; chủ yếu là hàn chứng và hư chứng."
+  },
+  {
+    "question": "Quy luật truyền biến 'Trực trúng' trong Thương hàn là gì?",
+    "answer": "Là tình trạng bệnh tà đi thẳng vào tam âm mà không qua truyền biến từ các kinh dương."
+  },
+  {
+    "question": "Nguyên tắc điều trị chủ yếu cho Tam dương bệnh là gì?",
+    "answer": "Khu tà (tác động trực tiếp đến nguyên nhân gây bệnh)."
+  },
+  {
+    "question": "Nguyên tắc điều trị chủ yếu cho Tam âm bệnh là gì?",
+    "answer": "Phù chính (nâng đỡ tổng trạng, tăng cường chính khí) kết hợp với khu tà tùy tình trạng."
+  },
+  {
+    "question": "Hệ thống Thái dương trong Đông y bao gồm những kinh nào?",
+    "answer": "Túc Thái dương Bàng quang và Thủ Thái dương Tiểu trường."
+  },
+  {
+    "question": "Triệu chứng quan trọng nhất của bệnh ở giai đoạn Thái dương là gì?",
+    "answer": "Mạch phù, đầu cổ cứng đau và sợ lạnh."
+  },
+  {
+    "question": "Thái dương trúng phong có các triệu chứng đặc trưng nào?",
+    "answer": "Phát sốt, đổ mồ hôi, sợ gió lạnh, đầu cổ cứng đau và mạch phù hoãn."
+  },
+  {
+    "question": "Pháp trị cho Thái dương trúng phong là gì?",
+    "answer": "Giải cơ khu phong, điều hòa vinh vệ."
+  },
+  {
+    "question": "Hội chứng Thiếu dương có các triệu chứng chính nào?",
+    "answer": "Miệng đắng, họng khô, mắt hoa, hàn nhiệt vãng lai (lúc sốt lúc rét), tâm phiền và nôn mửa."
+  },
+  {
+    "question": "Triệu chứng chính của hội chứng Dương minh là gì?",
+    "answer": "Sốt cao, khát nước và phiền táo."
+  },
+  {
+    "question": "Thái âm chứng có những biểu hiện lâm sàng nào?",
+    "answer": "Bụng đầy đau, nôn mửa, tiêu chảy, lưỡi nhạt, rêu trắng mỏng và mạch trì hoãn."
+  },
+  {
+    "question": "Hội chứng Quyết âm có triệu chứng đặc trưng là gì?",
+    "answer": "Chân tay quyết nghịch (lạnh từ đầu chi trở vào)."
+  },
+  {
+    "question": "Đặc điểm khởi phát của ngoại cảm Ôn bệnh là gì?",
+    "answer": "Khởi phát bằng bệnh cảnh nhiệt: sốt cao và khát nước ngay từ đầu."
+  },
+  {
+    "question": "Ngô Cúc Thông biện giải diễn biến Ôn bệnh theo hệ thống nào?",
+    "answer": "Theo Tam tiêu, gồm 3 giai đoạn: nhiệt tà ở Thượng tiêu, Trung tiêu và Hạ tiêu."
+  },
+  {
+    "question": "Diệp Thiên Sỹ biện giải Ôn bệnh theo các giai đoạn nông sâu nào?",
+    "answer": "Theo 4 giai đoạn: Vệ phận, Khí phận, Dinh phận và Huyết phận."
+  },
+  {
+    "question": "Nguyên nhân gây ra bệnh Dịch lệ là gì?",
+    "answer": "Do lệ khí, được hình thành từ tà khí lục dâm phối hợp với tử khí từ xác chết."
+  },
+  {
+    "question": "Dịch lệ có đặc điểm gì khác với các bệnh ngoại cảm thông thường?",
+    "answer": "Bệnh rất nặng, lây lan thành dịch, diễn biến rất nhanh, dễ tử vong và thường xảy ra sau thiên tai."
+  },
+  {
+    "question": "Trong bài thuốc Đông y, vai trò của vị thuốc 'Quân' là gì?",
+    "answer": "Là vị thuốc chính, có tác dụng điều trị trực tiếp nguyên nhân gây bệnh hoặc triệu chứng chính của bệnh."
+  },
+  {
+    "question": "Vai trò của vị thuốc 'Thần' trong đơn thuốc là gì?",
+    "answer": "Là vị thuốc hỗ trợ cho vị Quân để tăng cường tác dụng điều trị."
+  },
+  {
+    "question": "Vị thuốc 'Tá' có vai trò gì trong cấu trúc bài thuốc?",
+    "answer": "Có tác dụng hỗ trợ vị Quân/Thần, điều trị các triệu chứng phụ, hoặc làm giảm độc tính của các vị thuốc khác."
+  },
+  {
+    "question": "Vị thuốc 'Sứ' đóng vai trò gì?",
+    "answer": "Có tác dụng dẫn thuốc đến nơi có bệnh hoặc điều hòa các vị thuốc trong bài."
+  },
+  {
+    "question": "Phối ngũ 'Tương tu' trong Đông dược là gì?",
+    "answer": "Là sự phối hợp giữa hai vị thuốc có cùng tính vị và tác dụng để tăng cường hiệu quả điều trị."
+  },
+  {
+    "question": "Thế nào là phối ngũ 'Tương úy'?",
+    "answer": "Là khi một vị thuốc có thể làm giảm bớt độc tính hoặc tác dụng phụ của vị thuốc khác."
+  },
+  {
+    "question": "Thế nào là phối ngũ 'Tương phản'?",
+    "answer": "Là khi hai vị thuốc phối hợp với nhau sẽ gây ra tác dụng phụ nguy hiểm hoặc độc tính cho cơ thể."
+  },
+  {
+    "question": "Ưu điểm của phương pháp kê đơn 'Cổ phương gia giảm' là gì?",
+    "answer": "Thể hiện đầy đủ tính chất lý pháp của Đông y dựa trên các bài thuốc kinh điển đã được kiểm chứng qua nhiều đời."
+  },
+  {
+    "question": "Nhược điểm của phương pháp kê đơn theo 'Toa căn bản' là gì?",
+    "answer": "Không thể hiện được tính lý pháp của Đông y và đôi khi sử dụng quá nhiều vị thuốc không cần thiết."
+  },
+  {
+    "question": "Tạng Thận trong Đông y ứng với quẻ nào trong Hậu thiên bát quái?",
+    "answer": "Thận ứng với quẻ Khảm, tượng trưng cho nước."
+  },
+  {
+    "question": "Tại sao tạng Thận được gọi là 'Thủy tạng'?",
+    "answer": "Vì theo Kinh dịch và lý luận Đông y, tượng của quẻ Khảm (Thận) là nước, nên Thận chủ thủy."
+  },
+  {
+    "question": "Sự tuần hoàn của huyết trong cơ thể do những tạng nào phụ trách?",
+    "answer": "Do Tâm làm chủ, Can tàng trữ và Tỳ thống soái."
+  },
+  {
+    "question": "Triệu chứng chung của Ôn bệnh ở Vệ phận là gì?",
+    "answer": "Sợ gió lạnh, phát sốt, khát không nhiều, ho ít đờm hoặc đờm khó khạc, mạch phù sác."
+  },
+  {
+    "question": "Bài thuốc tiêu biểu điều trị tà ở bì mao (Vệ phận) trong Ôn bệnh là gì?",
+    "answer": "Ngân kiều tán."
+  },
+  {
+    "question": "Vị thuốc Liên kiều trong bài Ngân kiều tán có tác dụng gì?",
+    "answer": "Thanh nhiệt, giải độc, tán kết và giải cảm trừ phong nhiệt."
+  },
+  {
+    "question": "Huyệt nào được dùng đặc hiệu để khu phong, giải biểu trong sốt ngoại cảm?",
+    "answer": "Huyệt Ngoại quan và Phong trì."
+  },
+  {
+    "question": "Tác dụng của bài thuốc Tang cúc ẩm là gì?",
+    "answer": "Sơ phong thanh nhiệt, tuyên Phế, hóa đờm."
+  },
+  {
+    "question": "Bài thuốc Lục nhất tán (Thiên thủy thang) có tác dụng gì?",
+    "answer": "Thanh nhiệt tả hỏa, lợi tiểu; chủ trị sốt cao, tiểu đỏ, miệng khát, bứt rứt."
+  },
+  {
+    "question": "Huyệt Bách hội được sử dụng để điều trị triệu chứng gì trong hội chứng Nhiệt nhập Tâm bào?",
+    "answer": "Dùng để thanh thần chí, tiết nhiệt, điều trị chứng nói nhảm hoặc lơ mơ."
+  },
+  {
+    "question": "Huyệt Tam âm giao là giao hội của những kinh nào?",
+    "answer": "Giao hội của 3 kinh âm ở chân: Tỳ, Can và Thận."
+  },
+  {
+    "question": "Triệu chứng của hội chứng Vị âm hư là gì?",
+    "answer": "Khô miệng, khát nước, đói mà không muốn ăn, đại tiện táo, lưỡi đỏ ít rêu."
+  },
+  {
+    "question": "Hội chứng Vị thất hòa giáng có triệu chứng đặc trưng là gì?",
+    "answer": "Đau thượng vị kèm nôn mửa."
+  },
+  {
+    "question": "Pháp trị phù hợp cho hội chứng Tỳ Vị thấp nhiệt là gì?",
+    "answer": "Thanh nhiệt lợi thấp."
+  },
+  {
+    "question": "Vị thuốc Tang diệp trong bài Tang cúc ẩm có tác dụng gì?",
+    "answer": "Phát tán phong nhiệt, thanh Can minh mục, thanh Phế chỉ khái."
+  },
+  {
+    "question": "Vị thuốc Hoạt thạch trong bài Lục nhất tán có tính vị và tác dụng gì?",
+    "answer": "Vị ngọt, tính hàn; tác dụng thanh nhiệt, lợi tiểu."
+  },
+  {
+    "question": "Huyệt Phục lưu có tác dụng gì trong điều trị bệnh lý tạng Thận?",
+    "answer": "Tư âm bổ Thận, điều hòa huyền phủ (lỗ chân lông) và trị chứng đạo hãn (mồ hôi trộm)."
+  },
+  {
+    "question": "Hội chứng Thiếu âm hóa nhiệt thường sử dụng bài thuốc nào?",
+    "answer": "Bài Đạo xích tán."
+  },
+  {
+    "question": "Trong bài Đạo xích tán, vị thuốc Sinh địa đóng vai trò Quân vì lý do gì?",
+    "answer": "Vì Sinh địa có tác dụng dưỡng âm, nuôi Thận và dưỡng huyết."
+  },
+  {
+    "question": "Huyệt Thập tuyên thường được dùng để điều trị chứng gì?",
+    "answer": "Điều trị sốt cao hoặc cấp cứu trong chứng đột ngột trúng phong."
+  },
+  {
+    "question": "Triệu chứng phân biệt giữa Quyết âm nhiệt quyế và Quyết âm hàn quyế là gì?",
+    "answer": "Sự hiện diện của sốt: nhiệt quyế có sốt, hàn quyế không có sốt."
+  },
+  {
+    "question": "Vị thuốc Ô mai thường được dùng để điều trị gì theo kinh nghiệm dân gian?",
+    "answer": "Dùng để trị giun."
+  },
+  {
+    "question": "Thuốc tiêu biểu điều trị Quyết âm hồi quyế (kèm nôn ra giun) là gì?",
+    "answer": "Ô mai hoàn."
+  },
+  {
+    "question": "Triệu chứng chính của hội chứng Bàng quang thấp nhiệt là gì?",
+    "answer": "Tiểu gắt, tiểu buốt, tiểu nhiều lần, nước tiểu vàng đỏ hoặc đục."
+  },
+  {
+    "question": "Pháp trị cho hội chứng Bàng quang thấp nhiệt là gì?",
+    "answer": "Thanh nhiệt lợi thấp."
+  },
+  {
+    "question": "Can khí uất kết thường gây ra triệu chứng gì?",
+    "answer": "Tinh thần uất ức, hay thở dài, ngực sườn đầy trướng, ở phụ nữ có thể gây kinh nguyệt không đều."
+  },
+  {
+    "question": "Pháp trị cho hội chứng Can khí uất kết là gì?",
+    "answer": "Sơ Can giải uất."
+  },
+  {
+    "question": "Vị thuốc Cam thảo được dùng trong hầu hết các bài thuốc vì tác dụng gì?",
+    "answer": "Bổ trung khí, thanh nhiệt giải độc và đặc biệt là điều hòa các vị thuốc trong bài."
+  },
+  {
+    "question": "Triệu chứng của hội chứng Can hỏa thượng viêm là gì?",
+    "answer": "Đau đầu, mắt đỏ, miệng đắng, tai ù, dễ nổi giận."
+  },
+  {
+    "question": "Pháp trị cho hội chứng Can hỏa thượng viêm là gì?",
+    "answer": "Thanh Can tả hỏa."
+  },
+  {
+    "question": "Hội chứng Phế âm hư thường có các biểu hiện nào?",
+    "answer": "Ho khan ít đờm, họng khô, gò má đỏ, sốt nhẹ về chiều (triều nhiệt), mồ hôi trộm."
+  },
+  {
+    "question": "Tâm hỏa vượng thường biểu hiện qua những triệu chứng nào?",
+    "answer": "Mất ngủ, tâm phiền, miệng lưỡi lở loét, tiểu đỏ buốt."
+  },
+  {
+    "question": "Tỳ khí hư thường dẫn đến các triệu chứng lâm sàng nào?",
+    "answer": "Ăn kém, bụng đầy sau khi ăn, phân lỏng nát, mệt mỏi, sắc mặt vàng úa."
+  },
+  {
+    "question": "Thế nào là 'Nội phong' trong Đông y?",
+    "answer": "Là tình trạng phong do rối loạn công năng của các tạng phủ bên trong cơ thể sinh ra, khác với ngoại phong từ môi trường."
+  },
+  {
+    "question": "Sự phối ngũ 'Tương sát' trong dược lý Đông y có nghĩa là gì?",
+    "answer": "Là khi một vị thuốc có khả năng làm mất đi độc tính của một vị thuốc khác."
+  },
+  {
+    "question": "Phối ngũ 'Tương sử' là gì?",
+    "answer": "Là sự phối hợp giữa một vị thuốc chính và một vị thuốc phụ khác tính chất nhưng hỗ trợ nâng cao hiệu quả cho vị thuốc chính."
+  },
+  {
+    "question": "Triệu chứng đặc trưng của hội chứng Thận dương hư là gì?",
+    "answer": "Sợ lạnh, tay chân lạnh, đau lưng mỏi gối, tiểu đêm nhiều, liệt dương hoặc phù thũng."
+  },
+  {
+    "question": "Pháp trị cho hội chứng Thận dương hư là gì?",
+    "answer": "Ôn bổ Thận dương."
+  },
+  {
+    "question": "Triệu chứng của hội chứng Thận âm hư là gì?",
+    "answer": "Chóng mặt, tai ù, đau lưng, triều nhiệt, ngũ tâm phiền nhiệt (nóng lòng bàn tay bàn chân và ngực)."
+  },
+  {
+    "question": "Tâm chủ về chức năng gì trong cơ thể?",
+    "answer": "Tâm chủ huyết mạch và chủ thần chí."
+  },
+  {
+    "question": "Tạng Tỳ có chức năng quan trọng nào liên quan đến tiêu hóa?",
+    "answer": "Tỳ chủ vận hóa thủy cốc và vận hóa thủy thấp."
+  },
+  {
+    "question": "Đặc điểm của hội chứng Phế khí hư là gì?",
+    "answer": "Ho không có sức, tiếng nói nhỏ yếu, tự hãn (vã mồ hôi khi vận động nhẹ), dễ bị cảm lạnh."
+  },
+  {
+    "question": "Lục khí chỉ trở thành nguyên nhân gây bệnh (lục dâm) khi nào?",
+    "answer": "Khi thời tiết thay đổi đột ngột hoặc sức đề kháng của cơ thể bị suy yếu."
+  },
+  {
+    "question": "Huyệt Hợp cốc thường được phối hợp với huyệt nào để hạ sốt trong Đông y?",
+    "answer": "Phối hợp với Khúc trì và Đại chùy."
+  }
+]

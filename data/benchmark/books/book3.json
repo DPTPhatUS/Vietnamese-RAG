@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Đối tượng nghiên cứu chủ yếu trong triết lý y học phương Đông là gì?",
+    "answer": "Đối tượng nghiên cứu chủ yếu là 'Khí'."
+  },
+  {
+    "question": "Sách đề cập đến ba loại khí chính nào?",
+    "answer": "Ba loại khí chính gồm: Không khí, Thần khí và Dinh khí."
+  },
+  {
+    "question": "Nguyên khí còn được gọi bằng những tên nào khác?",
+    "answer": "Nguyên khí còn gọi là chân khí hoặc khí của chân nguyên."
+  },
+  {
+    "question": "Vinh khí được hình thành từ đâu?",
+    "answer": "Vinh khí được hóa thành từ ngũ vị của đồ ăn thức uống, sau khi được tỳ vận hóa và nguyên khí xúc tác."
+  },
+  {
+    "question": "Tông khí là sự kết hợp của những loại khí nào?",
+    "answer": "Tông khí là khí trời hợp với khí của tỳ vị mà thành."
+  },
+  {
+    "question": "Vệ khí có nguồn gốc từ đâu và do tạng nào tuyên phát?",
+    "answer": "Vệ khí bắt nguồn từ tiên thiên do dương khí của thận sinh ra và được tuyên phát bởi tạng phế."
+  },
+  {
+    "question": "Chức năng chính của Vệ khí là gì?",
+    "answer": "Vệ khí làm ấm nội tạng, thấm nhuận da lông, đóng mở lỗ chân lông và bảo vệ cơ thể chống ngoại tà."
+  },
+  {
+    "question": "Huyết được định nghĩa như thế nào trong Đông y?",
+    "answer": "Huyết là dạng vật chất hữu hình thể lỏng, tải thủy, hỏa, khí, tân dịch đi nuôi dưỡng và bảo vệ cơ thể."
+  },
+  {
+    "question": "Tâm huyết và Can huyết khác nhau như thế nào về mặt quản lý?",
+    "answer": "Tâm huyết do tâm quản lý, Can huyết tàng trữ tại can và do can điều hành."
+  },
+  {
+    "question": "Khái niệm 'Thủy' trong y lý Đông y bao gồm những gì?",
+    "answer": "Thủy là dạng vật chất chủ về sự điều tiết chất lỏng trong cơ thể, bao gồm cả thành phần hữu hình và vô hình."
+  },
+  {
+    "question": "Hỏa trong y lý đóng vai trò gì?",
+    "answer": "Hỏa là dạng vật chất vô hình giữ vai trò ổn định, điều tiết nhiệt lượng và hỗ trợ chuyển hóa, trao đổi chất."
+  },
+  {
+    "question": "Lưỡng nghi trong Đông y được hiểu là gì?",
+    "answer": "Lưỡng nghi là những cặp tương ứng của các chỉnh thể có tính chất trái ngược nhau nhưng gắn bó với nhau như động - tĩnh, hàn - nhiệt."
+  },
+  {
+    "question": "Theo sách Thuyết Văn, 'Âm' và 'Dương' có nghĩa gốc là gì?",
+    "answer": "Âm có nghĩa là tối tăm, mây che mặt trời; Dương có nghĩa là cao, sáng, rực rỡ."
+  },
+  {
+    "question": "Bốn quy luật cơ bản của học thuyết Âm Dương là gì?",
+    "answer": "Bốn quy luật gồm: Âm dương đối lập, Âm dương hỗ căn, Âm dương tiêu trưởng và Âm dương bình hành."
+  },
+  {
+    "question": "Quy luật 'Âm dương tiêu trưởng' nói lên điều gì?",
+    "answer": "Nói lên sự vận động không ngừng và chuyển hóa lẫn nhau, như sự thay đổi từ lạnh sang nóng là âm tiêu dương trưởng."
+  },
+  {
+    "question": "Hình đồ Thái cực diễn tả điều gì?",
+    "answer": "Diễn tả quy luật biến hóa của âm dương, trong dương có âm, trong âm có dương và sự thăng giáng của chúng."
+  },
+  {
+    "question": "Tứ tượng bao gồm những hình tượng nào?",
+    "answer": "Tứ tượng gồm: Thiếu dương, Thái dương, Thiếu âm và Thái âm."
+  },
+  {
+    "question": "Dương minh được định nghĩa là gì?",
+    "answer": "Dương minh là dương thịnh."
+  },
+  {
+    "question": "Quyết âm được hiểu như thế nào?",
+    "answer": "Quyết âm là sự phát động, thúc đẩy phần âm hoạt động trong quá trình biến hóa."
+  },
+  {
+    "question": "Ngũ hành bao gồm 5 loại vật chất cơ bản nào?",
+    "answer": "Gồm Kim, Thủy, Mộc, Hỏa và Thổ."
+  },
+  {
+    "question": "Màu sắc tương ứng với ngũ hành (Mộc, Hỏa, Thổ, Kim, Thủy) là gì?",
+    "answer": "Tương ứng là: Xanh (Mộc), Đỏ (Hỏa), Vàng (Thổ), Trắng (Kim), Đen (Thủy)."
+  },
+  {
+    "question": "Vị tương ứng với ngũ hành là gì?",
+    "answer": "Tương ứng là: Chua (Mộc), Đắng (Hỏa), Ngọt (Thổ), Cay (Kim), Mặn (Thủy)."
+  },
+  {
+    "question": "Thứ tự của quy luật Ngũ hành tương sinh là gì?",
+    "answer": "Mộc sinh Hỏa, Hỏa sinh Thổ, Thổ sinh Kim, Kim sinh Thủy, Thủy sinh Mộc."
+  },
+  {
+    "question": "Thứ tự của quy luật Ngũ hành tương khắc là gì?",
+    "answer": "Mộc khắc Thổ, Thổ khắc Thủy, Thủy khắc Hỏa, Hỏa khắc Kim, Kim khắc Mộc."
+  },
+  {
+    "question": "Hiện tượng 'Tương thừa' trong ngũ hành là gì?",
+    "answer": "Là hiện tượng hành này khắc hành kia quá mạnh khi có sự bất thường hoặc bệnh lý."
+  },
+  {
+    "question": "Hiện tượng 'Tương vũ' là gì?",
+    "answer": "Là hành bị khắc quá mạnh khiến hành khắc không khắc được, gây ra phản vũ (khắc ngược lại)."
+  },
+  {
+    "question": "Trong chẩn đoán bệnh theo ngũ hành, 'Hư tà' là gì?",
+    "answer": "Hư tà là bệnh do tạng mẹ gây ra cho tạng con."
+  },
+  {
+    "question": "Trong chẩn đoán bệnh theo ngũ hành, 'Thực tà' là gì?",
+    "answer": "Thực tà là bệnh do tạng con gây ra cho tạng mẹ."
+  },
+  {
+    "question": "Nguyên tắc điều trị cơ bản theo ngũ hành là gì?",
+    "answer": "Hư thì bổ mẹ, thực thì tả con."
+  },
+  {
+    "question": "Tạng Tâm có những chức năng chính nào?",
+    "answer": "Tâm chủ về tình chí, chủ về huyết mạch biểu hiện ra mặt và khai khiếu ra lưỡi."
+  },
+  {
+    "question": "Triệu chứng của 'Tâm hàn' là gì?",
+    "answer": "Đau vùng ngực trái cấp, chân tay lạnh giá, mạch trầm trì."
+  },
+  {
+    "question": "Tâm bào lạc có nhiệm vụ gì?",
+    "answer": "Bảo vệ tâm khỏi tà khí và thúc đẩy sự co bóp, hoạt động của tâm."
+  },
+  {
+    "question": "Tạng Phế có những chức năng chính nào?",
+    "answer": "Phế chủ khí, chủ hô hấp, chủ về tuyên phát và túc giáng, chủ bì mao và thông điều thủy đạo."
+  },
+  {
+    "question": "Biểu hiện của Phế khí hư là gì?",
+    "answer": "Khó thở, thở nhanh, tiếng nói nhỏ, người mệt mỏi, da lông khô ráp."
+  },
+  {
+    "question": "Phế khai khiếu ra đâu?",
+    "answer": "Phế khai khiếu ra mũi và thông với họng."
+  },
+  {
+    "question": "Tạng Thận có những chức năng chính nào?",
+    "answer": "Thận tàng tinh, chủ về sinh dục - phát dục, chủ về khí hóa nước, chủ xương tủy và nạp khí."
+  },
+  {
+    "question": "Thận dương còn được gọi là gì?",
+    "answer": "Thận dương còn gọi là nguyên dương hoặc mệnh môn hỏa."
+  },
+  {
+    "question": "Biểu hiện của Thận không nạp được khí là gì?",
+    "answer": "Gây ra chứng ho, hen, suyễn tức (khí nghịch lên trên)."
+  },
+  {
+    "question": "Thận khai khiếu ra đâu?",
+    "answer": "Thận khai khiếu ra tai và tiền âm, hậu âm."
+  },
+  {
+    "question": "Tạng Tỳ có chức năng chính là gì?",
+    "answer": "Tỳ chủ vận hóa đồ ăn, vận hóa thủy thấp, chủ về thống nhiếp huyết và chủ cơ nhục."
+  },
+  {
+    "question": "Tỳ khai khiếu ra đâu và vinh nhuận ra đâu?",
+    "answer": "Tỳ khai khiếu ra miệng và vinh nhuận ra môi."
+  },
+  {
+    "question": "Triệu chứng của Tỳ khí hư là gì?",
+    "answer": "Ăn kém, đầy bụng, đại tiện lỏng, người mệt mỏi, cơ bắp teo nhẽo."
+  },
+  {
+    "question": "Tạng Can có chức năng chính là gì?",
+    "answer": "Can chủ sơ tiết, tàng huyết và chủ về cân."
+  },
+  {
+    "question": "Can khai khiếu ra đâu và biểu hiện ra đâu?",
+    "answer": "Can khai khiếu ra mắt và vinh nhuận ra móng tay, móng chân."
+  },
+  {
+    "question": "Sự liên quan giữa Tâm và Phế thể hiện qua đâu?",
+    "answer": "Thể hiện qua mối quan hệ giữa khí (Phế) và huyết (Tâm)."
+  },
+  {
+    "question": "Mối quan hệ giữa Tâm và Thận được gọi là gì?",
+    "answer": "Được gọi là mối quan hệ 'Tâm thận tương giao' (thủy hỏa ký tế)."
+  },
+  {
+    "question": "Quan hệ giữa Can và Tỳ được ví như điều gì?",
+    "answer": "Được ví như xe hơi: Tỳ vận hóa như xe chạy, Can sơ tiết như tra dầu và nổ máy."
+  },
+  {
+    "question": "Bệnh 'Âm thủy' (viêm thận mãn tính) có liên quan đến tạng nào?",
+    "answer": "Liên quan đến việc Tỳ hư không chế hãm được Thận thủy."
+  },
+  {
+    "question": "Tại sao Đại trường được gọi là 'Thủ dương minh Đại trường'?",
+    "answer": "Vì nó quan hệ biểu lý với Phế (Thái âm) và thuộc hệ thống Dương minh theo hình đồ thái cực."
+  },
+  {
+    "question": "Nguyên nhân gây bệnh trong Đông y gồm những loại nào?",
+    "answer": "Gồm: Ngoại nhân (Lục dâm), Nội nhân (Thất tình) và Bất nội ngoại nhân."
+  },
+  {
+    "question": "Lục dâm bao gồm những yếu tố nào?",
+    "answer": "Gồm: Phong, Hàn, Thử, Thấp, Táo, Hỏa."
+  },
+  {
+    "question": "Thất tình bao gồm những trạng thái tâm lý nào?",
+    "answer": "Gồm: Hỷ (mừng), Nộ (giận), Ưu (lo), Tư (nghĩ), Bi (buồn), Kinh (kinh hãi), Khủng (sợ)."
+  },
+  {
+    "question": "Bát cương là gì?",
+    "answer": "Bát cương là 8 cương lĩnh chẩn đoán bệnh: Âm, Dương, Hàn, Nhiệt, Hư, Thực, Biểu, Lý."
+  },
+  {
+    "question": "Cặp cương lĩnh nào được coi là tổng cương trong bát cương?",
+    "answer": "Âm và Dương là tổng cương."
+  },
+  {
+    "question": "Chẩn đoán bệnh trong Đông y gồm những phương pháp nào (Tứ chẩn)?",
+    "answer": "Gồm: Vọng (nhìn), Văn (nghe, ngửi), Vấn (hỏi), Thiết (bắt mạch, sờ nắn)."
+  },
+  {
+    "question": "Mục đích của việc xem thần trong Vọng chẩn là gì?",
+    "answer": "Để biết tình trạng chính khí của cơ thể: còn thần thì sống, mất thần thì chết."
+  },
+  {
+    "question": "Sắc mặt xanh thường biểu hiện bệnh gì?",
+    "answer": "Thường biểu hiện bệnh của tạng Can, hoặc các chứng đau, phong tà, kinh phong."
+  },
+  {
+    "question": "Chất lưỡi đỏ giáng (đỏ thẫm) biểu hiện điều gì?",
+    "answer": "Biểu hiện nhiệt đã vào phần dinh, phần huyết."
+  },
+  {
+    "question": "Văn chẩn không chỉ là nghe, mà còn bao gồm những gì?",
+    "answer": "Bao gồm nghe tiếng nói, ngửi mùi cơ thể, nếm vị và cảm thấy bằng tư duy."
+  },
+  {
+    "question": "Tiếng thở thô, mạnh, đứt quãng thường thuộc chứng gì?",
+    "answer": "Thường thuộc chứng Thực."
+  },
+  {
+    "question": "Thiết chẩn bao gồm những việc làm nào?",
+    "answer": "Bao gồm xem mạch (mạch chẩn) và sờ nắn các vùng trên cơ thể (án chẩn)."
+  },
+  {
+    "question": "Ba nấc ấn tay khi xem mạch là gì?",
+    "answer": "Sơ án (nhẹ), Trung án (vừa), Trọng án (nặng)."
+  },
+  {
+    "question": "Mạch Phù chủ về bệnh gì?",
+    "answer": "Chủ về bệnh ở biểu (ngoại cảm phong hàn, phong nhiệt...)."
+  },
+  {
+    "question": "Mạch Trầm chủ về bệnh gì?",
+    "answer": "Chủ về bệnh ở lý, khí bị trầm tích không lưu hành."
+  },
+  {
+    "question": "Mạch Trì và mạch Sác khác nhau như thế nào?",
+    "answer": "Mạch Trì đi chậm (dưới 60 nhịp/phút) chủ hàn; mạch Sác đi nhanh (trên 90 nhịp/phút) chủ nhiệt."
+  },
+  {
+    "question": "Mạch Hoạt có đặc điểm và chủ bệnh gì?",
+    "answer": "Mạch đi trơn tru như hạt châu lăn, chủ bệnh đàm hoặc có thai."
+  },
+  {
+    "question": "Mạch Huyền thường gặp trong những bệnh nào?",
+    "answer": "Gặp trong bệnh đau gan, đau hông sườn, hoặc các chứng hư lao, suy tư quá độ."
+  },
+  {
+    "question": "Mạch Khổng thường xuất hiện khi nào?",
+    "answer": "Thường xuất hiện sau khi mất máu (thân mạch rỗng)."
+  },
+  {
+    "question": "Bộ vị xem mạch ở tay trái gồm những tạng nào?",
+    "answer": "Thốn (Tâm), Quan (Can), Xích (Thận thủy)."
+  },
+  {
+    "question": "Bộ vị xem mạch ở tay phải gồm những tạng nào?",
+    "answer": "Thốn (Phế), Quan (Tỳ), Xích (Mệnh môn hỏa)."
+  },
+  {
+    "question": "Bát pháp trong điều trị Đông y gồm những gì?",
+    "answer": "Hãn, Thổ, Hạ, Hòa, Thanh, Ôn, Tiêu, Bổ."
+  },
+  {
+    "question": "Hãn pháp là phương pháp gì?",
+    "answer": "Là phương pháp dùng thuốc làm ra mồ hôi để đưa tà khí ra ngoài qua đường da."
+  },
+  {
+    "question": "Thanh pháp được dùng khi nào?",
+    "answer": "Dùng để tả hỏa, lương huyết, trừ thấp nhiệt hoặc giải thử."
+  },
+  {
+    "question": "Ôn pháp có mục đích gì?",
+    "answer": "Chữa chứng hư hàn, trợ giúp hỏa khí, hồi phục chức năng tạng phủ dương suy."
+  },
+  {
+    "question": "Tiêu pháp áp dụng cho những trường hợp nào?",
+    "answer": "Dùng để lợi niệu, hành khí hoạt huyết, tiêu đạo (thông bí tiểu, mụn nhọt, u bướu)."
+  },
+  {
+    "question": "Hòa pháp được dùng khi nào?",
+    "answer": "Dùng để điều hòa các tạng phủ bất hòa hoặc chữa chứng sốt rét (bán biểu bán lý)."
+  },
+  {
+    "question": "Thành phần chính của bài thuốc 'Huyết phủ trục ứ thang' là gì?",
+    "answer": "Đương quy, Hồng hoa, Cam thảo, Sinh địa, Chỉ xác, Xuyên khung, Đào nhân, Sài hồ."
+  },
+  {
+    "question": "Bài thuốc 'Thiên phương hoạt mệnh' dùng để chữa bệnh gì?",
+    "answer": "Dùng để bài nùng sinh cơ, chữa các chứng 'mạch lươn'."
+  },
+  {
+    "question": "Câu nói 'Bất thông tắc thống, thông tắc bất thống' nghĩa là gì?",
+    "answer": "Không thông thì gây đau, thông suốt thì không đau."
+  },
+  {
+    "question": "Chứng 'Hành tỳ' trong phong thấp có đặc điểm gì?",
+    "answer": "Vị trí đau thay đổi, chạy từ chỗ này sang chỗ khác do phong tà."
+  },
+  {
+    "question": "Pháp trị cho chứng Thống tỳ (thấp tà) là gì?",
+    "answer": "Chỉ thống và táo thấp (giảm đau và làm khô thấp tà)."
+  },
+  {
+    "question": "Mạch thuận đối với chứng đái dầm ở trẻ em là gì?",
+    "answer": "Mạch tế, phù sác mà mình ấm."
+  },
+  {
+    "question": "Thận dương suy (Mệnh môn hỏa suy) thường gây ra triệu chứng đại tiện như thế nào?",
+    "answer": "Đại tiện phân sống, đặc biệt khi ăn chất mỡ hoặc tanh."
+  },
+  {
+    "question": "Tại sao không nên xem mạch trong quán nước hay nơi tàu xe?",
+    "answer": "Vì xem mạch cần sự nghiêm túc, yên tĩnh và trách nhiệm, không thể làm qua loa như trò giải trí."
+  },
+  {
+    "question": "Tạng nào chủ về sự thâu liễm tinh, khí, thủy, hỏa?",
+    "answer": "Tạng Thận."
+  },
+  {
+    "question": "Tạng nào là nơi nương giá của phách?",
+    "answer": "Tạng Phế."
+  },
+  {
+    "question": "Mạch trước lớn sau nhỏ đối với người bệnh là điềm gì?",
+    "answer": "Là điềm thuận."
+  },
+  {
+    "question": "Nốt ruồi ở Nhân trung đối với phụ nữ thường báo hiệu điều gì?",
+    "answer": "Thường báo hiệu bệnh về tử cung."
+  },
+  {
+    "question": "Sắc mặt vàng tối (âm hoàng) là do nguyên nhân gì?",
+    "answer": "Do thấp nhiệt kết hợp với hàn hoặc chính khí suy."
+  },
+  {
+    "question": "Ban chẩn có màu tím biểu hiện điều gì?",
+    "answer": "Biểu hiện nhiệt thịnh."
+  },
+  {
+    "question": "Bệnh của tạng Tâm thường dễ khỏi vào mùa nào?",
+    "answer": "Dễ khỏi vào mùa Trưởng hạ (cuối hạ - đầu thu)."
+  },
+  {
+    "question": "Bệnh của tạng Can thường nặng lên vào mùa nào?",
+    "answer": "Thường nặng lên vào mùa Thu."
+  },
+  {
+    "question": "Trong phép xem mạch cho trẻ em, mạch nào là nghịch đối với chứng ọc sữa?",
+    "answer": "Mạch Trầm tế mà mình lạnh là nghịch."
+  },
+  {
+    "question": "Thận khí hư hàn gây ra chứng đái dầm như thế nào?",
+    "answer": "Đái dầm nhiều lần trong đêm, nước tiểu trong dài, sợ lạnh."
+  },
+  {
+    "question": "Để chữa đái dầm do Thận khí hư hàn, pháp trị là gì?",
+    "answer": "Ôn thận, cố sáp."
+  },
+  {
+    "question": "Đặc điểm của mạch Vi là gì?",
+    "answer": "Mạch rất nhỏ, chủ về bệnh hàn, khí huyết hư hàn."
+  },
+  {
+    "question": "Mạch Đại chủ về bệnh gì?",
+    "answer": "Chủ về bệnh đang phát nặng do chính khí không đủ sức chế ngự tà khí."
+  },
+  {
+    "question": "Phế khí không tuyên phát sẽ gây ra triệu chứng gì?",
+    "answer": "Gây ứ trệ, tức ngực, ngạt thở, khó thở."
+  },
+  {
+    "question": "Thận chủ nạp khí nghĩa là gì?",
+    "answer": "Là việc kéo không khí do phế hít vào xuống Đan điền."
+  },
+  {
+    "question": "Bài thuốc 'Phòng phong thang' dùng cho chứng nào của phong thấp?",
+    "answer": "Dùng cho chứng Hành tỳ (do phong tà)."
+  }
+]
