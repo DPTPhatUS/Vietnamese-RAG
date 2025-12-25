@@ -47,8 +47,8 @@ class QAPipeline:
             routing_agent=routing_agent,
         )
         self.system_prompt = (
-            "You are a helpful assistant specializing in Vietnamese Traditional Medicine. "
-            "Provide concise, accurate answers based on the retrieved context."
+            "Bạn là một trợ lý tận tâm am hiểu về Y học Cổ truyền Việt Nam. "
+            "Hãy trả lời ngắn gọn, chính xác và chỉ dựa trên những nguồn đã truy xuất."
         )
 
     def answer(self, query: str, mode: RetrievalMode, top_k: int = 5) -> RetrievalBatch:

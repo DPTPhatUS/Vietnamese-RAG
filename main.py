@@ -2,10 +2,12 @@ from __future__ import annotations
 
 import argparse
 import logging
+from pathlib import Path
 
 from vietrag.config import AppConfig
 from vietrag.pipelines.ingest import run_ingestion
 from vietrag.pipelines.qa import QAPipeline
+from vietrag.pipelines.test import run_test_suite
 from vietrag.types import RetrievalMode
 
 
@@ -29,6 +31,23 @@ def build_parser() -> argparse.ArgumentParser:
         help="Retrieval strategy",
     )
     qa_parser.add_argument("--top-k", type=int, default=5, help="Number of passages to keep")
+
+    test_parser = subparsers.add_parser("test", help="Run batch QA evaluation on a dataset")
+    test_parser.add_argument("--dataset", default="data/benchmark/test.json", help="Path to test dataset JSON")
+    test_parser.add_argument(
+        "--output",
+        default="artifacts/test_results.json",
+        help="Where to store the evaluation output",
+    )
+    test_parser.add_argument(
+        "--mode",
+        choices=[m.value for m in RetrievalMode],
+        default=RetrievalMode.HYBRID.value,
+        help="Retrieval strategy",
+    )
+    test_parser.add_argument("--top-k", type=int, default=5, help="Number of passages to keep")
+    test_parser.add_argument("--limit", type=int, default=None, help="Optional cap on samples to evaluate")
+    test_parser.add_argument("--config", default=None, help="Optional path to .env with overrides")
     return parser
 
 
@@ -51,6 +70,18 @@ def main() -> None:
             print(doc.text if len(doc.text) <= 400 else doc.text[:397] + "...")
             print("---")
         pipeline.shutdown()
+        return
+    if args.command == "test":
+        dataset_path = Path(args.dataset)
+        output_path = Path(args.output)
+        run_test_suite(
+            config,
+            dataset_path,
+            output_path,
+            mode=RetrievalMode(args.mode),
+            top_k=args.top_k,
+            limit=args.limit,
+        )
         return
     parser.error("Unknown command")
 
