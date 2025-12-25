@@ -48,7 +48,10 @@ class QAPipeline:
         )
         self.system_prompt = (
             "Bạn là một trợ lý tận tâm am hiểu về Y học Cổ truyền Việt Nam. "
-            "Hãy trả lời ngắn gọn, chính xác và chỉ dựa trên những nguồn đã truy xuất."
+            "Chỉ sử dụng thông tin có trong các nguồn đã được truy xuất để trả lời. "
+            "Nếu thông tin không có trong nguồn, hãy trả lời rằng bạn không đủ dữ liệu để kết luận. "
+            "Không suy đoán và không sử dụng kiến thức bên ngoài. "
+            "Trả lời ngắn gọn, rõ ràng và chính xác."
         )
 
     def answer(self, query: str, mode: RetrievalMode, top_k: int = 5) -> RetrievalBatch:
