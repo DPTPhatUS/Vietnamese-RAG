@@ -37,12 +37,16 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	python main.py test --dataset data/benchmark/test.json --output artifacts/test_results.json
 	```
 
-2. Make sure [Ollama](https://ollama.com/) is running locally with an evaluator model that supports structured outputs (the default CLI uses `qwen3:4b`).
+2. Make sure [Ollama](https://ollama.com/) is running locally with an evaluator chat model **and** an embedding model available to the Ollama LangChain integrations (defaults: `qwen3:8b` for chat, `nomic-embed-text` for embeddings). Pull both via `ollama pull <model>` before running the eval command.
 
-3. Score the QA logs with Ragas, which now writes only a single CSV that contains every metric row (use `--limit` for smoke tests or override the Ollama parameters as needed):
+3. Score the QA logs with Ragas, which writes a single CSV containing every metric row (use `--limit` for smoke tests or override the Ollama parameters as needed):
 
 	```bash
-	python main.py eval --results artifacts/test_results.json --output artifacts/ragas_metrics.csv
+	python main.py eval \
+	  --results artifacts/test_results.json \
+	  --output artifacts/ragas_metrics.csv \
+	  --ollama-model qwen3:8b \
+	  --ollama-embed-model nomic-embed-text
 	```
 
 ## Setting Up VietMedKG

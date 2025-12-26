@@ -69,6 +69,11 @@ def build_parser() -> argparse.ArgumentParser:
         help="Ollama chat model used by the evaluator",
     )
     eval_parser.add_argument(
+        "--ollama-embed-model",
+        default="qwen3-embedding:8b",
+        help="Ollama embedding model exposed via the OpenAI embeddings API",
+    )
+    eval_parser.add_argument(
         "--ollama-base-url",
         default="http://localhost:11434",
         help="Endpoint for the Ollama server",
@@ -123,6 +128,7 @@ def main() -> None:
             output_path=output_path,
             limit=args.limit,
             ollama_model=args.ollama_model,
+            ollama_embed_model=args.ollama_embed_model,
             ollama_base_url=args.ollama_base_url,
             temperature=args.temperature,
         )
