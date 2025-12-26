@@ -29,6 +29,22 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	python main.py qa "Thành phần của bài thuốc Bổ trung ích khí là gì?" --mode routed
 	```
 
+### Batch QA + Ragas evaluation
+
+1. Generate QA logs for the benchmark split (writes to `artifacts/test_results.json` by default):
+
+	```bash
+	python main.py test --dataset data/benchmark/test.json --output artifacts/test_results.json
+	```
+
+2. Make sure [Ollama](https://ollama.com/) is running locally with an evaluator model that supports structured outputs (the default CLI uses `qwen3:4b`).
+
+3. Score the QA logs with Ragas, which now writes only a single CSV that contains every metric row (use `--limit` for smoke tests or override the Ollama parameters as needed):
+
+	```bash
+	python main.py eval --results artifacts/test_results.json --output artifacts/ragas_metrics.csv
+	```
+
 ## Setting Up VietMedKG
 
 1. Clone the [HySonLab/VietMedKG](https://github.com/HySonLab/VietMedKG) repository and install its preprocessing requirements (notably `py2neo` and `pandas`).
@@ -63,6 +79,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 - `vietrag/llm/qwen.py` – Qwen3-4B inference helper.
 - `vietrag/retrieval/router.py` – orchestrates RAPTOR, KG, hybrid, and routed retrieval modes.
 - `vietrag/pipelines/ingest.py` – end-to-end preprocessing pipeline.
+- `vietrag/pipelines/eval.py` – wraps Ragas metrics over recorded QA runs via Ollama.
 - `vietrag/pipelines/qa.py` – QA orchestration (retrieval + generation).
 
 Artifacts live under `artifacts/` by default (`chunks.parquet`, `raptor_index/`).

@@ -5,6 +5,7 @@ import logging
 from pathlib import Path
 
 from vietrag.config import AppConfig
+from vietrag.pipelines.eval import run_ragas_eval
 from vietrag.pipelines.ingest import run_ingestion
 from vietrag.pipelines.qa import QAPipeline
 from vietrag.pipelines.test import run_test_suite
@@ -48,6 +49,37 @@ def build_parser() -> argparse.ArgumentParser:
     test_parser.add_argument("--top-k", type=int, default=5, help="Number of passages to keep")
     test_parser.add_argument("--limit", type=int, default=None, help="Optional cap on samples to evaluate")
     test_parser.add_argument("--config", default=None, help="Optional path to .env with overrides")
+
+    eval_parser = subparsers.add_parser("eval", help="Run Ragas metrics over QA logs")
+    eval_parser.add_argument("--results", default="artifacts/test_results.json", help="Path to QA results JSON")
+    eval_parser.add_argument(
+        "--output",
+        default="artifacts/ragas_metrics.csv",
+        help="Path to the CSV file that will store all metric rows",
+    )
+    eval_parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Optional cap on how many samples to score",
+    )
+    eval_parser.add_argument(
+        "--ollama-model",
+        default="qwen3:8b",
+        help="Ollama chat model used by the evaluator",
+    )
+    eval_parser.add_argument(
+        "--ollama-base-url",
+        default="http://localhost:11434",
+        help="Endpoint for the Ollama server",
+    )
+    eval_parser.add_argument(
+        "--temperature",
+        type=float,
+        default=0.0,
+        help="Generation temperature for the evaluator model",
+    )
+    eval_parser.add_argument("--config", default=None, help="Optional path to .env with overrides")
     return parser
 
 
@@ -81,6 +113,18 @@ def main() -> None:
             mode=RetrievalMode(args.mode),
             top_k=args.top_k,
             limit=args.limit,
+        )
+        return
+    if args.command == "eval":
+        results_path = Path(args.results)
+        output_path = None if args.output in (None, "", "-") else Path(args.output)
+        run_ragas_eval(
+            results_path,
+            output_path=output_path,
+            limit=args.limit,
+            ollama_model=args.ollama_model,
+            ollama_base_url=args.ollama_base_url,
+            temperature=args.temperature,
         )
         return
     parser.error("Unknown command")
