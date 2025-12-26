@@ -2,13 +2,20 @@ from __future__ import annotations
 
 import json
 import logging
+import math
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
 
+import pandas as pd
+
+from langchain_ollama import ChatOllama
+from langchain_ollama import OllamaEmbeddings
+
 from ragas import evaluate
 from ragas.dataset_schema import EvaluationDataset
-from ragas.llms import llm_factory
-from ragas.metrics.base import Metric
+from ragas.embeddings import LangchainEmbeddingsWrapper
+from ragas.llms import LangchainLLMWrapper
+from ragas.metrics.base import Metric, MetricType
 from ragas.metrics._answer_relevance import AnswerRelevancy
 from ragas.metrics._context_entities_recall import ContextEntityRecall
 from ragas.metrics._context_precision import ContextPrecision
@@ -19,6 +26,7 @@ from ragas.metrics._noise_sensitivity import NoiseSensitivity
 logger = logging.getLogger(__name__)
 
 DEFAULT_LLM_MODEL = "qwen3:8b"
+DEFAULT_EMBED_MODEL = "qwen3-embedding:8b"
 DEFAULT_OLLAMA_URL = "http://localhost:11434"
 
 
@@ -35,10 +43,9 @@ def _load_results(path: Path) -> List[Dict[str, Any]]:
 def _prepare_samples(
     raw_samples: List[Dict[str, Any]],
     limit: Optional[int],
-) -> tuple[List[Dict[str, Any]], int]:
+) -> List[Dict[str, Any]]:
     processed: List[Dict[str, Any]] = []
-    skipped = 0
-    for idx, sample in enumerate(raw_samples, start=1):
+    for sample in raw_samples:
         question = (sample.get("question") or "").strip()
         answer = (sample.get("answer") or "").strip()
         ground_truth = (sample.get("ground_truth") or "").strip()
@@ -47,40 +54,57 @@ def _prepare_samples(
             for ctx in sample.get("contexts") or []
             if isinstance(ctx, str) and ctx.strip()
         ]
-        if not question or not answer or not ground_truth or not contexts:
-            skipped += 1
-            logger.debug(
-                "Skipping sample %d because of missing fields (question=%s, answer=%s, "
-                "ground_truth=%s, contexts=%d)",
-                idx,
-                bool(question),
-                bool(answer),
-                bool(ground_truth),
-                len(contexts),
-            )
-            continue
         processed.append(
             {
-                "user_input": question,
-                "response": answer,
-                "reference": ground_truth,
+                "user_input": question or None,
+                "response": answer or None,
+                "reference": ground_truth or None,
                 "retrieved_contexts": contexts,
             }
         )
         if limit is not None and len(processed) >= limit:
             break
-    return processed, skipped
+    return processed
 
 
 def _default_metrics() -> List[Metric]:
     return [
         ContextPrecision(),
         ContextRecall(),
-        ContextEntityRecall(),
-        NoiseSensitivity(),
+        # ContextEntityRecall(),
+        # NoiseSensitivity(),
         AnswerRelevancy(),
         Faithfulness(),
     ]
+
+
+def _metric_required_columns(metric: Metric) -> set[str]:
+    required_map = metric.get_required_columns()
+    if MetricType.SINGLE_TURN.name in required_map:
+        return set(required_map[MetricType.SINGLE_TURN.name])
+    required: set[str] = set()
+    for cols in required_map.values():
+        required.update(cols)
+    return required
+
+
+def _value_is_present(value: Any) -> bool:
+    if value is None:
+        return False
+    if isinstance(value, str):
+        return bool(value.strip())
+    if isinstance(value, (list, tuple, set)):
+        return len(value) > 0
+    return True
+
+
+def _has_required_fields(sample: Dict[str, Any], required_columns: set[str]) -> bool:
+    if not required_columns:
+        return True
+    for column in required_columns:
+        if not _value_is_present(sample.get(column)):
+            return False
+    return True
 
 
 def run_ragas_eval(
@@ -90,32 +114,74 @@ def run_ragas_eval(
     limit: Optional[int] = None,
     metrics: Optional[Sequence[Metric]] = None,
     ollama_model: str = DEFAULT_LLM_MODEL,
+    ollama_embed_model: str = DEFAULT_EMBED_MODEL,
     ollama_base_url: str = DEFAULT_OLLAMA_URL,
     temperature: float = 0.0,
-) -> Dict[str, Any]:
+) -> pd.DataFrame:
     """Run Ragas evaluation over serialized QA outputs."""
 
     raw_results = _load_results(results_path)
-    rows, skipped = _prepare_samples(raw_results, limit)
+    rows = _prepare_samples(raw_results, limit)
     if not rows:
         raise ValueError("No valid samples left after filtering for evaluation")
-
-    dataset = EvaluationDataset.from_list(rows)
     metric_suite = list(metrics) if metrics else _default_metrics()
 
-    llm = llm_factory(
-        ollama_model,
-        provider="ollama",
+    chat_llm = ChatOllama(
+        model=ollama_model,
         base_url=ollama_base_url,
         temperature=temperature,
     )
+    llm = LangchainLLMWrapper(chat_llm)
+    embedder = OllamaEmbeddings(model=ollama_embed_model, base_url=ollama_base_url)
+    embeddings = LangchainEmbeddingsWrapper(embedder)
 
-    evaluation = evaluate(
-        dataset,
-        metrics=metric_suite,
-        llm=llm,
-    )
-    results_df = evaluation.to_pandas()
+    metric_scores: List[Dict[str, Optional[float]]] = [dict() for _ in rows]
+    executed_metrics: List[str] = []
+
+    for metric in metric_suite:
+        required_columns = _metric_required_columns(metric)
+        applicable_rows: List[Dict[str, Any]] = []
+        applicable_indices: List[int] = []
+        for idx, sample in enumerate(rows):
+            if _has_required_fields(sample, required_columns):
+                applicable_rows.append(sample)
+                applicable_indices.append(idx)
+
+        if not applicable_rows:
+            logger.info("Skipping metric '%s' because no samples satisfy its requirements", metric.name)
+            continue
+
+        dataset = EvaluationDataset.from_list(applicable_rows)
+        evaluation = evaluate(dataset, metrics=[metric], llm=llm, embeddings=embeddings)
+        executed_metrics.append(metric.name)
+        scores = evaluation.scores
+
+        for local_idx, global_idx in enumerate(applicable_indices):
+            raw_value = scores[local_idx].get(metric.name)
+            sanitized: Optional[float]
+            try:
+                numeric = float(raw_value)
+                sanitized = None if math.isnan(numeric) else numeric
+            except (TypeError, ValueError):
+                sanitized = None
+            metric_scores[global_idx][metric.name] = sanitized
+
+    output_rows: List[Dict[str, Any]] = []
+    for idx, sample in enumerate(rows):
+        contexts = sample.get("retrieved_contexts") or []
+        row: Dict[str, Any] = {
+            "sample_index": idx,
+            "question": sample.get("user_input"),
+            "answer": sample.get("response"),
+            "ground_truth": sample.get("reference"),
+            "num_contexts": len(contexts),
+            "contexts": "\n\n---\n\n".join(contexts) if contexts else None,
+        }
+        for metric_name in executed_metrics:
+            row[metric_name] = metric_scores[idx].get(metric_name)
+        output_rows.append(row)
+
+    results_df = pd.DataFrame(output_rows)
 
     if output_path is not None:
         output_path.parent.mkdir(parents=True, exist_ok=True)
