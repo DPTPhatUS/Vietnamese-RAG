@@ -36,7 +36,7 @@ class QAPipeline:
         self.reranker = BGEReranker(self.config.reranker)
         self.chunk_lookup = _load_chunk_lookup(self.config.paths.chunks_path)
         self.raptor_index = RaptorIndex.load(self.config.raptor, self.config.paths.raptor_dir)
-        self.kg_retriever = VietMedKGRetriever(self.config.neo4j)
+        self.kg_retriever = VietMedKGRetriever(self.config.neo4j, llm=self.qwen)
         routing_agent = RoutingAgent(self.qwen, self.config.router)
         self.router = RetrievalRouter(
             embedding_service=self.embedding_service,

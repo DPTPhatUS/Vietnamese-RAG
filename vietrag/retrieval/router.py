@@ -69,13 +69,14 @@ class RetrievalRouter:
             if not self.routing_agent:
                 raise RuntimeError("Routing agent is not configured")
             mode = self.routing_agent.decide(query)
-        query_embedding = self.embedding_service.embed_query(query)
         documents: List[RetrievalDocument] = []
         if mode is RetrievalMode.RAPTOR:
+            query_embedding = self.embedding_service.embed_query(query)
             documents = self._retrieve_raptor(query_embedding, top_k)
         elif mode is RetrievalMode.KNOWLEDGE_GRAPH:
             documents = self._retrieve_kg(query, top_k)
         elif mode is RetrievalMode.HYBRID:
+            query_embedding = self.embedding_service.embed_query(query)
             docs_a = self._retrieve_raptor(query_embedding, top_k)
             docs_b = self._retrieve_kg(query, top_k)
             documents = docs_a + docs_b

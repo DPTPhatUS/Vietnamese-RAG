@@ -39,17 +39,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	python preprocessing/kgraph/create_KG.py
 	```
 
-4. After the nodes and relationships are created, build the full-text index our retriever expects (adjust property names or labels only if you changed the schema):
-
-	```cypher
-	CALL db.index.fulltext.createNodeIndex(
-	  "vietmedkgTextIdx",
-	  ["BỆNH","ĐIỀU TRỊ","TRIỆU CHỨNG","THUỐC","LỜI KHUYÊN"],
-	  ["tên_bệnh","mô_tả_bệnh","triệu_chứng","phương_pháp","thông_tin_thuốc", "đề_xuất_thuốc","nên_ăn_thực_phẩm_chứa","không_nên_ăn_thực_phẩm_chứa"]
-	);
-	```
-
-5. Provide connection details via environment variables, for example:
+4. Provide connection details via environment variables, for example:
 
 	```bash
 	cat <<'EOF' > .env
@@ -57,11 +47,10 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	RAG_NEO4J__USERNAME=neo4j
 	RAG_NEO4J__PASSWORD=your-password
 	RAG_NEO4J__DATABASE=neo4j
-	RAG_NEO4J__FULLTEXT_INDEX=vietmedkgTextIdx
 	EOF
 	```
 
-6. Run `python main.py qa "..." --mode kg` to confirm Neo4j answers are coming through before switching to hybrid/routed modes.
+5. Run `python main.py qa "..." --mode kg` to confirm Neo4j answers are coming through before switching to hybrid/routed modes.
 
 ## Project Layout
 
@@ -80,7 +69,6 @@ Artifacts live under `artifacts/` by default (`chunks.parquet`, `raptor_index/`)
 
 ## Notes
 
-- Ensure Neo4j is running with VietMedKG data and a full-text index name matching `RAG_NEO4J_FULLTEXT_INDEX` (default `vietmedkgTextIdx`).
 - The reranker and LLM require a GPU for best performance.
 - The router mode uses Qwen to decide whether to query RAPTOR or the knowledge graph based on user intent.
 - You can reduce Qwen memory pressure by setting `RAG_QWEN__QUANTIZATION=4bit` (or `8bit`) and, for 8-bit CPU offload, enable `RAG_QWEN__INT8_CPU_OFFLOAD=true`; also override `RAG_QWEN__DEVICE_MAP` when you need a custom placement strategy.

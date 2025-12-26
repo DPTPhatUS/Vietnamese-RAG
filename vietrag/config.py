@@ -21,7 +21,6 @@ class Neo4jConfig(BaseModel):
     username: str = Field(default="neo4j")
     password: str = Field(default="neo4j")
     database: str = Field(default="neo4j")
-    fulltext_index: str = Field(default="vietmedkgTextIdx")
 
 
 class QwenConfig(BaseModel):
