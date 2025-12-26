@@ -22,6 +22,7 @@ from ragas.metrics._context_precision import ContextPrecision
 from ragas.metrics._context_recall import ContextRecall
 from ragas.metrics._faithfulness import Faithfulness
 from ragas.metrics._noise_sensitivity import NoiseSensitivity
+from ragas.run_config import RunConfig
 
 logger = logging.getLogger(__name__)
 
@@ -152,7 +153,7 @@ def run_ragas_eval(
             continue
 
         dataset = EvaluationDataset.from_list(applicable_rows)
-        evaluation = evaluate(dataset, metrics=[metric], llm=llm, embeddings=embeddings)
+        evaluation = evaluate(dataset, metrics=[metric], llm=llm, embeddings=embeddings, batch_size=16, run_config=RunConfig(max_workers=1))
         executed_metrics.append(metric.name)
         scores = evaluation.scores
 
