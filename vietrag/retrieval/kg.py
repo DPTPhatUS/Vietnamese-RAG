@@ -3,36 +3,36 @@ from __future__ import annotations
 import json
 import logging
 import re
-from typing import TYPE_CHECKING, Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple
 
 from neo4j import GraphDatabase
 from neo4j.graph import Node, Relationship
 
 from vietrag.config import Neo4jConfig
 from vietrag.types import RetrievalDocument
+from vietrag.llm.qwen import QwenClient
 
-if TYPE_CHECKING:
-	from vietrag.llm.qwen import QwenClient
+
 FEW_SHOT_EXAMPLES = [
 	{
 		"question": "Phương pháp điều trị cho bệnh [U lympho sau phúc mạc] là gì?",
-		"query": "MATCH (d:ĐIỀU_TRỊ) WHERE d.tên_bệnh = 'U lympho sau phúc mạc' RETURN d",
+		"query": "MATCH (d:`ĐIỀU TRỊ`) WHERE d.tên_bệnh = 'U lympho sau phúc mạc' RETURN d",
 	},
 	{
 		"question": "Nguyên nhân của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
-		"query": "MATCH (b:BỆNH) WHERE b.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN b.nguyên_nhân AS nguyên_nhân, b",
+		"query": "MATCH (b:`BỆNH`) WHERE b.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN b.nguyên_nhân AS nguyên_nhân, b",
 	},
 	{
 		"question": "Triệu chứng của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
-		"query": "MATCH (s:TRIỆU_CHỨNG) WHERE s.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN s",
+		"query": "MATCH (s:`TRIỆU CHỨNG`) WHERE s.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN s",
 	},
 	{
 		"question": "Những bệnh lý nào có thể xuất hiện khi có triệu chứng [Khóc và đau]?",
-		"query": "MATCH (s:TRIỆU_CHỨNG) WHERE s.triệu_chứng CONTAINS 'Khóc và đau' RETURN s",
+		"query": "MATCH (s:`TRIỆU CHỨNG`) WHERE s.triệu_chứng CONTAINS 'Khóc và đau' RETURN s",
 	},
 	{
 		"question": "Có những loại thuốc phổ biến nào để điều trị bệnh [Chảy máu khoảng cách sau phúc mạc]?",
-		"query": "MATCH (m:THUỐC) WHERE m.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN m",
+		"query": "MATCH (m:`THUỐC`) WHERE m.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN m",
 	},
 ]
 
