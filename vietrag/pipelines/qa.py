@@ -46,6 +46,7 @@ class QAPipeline:
             chunk_lookup=self.chunk_lookup,
             routing_agent=routing_agent,
         )
+        self.max_context_chars = 8000
         self.system_prompt = (
             "Bạn là một trợ lý tận tâm am hiểu về Y học Cổ truyền Việt Nam. "
             "Chỉ sử dụng thông tin có trong các nguồn đã được truy xuất để trả lời. "
@@ -62,8 +63,9 @@ class QAPipeline:
     def _compose_answer(self, query: str, documents: list[RetrievalDocument]) -> str:
         if not documents:
             return "Xin lỗi, tôi không tìm được thông tin phù hợp trong cơ sở tri thức hiện có."
-        context_sections = [doc.text for doc in documents]
-        context = "\n\n".join(context_sections)
+        context = self._build_context(documents)
+        if not context:
+            return "Xin lỗi, tôi không tìm được thông tin phù hợp trong cơ sở tri thức hiện có."
         user_prompt = (
             f"Nguồn tham chiếu:\n{context}\n\n"
             f"Câu hỏi: {query}\n"
@@ -71,6 +73,24 @@ class QAPipeline:
         )
         answer = self.qwen.generate(self.system_prompt, user_prompt)
         return answer
+
+    def _build_context(self, documents: list[RetrievalDocument]) -> str:
+        sections: list[str] = []
+        total_chars = 0
+        for doc in documents:
+            text = (doc.text or "").strip()
+            if not text:
+                continue
+            remaining = self.max_context_chars - total_chars
+            if remaining <= 0:
+                break
+            if len(text) > remaining:
+                sections.append(text[:remaining])
+                total_chars += remaining
+                break
+            sections.append(text)
+            total_chars += len(text)
+        return "\n\n".join(sections)
 
     def shutdown(self) -> None:
         if self.kg_retriever:
