@@ -153,7 +153,7 @@ def run_ragas_eval(
             continue
 
         dataset = EvaluationDataset.from_list(applicable_rows)
-        evaluation = evaluate(dataset, metrics=[metric], llm=llm, embeddings=embeddings, batch_size=16, run_config=RunConfig(max_workers=1))
+        evaluation = evaluate(dataset, metrics=[metric], llm=llm, embeddings=embeddings, batch_size=32, run_config=RunConfig(max_workers=1, timeout=300))
         executed_metrics.append(metric.name)
         scores = evaluation.scores
 
