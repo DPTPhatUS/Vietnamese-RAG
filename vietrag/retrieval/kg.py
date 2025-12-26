@@ -81,7 +81,7 @@ class VietMedKGRetriever:
 			return []
 		try:
 			records = self._run_cypher(cypher)
-			print(records[0])
+			# print(records[0])
 		except Exception as exc:
 			logger.warning("Cypher execution failed: %s", exc)
 			return []
