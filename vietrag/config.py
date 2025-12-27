@@ -50,7 +50,7 @@ class QwenConfig(BaseModel):
 
 class RerankerConfig(BaseModel):
     model_name: str = Field(default="BAAI/bge-reranker-v2-m3")
-    batch_size: int = 8
+    batch_size: int = 16
     device: Optional[str] = None
 
 

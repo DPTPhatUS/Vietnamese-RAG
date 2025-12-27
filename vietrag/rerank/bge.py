@@ -37,7 +37,7 @@ class BGEReranker:
                 padding=True,
                 truncation=True,
                 return_tensors="pt",
-                max_length=512,
+                max_length=1024,
             )
             if self.config.device:
                 inputs = {k: v.to(self.config.device) for k, v in inputs.items()}
