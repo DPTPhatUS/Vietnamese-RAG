@@ -14,26 +14,67 @@ from vietrag.llm.qwen import QwenClient
 
 
 FEW_SHOT_EXAMPLES = [
-	{
-		"question": "Phương pháp điều trị cho bệnh [U lympho sau phúc mạc] là gì?",
-		"query": "MATCH (d:`ĐIỀU TRỊ`) WHERE d.tên_bệnh = 'U lympho sau phúc mạc' RETURN d",
-	},
-	{
-		"question": "Nguyên nhân của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
-		"query": "MATCH (b:`BỆNH`) WHERE b.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN b.nguyên_nhân AS `nguyên nhân`, b",
-	},
-	{
-		"question": "Triệu chứng của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
-		"query": "MATCH (s:`TRIỆU CHỨNG`) WHERE s.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN s",
-	},
-	{
-		"question": "Những bệnh lý nào có thể xuất hiện khi có triệu chứng [Khóc và đau]?",
-		"query": "MATCH (s:`TRIỆU CHỨNG`) WHERE s.triệu_chứng CONTAINS 'Khóc và đau' RETURN s",
-	},
-	{
-		"question": "Có những loại thuốc phổ biến nào để điều trị bệnh [Chảy máu khoảng cách sau phúc mạc]?",
-		"query": "MATCH (m:`THUỐC`) WHERE m.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN m",
-	},
+    {
+        "question": "Phương pháp điều trị cho bệnh [U lympho sau phúc mạc] là gì?",
+        "query": """
+MATCH (d:`ĐIỀU TRỊ`)
+WHERE d.tên_bệnh = 'U lympho sau phúc mạc'
+RETURN {
+  bệnh: d.tên_bệnh,
+  phương_pháp: d.phương_pháp,
+  khoa_điều_trị: d.khoa_điều_trị,
+  tỉ_lệ_chữa_khỏi: d.tỉ_lệ_chữa_khỏi
+} AS điều_trị
+"""
+    },
+    {
+        "question": "Nguyên nhân của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
+        "query": """
+MATCH (b:`BỆNH`)
+WHERE b.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc'
+RETURN {
+  bệnh: b.tên_bệnh,
+  nguyên_nhân: b.nguyên_nhân
+} AS nguyên_nhân
+"""
+    },
+    {
+        "question": "Triệu chứng của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
+        "query": """
+MATCH (s:`TRIỆU CHỨNG`)
+WHERE s.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc'
+RETURN {
+  bệnh: s.tên_bệnh,
+  triệu_chứng: collect(DISTINCT s.triệu_chứng),
+  kiểm_tra: collect(DISTINCT s.kiểm_tra),
+  đối_tượng_dễ_mắc_bệnh: collect(DISTINCT s.đối_tượng_dễ_mắc_bệnh)
+} AS triệu_chứng
+"""
+    },
+    {
+        "question": "Những bệnh lý nào có thể xuất hiện khi có triệu chứng [Khóc và đau]?",
+        "query": """
+MATCH (s:`TRIỆU CHỨNG`)
+WHERE s.triệu_chứng CONTAINS 'Khóc và đau'
+RETURN collect(DISTINCT {
+  bệnh: s.tên_bệnh,
+  triệu_chứng: s.triệu_chứng
+}) AS bệnh_liên_quan
+"""
+    },
+    {
+        "question": "Có những loại thuốc phổ biến nào để điều trị bệnh [Chảy máu khoảng cách sau phúc mạc]?",
+        "query": """
+MATCH (m:`THUỐC`)
+WHERE m.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc'
+RETURN {
+  bệnh: m.tên_bệnh,
+  thuốc_phổ_biến: m.thuốc_phổ_biến,
+  thông_tin_thuốc: m.thông_tin_thuốc,
+  đề_xuất_thuốc: m.đề_xuất_thuốc
+} AS thuốc
+"""
+    },
 ]
 
 
