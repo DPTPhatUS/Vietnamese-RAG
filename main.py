@@ -5,7 +5,7 @@ import logging
 from pathlib import Path
 
 from vietrag.config import AppConfig
-from vietrag.pipelines.eval import run_ragas_eval
+from vietrag.pipelines.eval import AVAILABLE_RAGAS_METRICS, run_ragas_eval
 from vietrag.pipelines.ingest import run_ingestion
 from vietrag.pipelines.qa import QAPipeline
 from vietrag.pipelines.test import run_test_suite
@@ -84,6 +84,15 @@ def build_parser() -> argparse.ArgumentParser:
         default=0.0,
         help="Generation temperature for the evaluator model",
     )
+    eval_parser.add_argument(
+        "--metrics",
+        nargs="+",
+        choices=list(AVAILABLE_RAGAS_METRICS),
+        default=None,
+        metavar="METRIC",
+        help="Subset of metrics to compute (choose from: "
+        + ", ".join(AVAILABLE_RAGAS_METRICS)
+    )
     eval_parser.add_argument("--config", default=None, help="Optional path to .env with overrides")
     return parser
 
@@ -127,6 +136,7 @@ def main() -> None:
             results_path,
             output_path=output_path,
             limit=args.limit,
+            metric_names=args.metrics,
             ollama_model=args.ollama_model,
             ollama_embed_model=args.ollama_embed_model,
             ollama_base_url=args.ollama_base_url,

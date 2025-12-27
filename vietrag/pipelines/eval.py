@@ -4,7 +4,7 @@ import json
 import logging
 import math
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Sequence
+from typing import Any, Dict, List, Optional, Sequence, Callable
 
 import pandas as pd
 
@@ -29,6 +29,17 @@ logger = logging.getLogger(__name__)
 DEFAULT_LLM_MODEL = "qwen3:8b"
 DEFAULT_EMBED_MODEL = "qwen3-embedding:8b"
 DEFAULT_OLLAMA_URL = "http://localhost:11434"
+
+MetricFactory = Callable[[], Metric]
+
+DEFAULT_METRIC_FACTORIES: Dict[str, MetricFactory] = {
+    "context_precision": ContextPrecision,
+    "context_recall": ContextRecall,
+    "answer_relevancy": AnswerRelevancy,
+    "faithfulness": Faithfulness,
+}
+
+AVAILABLE_RAGAS_METRICS = tuple(DEFAULT_METRIC_FACTORIES.keys())
 
 
 def _load_results(path: Path) -> List[Dict[str, Any]]:
@@ -68,15 +79,27 @@ def _prepare_samples(
     return processed
 
 
-def _default_metrics() -> List[Metric]:
-    return [
-        ContextPrecision(),
-        ContextRecall(),
-        # ContextEntityRecall(),
-        # NoiseSensitivity(),
-        AnswerRelevancy(),
-        Faithfulness(),
-    ]
+def _default_metrics(selected_names: Optional[Sequence[str]] = None) -> List[Metric]:
+    if selected_names is None:
+        metric_names = list(DEFAULT_METRIC_FACTORIES.keys())
+    else:
+        metric_names = []
+        seen: set[str] = set()
+        for raw_name in selected_names:
+            normalized = (raw_name or "").strip().lower()
+            if not normalized:
+                continue
+            if normalized not in DEFAULT_METRIC_FACTORIES:
+                available = ", ".join(DEFAULT_METRIC_FACTORIES.keys())
+                raise ValueError(f"Unknown metric '{raw_name}'. Available metrics: {available}")
+            if normalized in seen:
+                continue
+            seen.add(normalized)
+            metric_names.append(normalized)
+        if not metric_names:
+            raise ValueError("No valid metric names provided for evaluation")
+
+    return [DEFAULT_METRIC_FACTORIES[name]() for name in metric_names]
 
 
 def _metric_required_columns(metric: Metric) -> set[str]:
@@ -114,6 +137,7 @@ def run_ragas_eval(
     output_path: Optional[Path] = None,
     limit: Optional[int] = None,
     metrics: Optional[Sequence[Metric]] = None,
+    metric_names: Optional[Sequence[str]] = None,
     ollama_model: str = DEFAULT_LLM_MODEL,
     ollama_embed_model: str = DEFAULT_EMBED_MODEL,
     ollama_base_url: str = DEFAULT_OLLAMA_URL,
@@ -125,7 +149,7 @@ def run_ragas_eval(
     rows = _prepare_samples(raw_results, limit)
     if not rows:
         raise ValueError("No valid samples left after filtering for evaluation")
-    metric_suite = list(metrics) if metrics else _default_metrics()
+    metric_suite = list(metrics) if metrics else _default_metrics(metric_names)
 
     chat_llm = ChatOllama(
         model=ollama_model,
@@ -153,7 +177,17 @@ def run_ragas_eval(
             continue
 
         dataset = EvaluationDataset.from_list(applicable_rows)
-        evaluation = evaluate(dataset, metrics=[metric], llm=llm, embeddings=embeddings, batch_size=32, run_config=RunConfig(max_workers=1, timeout=300))
+        evaluation = evaluate(
+            dataset,
+            metrics=[metric],
+            llm=llm,
+            embeddings=embeddings,
+            batch_size=32,
+            run_config=RunConfig(
+                max_workers=1,
+                timeout=600
+            ),
+        )
         executed_metrics.append(metric.name)
         scores = evaluation.scores
 
@@ -192,4 +226,4 @@ def run_ragas_eval(
     return results_df
 
 
-__all__ = ["run_ragas_eval"]
+__all__ = ["run_ragas_eval", "AVAILABLE_RAGAS_METRICS"]
