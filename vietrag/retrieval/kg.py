@@ -101,13 +101,13 @@ class VietMedKGRetriever:
 	def close(self) -> None:
 		self._driver.close()
 
-	def search(self, query: str, top_k: int = 5) -> List[RetrievalDocument]:
+	def search(self, query: str) -> List[RetrievalDocument]:
 		if not self.llm:
 			logger.warning("KG retriever requires an LLM for Cypher generation; returning empty result")
 			return []
 		documents = self._cypher_workflow(query)
 		# print(documents)
-		return documents[:top_k] if documents else []
+		return documents
 
 	def _cypher_workflow(self, question: str) -> List[RetrievalDocument]:
 		cypher = self._generate_cypher(question)

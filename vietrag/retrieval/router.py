@@ -74,11 +74,11 @@ class RetrievalRouter:
             query_embedding = self.embedding_service.embed_query(query)
             documents = self._retrieve_raptor(query_embedding, top_k)
         elif mode is RetrievalMode.KNOWLEDGE_GRAPH:
-            documents = self._retrieve_kg(query, top_k)
+            documents = self._retrieve_kg(query)
         elif mode is RetrievalMode.HYBRID:
             query_embedding = self.embedding_service.embed_query(query)
             docs_a = self._retrieve_raptor(query_embedding, top_k)
-            docs_b = self._retrieve_kg(query, top_k)
+            docs_b = self._retrieve_kg(query)
             documents = docs_a + docs_b
         else:
             raise ValueError(f"Unsupported retrieval mode: {mode}")
@@ -91,10 +91,10 @@ class RetrievalRouter:
             return []
         return self.raptor_index.search(query_embedding, self.chunk_lookup, top_k=top_k)
 
-    def _retrieve_kg(self, query: str, top_k: int) -> List[RetrievalDocument]:
+    def _retrieve_kg(self, query: str) -> List[RetrievalDocument]:
         if not self.kg_retriever:
             return []
-        return self.kg_retriever.search(query, top_k=top_k)
+        return self.kg_retriever.search(query)
 
 
 __all__ = ["RetrievalRouter", "RoutingAgent"]
