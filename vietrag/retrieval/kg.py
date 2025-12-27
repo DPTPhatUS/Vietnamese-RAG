@@ -20,7 +20,7 @@ FEW_SHOT_EXAMPLES = [
 	},
 	{
 		"question": "Nguyên nhân của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
-		"query": "MATCH (b:`BỆNH`) WHERE b.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN b.nguyên_nhân AS nguyên_nhân, b",
+		"query": "MATCH (b:`BỆNH`) WHERE b.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc' RETURN b.nguyên_nhân AS `nguyên nhân`, b",
 	},
 	{
 		"question": "Triệu chứng của bệnh [Chảy máu khoảng cách sau phúc mạc] là gì?",
