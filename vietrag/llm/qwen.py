@@ -33,7 +33,7 @@ class QwenClient:
         self.model = AutoModelForCausalLM.from_pretrained(config.model_name, **model_kwargs)
         self._input_device = config.device or _infer_primary_device(self.model)
 
-    def generate(self, system_prompt: str, user_prompt: str) -> str:
+    def generate(self, system_prompt: str, user_prompt: str, temperature: Optional[float] = None) -> str:
         messages = [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt},
@@ -42,14 +42,16 @@ class QwenClient:
         inputs = self.tokenizer(prompt, return_tensors="pt")
         if self._input_device:
             inputs = {k: v.to(self._input_device) for k, v in inputs.items()}
+        if not temperature:
+            temperature = self.config.temperature
         outputs = self.model.generate(
             **inputs,
             max_new_tokens=self.config.max_new_tokens,
-            temperature=self.config.temperature,
+            temperature=temperature,
             top_p=self.config.top_p,
             top_k=self.config.top_k,
             min_p=self.config.min_p,
-            do_sample=self.config.temperature > 0,
+            do_sample=temperature > 0,
         )
         prompt_length = inputs["input_ids"].shape[1]
         generated_ids = outputs[0][prompt_length:]

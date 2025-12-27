@@ -21,9 +21,7 @@ MATCH (d:`ĐIỀU TRỊ`)
 WHERE d.tên_bệnh = 'U lympho sau phúc mạc'
 RETURN {
   bệnh: d.tên_bệnh,
-  phương_pháp: d.phương_pháp,
-  khoa_điều_trị: d.khoa_điều_trị,
-  tỉ_lệ_chữa_khỏi: d.tỉ_lệ_chữa_khỏi
+  phương_pháp: d.phương_pháp
 } AS điều_trị
 """
     },
@@ -45,9 +43,7 @@ MATCH (s:`TRIỆU CHỨNG`)
 WHERE s.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc'
 RETURN {
   bệnh: s.tên_bệnh,
-  triệu_chứng: collect(DISTINCT s.triệu_chứng),
-  kiểm_tra: collect(DISTINCT s.kiểm_tra),
-  đối_tượng_dễ_mắc_bệnh: collect(DISTINCT s.đối_tượng_dễ_mắc_bệnh)
+  triệu_chứng: s.triệu_chứng
 } AS triệu_chứng
 """
     },
@@ -56,10 +52,10 @@ RETURN {
         "query": """
 MATCH (s:`TRIỆU CHỨNG`)
 WHERE s.triệu_chứng CONTAINS 'Khóc và đau'
-RETURN collect(DISTINCT {
+RETURN {
   bệnh: s.tên_bệnh,
   triệu_chứng: s.triệu_chứng
-}) AS bệnh_liên_quan
+} AS triệu_chứng
 """
     },
     {
@@ -69,9 +65,7 @@ MATCH (m:`THUỐC`)
 WHERE m.tên_bệnh = 'Chảy máu khoảng cách sau phúc mạc'
 RETURN {
   bệnh: m.tên_bệnh,
-  thuốc_phổ_biến: m.thuốc_phổ_biến,
-  thông_tin_thuốc: m.thông_tin_thuốc,
-  đề_xuất_thuốc: m.đề_xuất_thuốc
+  thuốc_phổ_biến: m.thuốc_phổ_biến
 } AS thuốc
 """
     },
@@ -147,7 +141,7 @@ class VietMedKGRetriever:
 			"Cypher:"
 		)
 		try:
-			response = self.llm.generate(self.system_prompt, user_prompt)
+			response = self.llm.generate(self.system_prompt, user_prompt, temperature=0.0)
 		except Exception as exc:
 			logger.warning("Failed to generate Cypher query: %s", exc)
 			return None
@@ -211,95 +205,98 @@ class VietMedKGRetriever:
 		return documents
 
 	def _record_to_document(self, record, cypher: str, rank: int) -> Optional[RetrievalDocument]:
-		lines: List[str] = []
+		# lines: List[str] = []
 		metadata: Dict[str, str] = {
 			"source": "knowledge_graph",
 			"cypher_query": cypher,
 			"rank": str(rank + 1),
 		}
 		score = 1.0
-		for key in record.keys():
-			value = record[key]
-			if isinstance(value, Node):
-				# print("Node")
-				props, text = self._format_node(value)
-				label = props.get("labels", "")
-				header = f"{key} [{label}]" if label else key
-				content = text or props.get("summary", "") or props.get("name", "")
-				if content:
-					lines.append(f"{header}: {content}")
-				metadata[f"{key}_props"] = json.dumps(props, ensure_ascii=False)
-				continue
-			if isinstance(value, Relationship):
-				# print("Relationship")
-				serialized = self._serialize_value(value)
-				lines.append(f"{key}: quan hệ {serialized.get('type', '')}")
-				metadata[key] = json.dumps(serialized, ensure_ascii=False)
-				continue
-			if isinstance(value, list):
-				# print("list")
-				fragments = [self._stringify_value(item) for item in value]
-				clean_fragments = [frag for frag in fragments if frag]
-				if clean_fragments:
-					lines.append(f"{key}: {'; '.join(clean_fragments)}")
-				metadata[key] = json.dumps(self._serialize_value(value), ensure_ascii=False)
-				continue
-			if key == "score":
-				try:
-					score = float(value)
-				except (TypeError, ValueError):
-					pass
-			text_value = str(value)
-			if text_value:
-				lines.append(f"{key}: {text_value}")
-			metadata[key] = text_value
-		text = "\n".join(lines).strip()
-		if not text:
-			return None
+		text = json.dumps(record.data(), ensure_ascii=False, indent=2)
 		return RetrievalDocument(text=text, score=score, metadata=metadata)
+  
+		# for key in record.keys():
+		# 	value = record[key]
+		# 	if isinstance(value, Node):
+		# 		# print("Node")
+		# 		props, text = self._format_node(value)
+		# 		label = props.get("labels", "")
+		# 		header = f"{key} [{label}]" if label else key
+		# 		content = text or props.get("summary", "") or props.get("name", "")
+		# 		if content:
+		# 			lines.append(f"{header}: {content}")
+		# 		metadata[f"{key}_props"] = json.dumps(props, ensure_ascii=False)
+		# 		continue
+		# 	if isinstance(value, Relationship):
+		# 		# print("Relationship")
+		# 		serialized = self._serialize_value(value)
+		# 		lines.append(f"{key}: quan hệ {serialized.get('type', '')}")
+		# 		metadata[key] = json.dumps(serialized, ensure_ascii=False)
+		# 		continue
+		# 	if isinstance(value, list):
+		# 		# print("list")
+		# 		fragments = [self._stringify_value(item) for item in value]
+		# 		clean_fragments = [frag for frag in fragments if frag]
+		# 		if clean_fragments:
+		# 			lines.append(f"{key}: {'; '.join(clean_fragments)}")
+		# 		metadata[key] = json.dumps(self._serialize_value(value), ensure_ascii=False)
+		# 		continue
+		# 	if key == "score":
+		# 		try:
+		# 			score = float(value)
+		# 		except (TypeError, ValueError):
+		# 			pass
+		# 	text_value = str(value)
+		# 	if text_value:
+		# 		lines.append(f"{key}: {text_value}")
+		# 	metadata[key] = text_value
+		# text = "\n".join(lines).strip()
+		# if not text:
+		# 	return None
+		# return RetrievalDocument(text=text, score=score, metadata=metadata)
 
-	def _format_node(self, node) -> Tuple[Dict[str, str], str]:
-			props = {k: str(v) for k, v in dict(node).items()}
-			labels = list(node.labels)
-			if labels:
-				props["labels"] = ",".join(labels)
-			text_lines = [f"{key}: {value}" for key, value in props.items() if value]
-			text = "\n".join(text_lines)
-			return props, text
+	# def _format_node(self, node) -> Tuple[Dict[str, str], str]:
+	# 		props = {k: str(v) for k, v in dict(node).items()}
+	# 		labels = list(node.labels)
+	# 		if labels:
+	# 			props["labels"] = ",".join(labels)
+	# 		text_lines = [f"{key}: {value}" for key, value in props.items() if value]
+	# 		text = "\n".join(text_lines)
+	# 		return props, text
 
-	def _stringify_value(self, value) -> str:
-		if isinstance(value, Node):
-			props, text = self._format_node(value)
-			return text or props.get("name", "")
-		if isinstance(value, Relationship):
-			serialized = self._serialize_value(value)
-			return f"{serialized.get('type', '')}: {serialized}"
-		if isinstance(value, list):
-			parts = [self._stringify_value(item) for item in value]
-			return "; ".join(part for part in parts if part)
-		if isinstance(value, dict):
-			return ", ".join(f"{k}: {v}" for k, v in value.items() if v)
-		return str(value)
+	# def _stringify_value(self, value) -> str:
+	# 	if isinstance(value, Node):
+	# 		props, text = self._format_node(value)
+	# 		return text or props.get("name", "")
+	# 	if isinstance(value, Relationship):
+	# 		serialized = self._serialize_value(value)
+	# 		return f"{serialized.get('type', '')}: {serialized}"
+	# 	if isinstance(value, list):
+	# 		parts = [self._stringify_value(item) for item in value]
+	# 		return "; ".join(part for part in parts if part)
+	# 	if isinstance(value, dict):
+	# 		return ", ".join(f"{k}: {v}" for k, v in value.items() if v)
+	# 	return str(value)
 
-	def _serialize_value(self, value):
-		if isinstance(value, Node):
-			payload = dict(value)
-			payload["labels"] = list(value.labels)
-			return payload
-		if isinstance(value, Relationship):
-			payload = dict(value)
-			payload["type"] = value.type
-			start_node = getattr(value, "start_node", None)
-			end_node = getattr(value, "end_node", None)
-			if start_node is not None:
-				payload["start_node_id"] = getattr(start_node, "id", None)
-			if end_node is not None:
-				payload["end_node_id"] = getattr(end_node, "id", None)
-			return payload
-		if isinstance(value, list):
-			return [self._serialize_value(item) for item in value]
-		if isinstance(value, dict):
-			return {k: self._serialize_value(v) for k, v in value.items()}
-		return value
+	# def _serialize_value(self, value):
+	# 	if isinstance(value, Node):
+	# 		payload = dict(value)
+	# 		payload["labels"] = list(value.labels)
+	# 		return payload
+	# 	if isinstance(value, Relationship):
+	# 		payload = dict(value)
+	# 		payload["type"] = value.type
+	# 		start_node = getattr(value, "start_node", None)
+	# 		end_node = getattr(value, "end_node", None)
+	# 		if start_node is not None:
+	# 			payload["start_node_id"] = getattr(start_node, "id", None)
+	# 		if end_node is not None:
+	# 			payload["end_node_id"] = getattr(end_node, "id", None)
+	# 		return payload
+	# 	if isinstance(value, list):
+	# 		return [self._serialize_value(item) for item in value]
+	# 	if isinstance(value, dict):
+	# 		return {k: self._serialize_value(v) for k, v in value.items()}
+	# 	return value
 
 __all__ = ["VietMedKGRetriever"]
