@@ -31,7 +31,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 
 ### Batch QA + Ragas evaluation
 
-1. Generate QA logs for the benchmark split (writes to `artifacts/test_results.json` by default):
+1. Generate QA logs for the benchmark split (writes to `artifacts/test_results.json` by default). Use `--start <offset>` to resume from a specific sample and `--limit <count>` for quick smoke tests:
 
 	```bash
 	python main.py test --dataset data/benchmark/test.json --output artifacts/test_results.json
@@ -39,7 +39,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 
 2. Make sure [Ollama](https://ollama.com/) is running locally with an evaluator chat model **and** an embedding model available to the Ollama LangChain integrations (defaults: `qwen3:8b` for chat, `nomic-embed-text` for embeddings). Pull both via `ollama pull <model>` before running the eval command.
 
-3. Score the QA logs with Ragas, which writes a single CSV containing every metric row (use `--limit` for smoke tests or override the Ollama parameters as needed):
+3. Score the QA logs with Ragas, which writes a single CSV containing every metric row (combine `--start` and `--limit` as needed or override the Ollama parameters):
 
 	```bash
 	python main.py eval \

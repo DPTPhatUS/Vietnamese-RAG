@@ -55,9 +55,19 @@ def _load_results(path: Path) -> List[Dict[str, Any]]:
 def _prepare_samples(
     raw_samples: List[Dict[str, Any]],
     limit: Optional[int],
+    start: Optional[int],
 ) -> List[Dict[str, Any]]:
+    start_index = 0 if start is None else start
+    total_samples = len(raw_samples)
+    if start_index < 0:
+        raise ValueError("Start index cannot be negative")
+    if start_index > total_samples:
+        raise ValueError(
+            f"Start index {start_index} is beyond dataset size {total_samples}"
+        )
+
     processed: List[Dict[str, Any]] = []
-    for sample in raw_samples:
+    for sample in raw_samples[start_index:]:
         question = (sample.get("question") or "").strip()
         answer = (sample.get("answer") or "").strip()
         ground_truth = (sample.get("ground_truth") or "").strip()
@@ -136,6 +146,7 @@ def run_ragas_eval(
     *,
     output_path: Optional[Path] = None,
     limit: Optional[int] = None,
+    start: Optional[int] = None,
     metrics: Optional[Sequence[Metric]] = None,
     metric_names: Optional[Sequence[str]] = None,
     ollama_model: str = DEFAULT_LLM_MODEL,
@@ -146,7 +157,7 @@ def run_ragas_eval(
     """Run Ragas evaluation over serialized QA outputs."""
 
     raw_results = _load_results(results_path)
-    rows = _prepare_samples(raw_results, limit)
+    rows = _prepare_samples(raw_results, limit, start)
     if not rows:
         raise ValueError("No valid samples left after filtering for evaluation")
     metric_suite = list(metrics) if metrics else _default_metrics(metric_names)

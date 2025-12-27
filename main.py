@@ -48,6 +48,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     test_parser.add_argument("--top-k", type=int, default=5, help="Number of passages to keep")
     test_parser.add_argument("--limit", type=int, default=None, help="Optional cap on samples to evaluate")
+    test_parser.add_argument(
+        "--start",
+        type=int,
+        default=None,
+        help="Zero-based offset of the first sample to evaluate",
+    )
     test_parser.add_argument("--config", default=None, help="Optional path to .env with overrides")
 
     eval_parser = subparsers.add_parser("eval", help="Run Ragas metrics over QA logs")
@@ -62,6 +68,12 @@ def build_parser() -> argparse.ArgumentParser:
         type=int,
         default=None,
         help="Optional cap on how many samples to score",
+    )
+    eval_parser.add_argument(
+        "--start",
+        type=int,
+        default=None,
+        help="Zero-based offset of the first sample to score",
     )
     eval_parser.add_argument(
         "--ollama-model",
@@ -127,6 +139,7 @@ def main() -> None:
             mode=RetrievalMode(args.mode),
             top_k=args.top_k,
             limit=args.limit,
+            start=args.start,
         )
         return
     if args.command == "eval":
@@ -136,6 +149,7 @@ def main() -> None:
             results_path,
             output_path=output_path,
             limit=args.limit,
+            start=args.start,
             metric_names=args.metrics,
             ollama_model=args.ollama_model,
             ollama_embed_model=args.ollama_embed_model,
