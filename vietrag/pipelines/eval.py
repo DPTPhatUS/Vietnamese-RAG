@@ -193,10 +193,9 @@ def run_ragas_eval(
             metrics=[metric],
             llm=llm,
             embeddings=embeddings,
-            batch_size=32,
             run_config=RunConfig(
-                max_workers=1,
-                timeout=1200,
+                max_workers=2,
+                timeout=900,
                 max_retries=1,
             ),
         )
