@@ -196,7 +196,7 @@ def run_ragas_eval(
             batch_size=32,
             run_config=RunConfig(
                 max_workers=1,
-                timeout=600
+                timeout=6000
             ),
         )
         executed_metrics.append(metric.name)
