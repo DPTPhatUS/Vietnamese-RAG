@@ -72,26 +72,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 
 5. Run `python main.py qa "..." --mode kg` to confirm Neo4j answers are coming through before switching to hybrid/routed modes.
 
-## Project Layout
-
-- `vietrag/config.py` – configuration models (paths, RAPTOR, Neo4j, models).
-- `vietrag/data/chunker.py` – parses `data/book*/markdown/book*.md`, splits on `</break>`, and recursively chunks long passages.
-- `vietrag/embeddings/service.py` – wraps the sentence-transformer embedder used by RAPTOR.
-- `vietrag/retrieval/raptor.py` – RAPTOR tree builder and searcher.
-- `vietrag/retrieval/kg.py` – VietMedKG Neo4j retriever.
-- `vietrag/rerank/bge.py` – bge reranker module.
-- `vietrag/llm/qwen.py` – Qwen3-4B inference helper.
-- `vietrag/retrieval/router.py` – orchestrates RAPTOR, KG, hybrid, and routed retrieval modes.
-- `vietrag/pipelines/ingest.py` – end-to-end preprocessing pipeline.
-- `vietrag/pipelines/eval.py` – wraps Ragas metrics over recorded QA runs via Ollama.
-- `vietrag/pipelines/qa.py` – QA orchestration (retrieval + generation).
-
-Artifacts live under `artifacts/` by default (`chunks.parquet`, `raptor_index/`).
-
 ## Notes
 
-- The reranker and LLM require a GPU for best performance.
-- The router mode uses Qwen to decide whether to query RAPTOR or the knowledge graph based on user intent.
 - You can reduce Qwen memory pressure by setting `RAG_QWEN__QUANTIZATION=4bit` (or `8bit`) and, for 8-bit CPU offload, enable `RAG_QWEN__INT8_CPU_OFFLOAD=true`; also override `RAG_QWEN__DEVICE_MAP` when you need a custom placement strategy.
 - Qwen defaults follow vendor guidance (temperature 0.7, top_p 0.8, top_k 20, min_p 0, presence_penalty 0); bump `RAG_QWEN__MAX_NEW_TOKENS` up to 16384 for long-form answers or benchmarks.
-- When you need consistent grading, standardize prompts: for math add `Hãy suy luận từng bước và đặt đáp án cuối cùng vào \boxed{}`; for multiple choice append `{"answer": "<letter>"}` instructions so the model returns a single letter.
