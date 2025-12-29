@@ -4,7 +4,7 @@
     1,
     2
   ],
-  "dimension": 384,
+  "dimension": 1024,
   "leaf_lookup": {
     "book1:book1:0": 0,
     "book1:book1:1": 1,
