@@ -195,7 +195,7 @@ def run_ragas_eval(
             embeddings=embeddings,
             run_config=RunConfig(
                 max_workers=1,
-                timeout=900,
+                timeout=600,
                 max_retries=1,
             ),
         )
