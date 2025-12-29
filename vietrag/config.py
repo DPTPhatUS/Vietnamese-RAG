@@ -9,7 +9,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class EmbeddingConfig(BaseModel):
     model_name: str = Field(
-        default="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        default="BAAI/bge-m3",
         description="Hugging Face model for dense embeddings",
     )
     batch_size: int = 16
