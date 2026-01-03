@@ -29,7 +29,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	python main.py qa "Thành phần của bài thuốc Bổ trung ích khí là gì?" --mode routed
 	```
 
-### Batch QA + Ragas evaluation
+### Ragas evaluation
 
 1. Generate QA logs for the benchmark split (writes to `artifacts/test_results.json` by default). Use `--start <offset>` to resume from a specific sample and `--limit <count>` for quick smoke tests:
 
@@ -37,7 +37,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	python main.py test --dataset data/benchmark/test.json --output artifacts/test_results.json
 	```
 
-2. Make sure [Ollama](https://ollama.com/) is running locally with an evaluator chat model **and** an embedding model available to the Ollama LangChain integrations (defaults: `qwen3:8b` for chat, `nomic-embed-text` for embeddings). Pull both via `ollama pull <model>` before running the eval command.
+2. Make sure [Ollama](https://ollama.com/) is running locally with an evaluator chat model **and** an embedding model available to the Ollama LangChain integrations (defaults: `qwen3:8b` for chat, `qwen3-embedding:8b` for embeddings). Pull both via `ollama pull <model>` before running the eval command.
 
 3. Score the QA logs with Ragas, which writes a single CSV containing every metric row (combine `--start` and `--limit` as needed or override the Ollama parameters):
 
@@ -46,13 +46,13 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	  --results artifacts/test_results.json \
 	  --output artifacts/ragas_metrics.csv \
 	  --ollama-model qwen3:8b \
-	  --ollama-embed-model nomic-embed-text
+	  --ollama-embed-model qwen3-embedding:8b
 	```
 
 ## Setting Up VietMedKG
 
-1. Clone the [HySonLab/VietMedKG](https://github.com/HySonLab/VietMedKG) repository and install its preprocessing requirements (notably `py2neo` and `pandas`).
-2. Download or generate `data/data_translated.csv` from that project, then edit [preprocessing/kgraph/create_KG.py](https://github.com/HySonLab/VietMedKG/blob/main/preprocessing/kgraph/create_KG.py) so the `Graph(...)` URI and credentials match your Neo4j deployment (e.g. `bolt://localhost:7687`).
+1. Clone the [DPTPhatUS/VietMedKG](https://github.com/DPTPhatUS/VietMedKG) repository and install its preprocessing requirements (notably `py2neo` and `pandas`).
+2. Edit [preprocessing/kgraph/create_KG.py](https://github.com/DPTPhatUS/VietMedKG/blob/main/preprocessing/kgraph/create_KG.py) so the `Graph(...)` URI and credentials match your Neo4j deployment (e.g. `bolt://localhost:7687`).
 3. Run the script to clear the database and ingest every row into Neo4j:
 
 	```bash
@@ -71,8 +71,3 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 	```
 
 5. Run `python main.py qa "..." --mode kg` to confirm Neo4j answers are coming through before switching to hybrid/routed modes.
-
-## Notes
-
-- You can reduce Qwen memory pressure by setting `RAG_QWEN__QUANTIZATION=4bit` (or `8bit`) and, for 8-bit CPU offload, enable `RAG_QWEN__INT8_CPU_OFFLOAD=true`; also override `RAG_QWEN__DEVICE_MAP` when you need a custom placement strategy.
-- Qwen defaults follow vendor guidance (temperature 0.7, top_p 0.8, top_k 20, min_p 0, presence_penalty 0); bump `RAG_QWEN__MAX_NEW_TOKENS` up to 16384 for long-form answers or benchmarks.
