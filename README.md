@@ -4,7 +4,7 @@ Retrieval-Augmented Generation (RAG) system for Vietnamese Traditional Medicine 
 
 ## Prerequisites
 
-- Python 3.10+ and a modern `pip`/`virtualenv` setup.
+- Python 3.11+ and a modern `pip`/`virtualenv` setup.
 - A running Neo4j instance (local or remote) that will host VietMedKG.
 - [Ollama](https://ollama.com/) with both a chat model and an embedding model pulled locally.
 
