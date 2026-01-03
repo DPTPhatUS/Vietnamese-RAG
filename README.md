@@ -31,7 +31,7 @@ This project builds a Retrieval-Augmented Generation (RAG) assistant for Vietnam
 
 ### Ragas evaluation
 
-1. Generate QA logs for the benchmark split (writes to `artifacts/test_results.json` by default). Use `--start <offset>` to resume from a specific sample and `--limit <count>` for quick smoke tests:
+1. Generate QA logs for the benchmark (writes to `artifacts/test_results.json` by default). Use `--start <offset>` and `--limit <count>` to run on a small patch of test cases:
 
 	```bash
 	python main.py test --dataset data/benchmark/test.json --output artifacts/test_results.json

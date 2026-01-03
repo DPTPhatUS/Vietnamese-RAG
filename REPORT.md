@@ -233,83 +233,84 @@ We report the following Ragas metrics (as implemented):
 
 ---
 
-## 6. Results and evaluation (placeholder / synthetic)
+## 6. Results and evaluation
 
-> Important: This section is **intentionally filled with plausible, synthetic numbers** as requested. Replace with your real results from `artifacts/*.csv` once finalized.
+We evaluate the four retrieval modes (`raptor`, `kg`, `hybrid`, `routed`) on the benchmark QA set in `data/benchmark/test.json` using Ragas metrics:
+
+- `context_recall`
+- `answer_relevancy`
+- `faithfulness`
+
+All numbers below are computed from the generated summaries under `artifacts/evaluate/summary/`.
 
 ### 6.1 Main results (mean ± std)
 
-Assume evaluation on **200 samples** from `data/benchmark/test.json` with `top_k=5`.
+Ragas sometimes returns missing values for a metric on a given sample (e.g., empty/invalid contexts, parsing failure, or evaluator uncertainty). We **exclude missing values per metric** (drop NaNs), so the effective sample size $n$ can differ across metrics and modes.
 
-| Mode | Context Recall ↑ | Answer Relevancy ↑ | Faithfulness ↑ |
+| Mode | Context Recall ↑ (mean ± std, n) | Answer Relevancy ↑ (mean ± std, n) | Faithfulness ↑ (mean ± std, n) |
 |---|---:|---:|---:|
-| RAPTOR | 0.71 ± 0.12 | 0.78 ± 0.10 | 0.74 ± 0.11 |
-| KG | 0.54 ± 0.18 | 0.65 ± 0.16 | 0.81 ± 0.09 |
-| Hybrid | **0.79 ± 0.10** | **0.82 ± 0.09** | 0.77 ± 0.10 |
-| Routed | 0.77 ± 0.11 | 0.81 ± 0.09 | **0.80 ± 0.09** |
+| RAPTOR | 0.265 ± 0.423 (n=377) | **0.743 ± 0.174** (n=399) | 0.687 ± 0.341 (n=357) |
+| KG | 0.212 ± 0.357 (n=92) | 0.124 ± 0.274 (n=391) | 0.712 ± 0.391 (n=79) |
+| Hybrid | **0.649 ± 0.458** (n=387) | 0.650 ± 0.290 (n=399) | **0.811 ± 0.324** (n=346) |
+| Routed | 0.348 ± 0.445 (n=340) | 0.668 ± 0.284 (n=397) | 0.694 ± 0.361 (n=313) |
 
-**Interpretation (synthetic).**
-- Hybrid improves recall by combining broad textual retrieval (RAPTOR) with structured KG facts.
-- KG alone is highly faithful (structured returns), but can miss text-only answers, lowering recall.
-- Routed mode approaches Hybrid performance while saving KG queries on text-only questions.
+**Key takeaways.**
+- **RAPTOR** achieves the best **answer relevancy**, suggesting that text passages alone often contain sufficient evidence to produce on-topic answers.
+- **Hybrid** achieves the best **context recall** and **faithfulness**, indicating that combining RAPTOR contexts with KG results helps the evaluator find supporting evidence and reduces unsupported claims.
+- **KG-only** is weakest on answer relevancy and has limited context recall coverage (low $n$ for `context_recall`), suggesting many KG queries returned empty/insufficient contexts under the current Cypher generation setup.
 
-### 6.2 Ablation study (synthetic)
+### 6.2 Visual summaries
 
-**Effect of reranking (Hybrid, top_k=5).**
+The script `sample_code/summarize_metrics.py` produces both tabular summaries and plots:
 
-| Setting | Context Recall ↑ | Answer Relevancy ↑ | Faithfulness ↑ |
-|---|---:|---:|---:|
-| No reranker | 0.77 | 0.78 | 0.72 |
-| With BGE reranker | **0.79** | **0.82** | **0.77** |
+- Mean scores by pipeline (bar chart):
 
-**Effect of LLM summaries in RAPTOR (RAPTOR mode).**
+![](artifacts/evaluate/summary/mean_scores.png)
 
-| Setting | Context Recall ↑ | Answer Relevancy ↑ |
-|---|---:|---:|
-| Summaries off | 0.66 | 0.74 |
-| Summaries on | **0.71** | **0.78** |
+- Score distributions per metric (boxplots):
 
-### 6.3 Efficiency (synthetic)
+![](artifacts/evaluate/summary/score_distributions.png)
 
-| Mode | Avg retrieval time (s) | Avg generation time (s) |
-|---|---:|---:|
-| RAPTOR | 0.35 | 2.8 |
-| KG | 0.90 | 2.3 |
-| Hybrid | 1.10 | 3.0 |
-| Routed | 0.60 | 2.7 |
+### 6.3 Notes on metric behavior
+
+From the quartiles in the summary table, `context_recall` is often **extreme (0 or 1)** for many samples (e.g., median 0 for RAPTOR/Routed, median 1 for Hybrid). This suggests many questions are either:
+
+- fully covered by at least one retrieved chunk (recall close to 1), or
+- not covered at all by retrieved contexts (recall 0), possibly due to retrieval misses or question types that require broader evidence.
+
+We did not run dedicated ablations (reranker on/off, summaries on/off) or time profiling in this report run; those can be added as future experimental extensions.
 
 ---
 
 ## 7. Discussion and limitations
 
 ### 7.1 What works well
-- **Domain grounding**: the system prompt and context-only answering reduce hallucination compared to unguided generation.
-- **Long-document retrieval**: RAPTOR-style indexing helps find relevant information in large book corpora.
-- **Structured lookups**: KG retrieval can precisely answer “list/field” queries (symptoms, causes, treatments).
+- **RAPTOR for topical answering**: RAPTOR shows strong **answer relevancy**, consistent with the benchmark containing many questions that are directly answerable from textbook passages.
+- **Hybrid improves grounding**: Hybrid produces the strongest **faithfulness** and **context recall**, suggesting that mixing structured KG facts with text retrieval helps the generator stay supported by the retrieved evidence.
+- **Routing is a practical compromise**: Routed mode sits between RAPTOR and Hybrid on most metrics, making it a reasonable trade-off when KG queries are expensive or unreliable.
 
-### 7.2 Key limitations
-- **KG Cypher generation is brittle**: Cypher depends on correct entity strings and schema alignment; minor wording changes can cause empty results.
-- **Hybrid context mixing**: concatenating heterogeneous contexts (book passages + JSON KG records) can confuse the generator without stronger formatting.
-- **Evaluation dependence on LLM judge**: Ragas metrics depend on the evaluator model quality and may be noisy, especially for Vietnamese and medical terminology.
-- **Chunking by characters**: the current chunker uses heuristic sentence splitting and character thresholds; it may cut across semantic boundaries.
-- **No explicit citation formatting**: although answers are grounded, the system does not yet output explicit citations (chunk IDs, book/page references).
+### 7.2 Key limitations (observed)
+- **KG coverage and robustness**: KG-only shows low `context_recall` coverage (small $n$) and low answer relevancy. The main likely cause is brittle Cypher generation and/or schema mismatches leading to empty results.
+- **Metric missingness and evaluator noise**: Different metrics have different effective $n$ due to NaNs; results should be interpreted with this in mind.
+- **Context formatting for hybrid**: Concatenating book passages with JSON-like KG records can reduce clarity; stronger structuring (headers, bullets, citations) may further improve answer relevancy.
+- **Chunking heuristic limits**: Character-budget chunking can split across semantic boundaries, which likely contributes to retrieval misses (recall 0 cases).
+- **No explicit citations yet**: The system is grounded but does not output stable citations (book/file/chunk IDs), which limits auditability for end users.
 
 ---
 
 ## 8. Conclusion and future work
 
-We built a Vietnamese Traditional Medicine RAG system that combines:
-- RAPTOR-style hierarchical dense retrieval over book passages,
-- VietMedKG Neo4j retrieval via LLM-generated Cypher,
-- Cross-encoder reranking,
-- Qwen-based answer generation with strict grounding instructions.
+We implemented and evaluated a Vietnamese Traditional Medicine RAG system with four retrieval modes (RAPTOR, KG, Hybrid, Routed). Using Ragas metrics, we observe:
+
+- **RAPTOR** performs best on **answer relevancy**.
+- **Hybrid** performs best on **context recall** and **faithfulness**, indicating stronger grounding when combining text and KG retrieval.
+- **KG-only** currently underperforms due to limited and brittle query coverage.
 
 **Future work.**
-- Improve KG robustness using entity linking + constrained Cypher templates.
-- Add structured context formatting (e.g., separate “KG facts” vs “Book passages”).
-- Add answer attribution (chunk IDs, file names, page references from metadata).
-- Train or fine-tune a Vietnamese domain reranker and evaluator.
-- Explore adaptive context length and dynamic top-k based on query difficulty.
+- Improve KG reliability via entity linking and constrained Cypher templates (schema-aware slots instead of free-form generation).
+- Add structured context formatting and stable citations (chunk IDs / book section headings / page references) to improve auditability.
+- Add controlled ablations (reranker on/off, summaries on/off) and runtime profiling to better understand trade-offs.
+- Explore better chunking (semantic segmentation) and retrieval calibration to reduce the many recall=0 cases.
 
 ---
 
