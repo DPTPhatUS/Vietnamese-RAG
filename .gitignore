@@ -12,3 +12,5 @@ wheels/
 # Local stuff
 sample_code/
 .env
+ragas_metrics.csv
+test_results.json
