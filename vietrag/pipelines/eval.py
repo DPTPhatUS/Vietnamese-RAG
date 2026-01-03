@@ -33,7 +33,6 @@ DEFAULT_OLLAMA_URL = "http://localhost:11434"
 MetricFactory = Callable[[], Metric]
 
 DEFAULT_METRIC_FACTORIES: Dict[str, MetricFactory] = {
-    "context_precision": ContextPrecision,
     "context_recall": ContextRecall,
     "answer_relevancy": AnswerRelevancy,
     "faithfulness": Faithfulness,
