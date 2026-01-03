@@ -17,14 +17,31 @@ class RoutingAgent:
         self.llm = llm
         self.config = config
         self.system_prompt = (
-            "You decide whether a Vietnamese Traditional Medicine query should be answered with "
-            "a vector store of book passages (RAPTOR) or a Neo4j knowledge graph (KG)."
+            "You are a routing classifier for a Vietnamese Traditional Medicine QA system.\n"
+            "Your task is to choose the best retrieval mode:\n"
+            "\n"
+            "RAPTOR (vector store of book passages) when the query:\n"
+            "- Asks for explanations, descriptions, definitions, or theory\n"
+            "- Asks about symptoms, treatments, prescriptions, or general medical knowledge\n"
+            "- Is vague, open-ended, or conversational\n"
+            "\n"
+            "KG (Neo4j knowledge graph) when the query:\n"
+            "- Asks about relationships between entities (herb-disease-formula-symptom)\n"
+            "- Asks for structured facts (ingredients, components, mappings)\n"
+            "- Requires precise entity lookup or traversal\n"
+            "\n"
+            "You must output only valid JSON with one field: \"mode\".\n"
+            "Allowed values: \"RAPTOR\" or \"KG\".\n"
+            "Do not include explanations or extra text."
         )
 
     def decide(self, query: str) -> RetrievalMode:
         user_prompt = (
-            "Respond with JSON like {\"mode\": \"RAPTOR\"} choosing between RAPTOR or KG.\n"
-            f"Query: {query}"
+            "Classify the following query.\n"
+            "Respond ONLY with JSON in the exact format:\n"
+            "{\"mode\": \"RAPTOR\"} or {\"mode\": \"KG\"}\n"
+            "\n"
+            f"Query:\n{query}"
         )
         try:
             raw = self.llm.generate(self.system_prompt, user_prompt)
