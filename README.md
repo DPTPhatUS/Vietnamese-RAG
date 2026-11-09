@@ -86,6 +86,29 @@ Pass `--config path/to/.env` to any `main.py` sub-command if you store overrides
 
 4. The resulting CSV includes the normalized question, answer, ground truth, flattened contexts, and one column per metric.
 
+### Saved evaluation results
+
+Saved Ragas runs cover 400 questions per retrieval mode. The table below reports **mean score (number of valid scores out of 400)**, rounded to four decimal places. Higher scores are better; the highest mean for each metric is bolded.
+
+| Retrieval mode | Answer relevancy | Context recall | Faithfulness |
+| --- | --- | --- | --- |
+| Hybrid | 0.6501 (399) | **0.6492** (387) | **0.8113** (346) |
+| KG | 0.1236 (391) | 0.2118 (92) | 0.7122 (79) |
+| RAPTOR | **0.7432** (399) | 0.2655 (377) | 0.6871 (357) |
+| Routed | 0.6675 (397) | 0.3480 (340) | 0.6939 (313) |
+
+- **Answer relevancy:** how well the generated answer addresses the question.
+- **Context recall:** how much of the reference answer is supported by the retrieved contexts.
+- **Faithfulness:** how much of the generated answer is supported by the retrieved contexts.
+
+Hybrid has the highest mean context recall and faithfulness, while RAPTOR has the highest mean answer relevancy. Missing scores are excluded from the means, so the metrics and modes are averaged over different sample subsets. In particular, KG has only 92 valid context recall scores and 79 valid faithfulness scores; comparisons should account for this lower coverage.
+
+The saved artifacts include:
+
+- [Raw QA outputs](artifacts/test/): answers, retrieved contexts, and reference answers for all four modes.
+- [Per-question metric scores](artifacts/evaluate/): one CSV per mode and metric.
+- [Mean scores](artifacts/evaluate/summary/mean_scores.csv) and [score distributions and valid counts](artifacts/evaluate/summary/metric_summary.csv).
+
 ## Using the CLI
 
 Each pipeline action is exposed as a sub-command on `main.py`. Add `--config .env` (or your path) anytime you need custom credentials.
