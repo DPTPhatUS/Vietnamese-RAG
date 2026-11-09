@@ -88,6 +88,8 @@ Pass `--config path/to/.env` to any `main.py` sub-command if you store overrides
 
 ### Saved evaluation results
 
+See the [evaluation report](docs/evaluation-results.md) for the results, retrieval coverage, representative retrieval and generation failures, and lessons for improving the pipeline.
+
 Saved Ragas runs cover 400 questions per retrieval mode. The table below reports **mean score (number of valid scores out of 400)**, rounded to four decimal places. Higher scores are better; the highest mean for each metric is bolded.
 
 | Retrieval mode | Answer relevancy | Context recall | Faithfulness |
